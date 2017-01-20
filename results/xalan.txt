@@ -1,5 +1,3 @@
-Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,100]
-Normal completion.
 CLASS, VARIABLE, READS, WRITES, INSTANCES-USE-VARIABLE, INSTANCES-TOTAL
 org.apache.xml.utils.ObjectStack, m_firstFree, 15261612, 5008576, 5102, 6803
 org.apache.xml.utils.ObjectStack, m_map, 10252912, 0, 5104, 6803
