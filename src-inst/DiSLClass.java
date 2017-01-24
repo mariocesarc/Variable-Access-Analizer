@@ -9,7 +9,7 @@ import java.util.*;
 public class DiSLClass {
 
 	@After(marker = BodyMarker.class)
-	public static void beforeMethod(DynamicContext di, MethodStaticContext msc) {
+	public static void afterMethod(DynamicContext di, MethodStaticContext msc) {
 		try {
 			String methodName = msc.thisMethodName();
 			if(methodName.equals("<init>")){ // method is constructor
