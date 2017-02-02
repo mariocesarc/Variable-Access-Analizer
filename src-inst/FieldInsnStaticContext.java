@@ -5,11 +5,18 @@ import ch.usi.dag.disl.staticcontext.AbstractStaticContext;
 
 public class FieldInsnStaticContext extends AbstractStaticContext {
 
-    public String getFieldName() {
+	public String getFieldName() {
 
-        AbstractInsnNode startInsn = staticContextData.getRegionStart();
+		AbstractInsnNode startInsn = staticContextData.getRegionStart();
 
-    	return ((FieldInsnNode)startInsn).name;
-    }
+		return ((FieldInsnNode) startInsn).name;
+	}
+
+	public String getFieldOwnerClassName() {
+
+		AbstractInsnNode startInsn = staticContextData.getRegionStart();
+
+		return ((FieldInsnNode) startInsn).owner.replace('/', '.');
+	}
 
 }

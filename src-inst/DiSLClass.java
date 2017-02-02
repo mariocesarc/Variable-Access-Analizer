@@ -8,13 +8,13 @@ import java.util.*;
 
 public class DiSLClass {
 
-	@After(marker = BodyMarker.class)
-	public static void afterMethod(DynamicContext di, MethodStaticContext msc) {
+	@Before(marker = BodyMarker.class)
+	public static void beforeMethod(DynamicContext di, MethodStaticContext msc) {
 		try {
 			String methodName = msc.thisMethodName();
-			if(methodName.equals("<init>")){ // method is constructor
-				String className = msc.thisClassCanonicalName();
-				if(!Process.allVariablesAdded(className)){
+			if (methodName.equals("<init>")) { // method is constructor
+				String className = di.getThis().getClass().getName();
+				if (!Process.allVariablesAdded(className)) {
 					Field[] fields = di.getThis().getClass().getDeclaredFields();
 					Process.addAllVariables(className, fields);
 				}
@@ -22,35 +22,38 @@ public class DiSLClass {
 				Process.addInstance(className, objHashCode);
 			}
 		}
-		catch (Throwable t){
+		catch(Exception e) {
 
 		}
+		
 	}
 
 	@After(marker = FieldReadMarker.class)
 	public static void afterReadField(DynamicContext di, MethodStaticContext msc, FieldInsnStaticContext fsc) {
 		try {
-			String className = msc.thisClassCanonicalName();
+			String fieldOwnerClassName = fsc.getFieldOwnerClassName();
+			String methodClassName = msc.thisClassCanonicalName();
 			String variableName = fsc.getFieldName();
 			int objHashCode = di.getThis().hashCode();
-			Process.processRead(className, variableName, objHashCode);
+			Process.processRead(fieldOwnerClassName, methodClassName, variableName, objHashCode);
 		}
-		catch (Throwable t){
+		catch(Exception e) {
 
 		}
 	}
-	
+
 	@After(marker = FieldWriteMarker.class)
 	public static void afterWriteField(DynamicContext di, MethodStaticContext msc, FieldInsnStaticContext fsc) {
 		try {
-			String className = msc.thisClassCanonicalName();
+			String fieldOwnerClassName = fsc.getFieldOwnerClassName();
+			String methodClassName = msc.thisClassCanonicalName();
 			String variableName = fsc.getFieldName();
 			int objHashCode = di.getThis().hashCode();
-			Process.processWrite(className, variableName, objHashCode);
+			Process.processWrite(fieldOwnerClassName, methodClassName, variableName, objHashCode);
 		}
-		catch (Throwable t){
+		catch(Exception e) {
 
 		}
 	}
-	
+
 }

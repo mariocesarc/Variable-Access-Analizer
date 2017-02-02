@@ -6,54 +6,46 @@ public class ClassInfo {
 	private HashMap<String, VariableInfo> variables;
 	private boolean allVariablesAdded;
 
-	public ClassInfo(){
+	public ClassInfo() {
 		allInstances = new HashMap<Integer, Boolean>();
 		variables = new HashMap<String, VariableInfo>();
-		allVariablesAdded = false; 
+		allVariablesAdded = false;
 	}
 
-	public void addVariable(String variableName) {
-		if(!variables.containsKey(variableName)){
-			variables.put(variableName, new VariableInfo());
-		}
-	}
-
-	public void addAllVariables(ArrayList<String> variableNames) {
-		for(String variableName : variableNames){
-			addVariable(variableName);
+	public void addAllVariables(ArrayList<String> variableNames, ArrayList<String> variableTypes) {
+		for (int i = 0; i < variableNames.size(); i++) {
+			variables.put(variableNames.get(i), new VariableInfo(variableTypes.get(i)));
 		}
 		allVariablesAdded = true;
 	}
 
-	public boolean allVariablesAdded(){
+	public boolean allVariablesAdded() {
 		return allVariablesAdded;
 	}
 
 	public void addInstance(int objHashCode) {
-		allInstances.put(new Integer(objHashCode), new Boolean(true)); 
+		allInstances.put(new Integer(objHashCode), new Boolean(true));
 	}
 
 	public int getNbOfInstances() {
 		return allInstances.size();
 	}
 
-	public void processRead(String variableName, int objHashCode){
-		addVariable(variableName);
+	public void processRead(String variableName, int objHashCode) {
 		allInstances.put(new Integer(objHashCode), new Boolean(true));
 		VariableInfo varInfo = variables.get(variableName);
 		varInfo.addInstance(objHashCode);
 		varInfo.increaseReads();
 	}
 
-	public void processWrite(String variableName, int objHashCode){
-		addVariable(variableName);
+	public void processWrite(String variableName, int objHashCode) {
 		allInstances.put(new Integer(objHashCode), new Boolean(true));
 		VariableInfo varInfo = variables.get(variableName);
 		varInfo.addInstance(objHashCode);
 		varInfo.increaseWrites();
 	}
 
-	public HashMap<String, VariableInfo> getVariablesInfo(){
+	public HashMap<String, VariableInfo> getVariablesInfo() {
 		return variables;
 	}
 }
