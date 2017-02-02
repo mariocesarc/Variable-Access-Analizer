@@ -1,715 +1,437 @@
-CLASS, VARIABLE, READS, WRITES, INSTANCES-USE-VARIABLE, INSTANCES-TOTAL
-org.apache.lucene.search.Query, term, 0, 0, 0, 100536
-org.apache.lucene.search.Query, boost, 270263, 0, 100547, 100536
-org.apache.lucene.index.TermEnum, fieldInfos, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, prevBuffer, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, formatM1SkipInterval, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, indexInterval, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, format, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, scanBuffer, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, skipInterval, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, isIndex, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, input, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, maxSkipLevels, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, termInfo, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, size, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, termBuffer, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, position, 0, 0, 0, 128
-org.apache.lucene.index.TermEnum, indexPointer, 0, 0, 0, 128
-org.apache.lucene.search.ScoreDoc, score, 0, 93817, 93815, 93817
-org.apache.lucene.search.ScoreDoc, doc, 0, 93815, 93813, 93817
-org.apache.lucene.store.FSDirectory$FSIndexInput, file, 1554626, 256, 16846, 262988
-org.apache.lucene.store.FSDirectory$FSIndexInput, length, 226307, 0, 16847, 262988
-org.apache.lucene.store.FSDirectory$FSIndexInput, position, 452074, 438069, 16846, 262988
-org.apache.lucene.store.FSDirectory$FSIndexInput, isClone, 262926, 262722, 262918, 262988
-org.apache.lucene.index.TermInfosReader, origEnum, 524422, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, fieldInfos, 128, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, indexEnum, 58624, 128, 64, 65
-org.apache.lucene.index.TermInfosReader, indexInterval, 64, 0, 64, 65
-org.apache.lucene.index.TermInfosReader, termEnum, 499881, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, skipInterval, 262057, 0, 64, 65
-org.apache.lucene.index.TermInfosReader, directory, 128, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, totalIndexInterval, 565080, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, indexDivisor, 14656, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, threadResources, 524146, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, indexPointers, 145225, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, maxSkipLevels, 262054, 0, 64, 65
-org.apache.lucene.index.TermInfosReader, termInfoCache, 524080, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, indexTerms, 2695730, 128, 64, 65
-org.apache.lucene.index.TermInfosReader, size, 524164, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, segment, 128, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, position, 434440, 0, 64, 65
-org.apache.lucene.index.TermInfosReader, indexInfos, 145208, 64, 64, 65
-org.apache.lucene.index.TermInfosReader, indexPointer, 14592, 0, 64, 65
-org.apache.lucene.index.Term, field, 6492747, 0, 100708, 117847
-org.apache.lucene.index.Term, text, 6210997, 406297, 117869, 117847
-org.dacapo.harness.Callback, args, 2, 1, 1, 1
-org.dacapo.harness.Callback, mode, 4, 1, 1, 1
-org.dacapo.harness.Callback, elapsed, 1, 1, 1, 1
-org.dacapo.harness.Callback, timer, 1, 1, 1, 1
-org.dacapo.harness.Callback, times, 1, 0, 1, 1
-org.dacapo.harness.Callback, iterations, 0, 1, 1, 1
-org.dacapo.harness.Callback, verbose, 3, 2, 1, 1
-org.apache.lucene.index.TermInfosReader$ThreadResources, termInfoCache, 0, 0, 0, 64
-org.apache.lucene.index.TermInfosReader$ThreadResources, termEnum, 0, 0, 0, 64
-org.apache.lucene.search.HitCollector, totalHits, 0, 0, 0, 262080
-org.apache.lucene.search.HitCollector, hq, 0, 0, 0, 262080
-org.apache.lucene.search.HitCollector, reusableSD, 0, 0, 0, 262080
-org.apache.lucene.util.UnicodeUtil$UTF16Result, result, 26272622, 921, 579, 577
-org.apache.lucene.util.UnicodeUtil$UTF16Result, offsets, 0, 576, 576, 577
-org.apache.lucene.util.UnicodeUtil$UTF16Result, length, 17013981, 9281363, 320, 577
-org.apache.lucene.document.Document, boost, 0, 53199, 53197, 53196
-org.apache.lucene.document.Document, fields, 585134, 53198, 53196, 53196
-org.apache.lucene.queryParser.QueryParser, next, 1312636, 262082, 64, 64
-org.apache.lucene.queryParser.QueryParser, allowLeadingWildcard, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, fuzzyMinSim, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, fieldToDateResolution, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_ntk, 1571780, 655167, 64, 64
-org.apache.lucene.queryParser.QueryParser, useOldRangeQuery, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, locale, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_scanpos, 1572019, 655119, 64, 64
-org.apache.lucene.queryParser.QueryParser, operator, 130944, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, dateResolution, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, lowercaseExpandedTerms, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_kind, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, gen, 133588, 131055, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_expentries, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_la, 524075, 393052, 65, 64
-org.apache.lucene.queryParser.QueryParser, jj_2_rtns, 532023, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, analyzer, 130996, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, arg, 0, 131005, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_lasttokens, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, fuzzyPrefixLength, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_rescan, 393107, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_ls, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_endpos, 0, 0, 0, 64
-org.apache.lucene.queryParser.QueryParser, image, 131016, 0, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_nt, 131043, 262016, 64, 64
-org.apache.lucene.queryParser.QueryParser, kind, 917184, 0, 64, 64
-org.apache.lucene.queryParser.QueryParser, token, 1702948, 393138, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_expentry, 0, 0, 0, 64
-org.apache.lucene.queryParser.QueryParser, field, 131036, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_gen, 1050669, 393170, 64, 64
-org.apache.lucene.queryParser.QueryParser, phraseSlop, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, rangeCollator, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_la1, 3537072, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_gc, 262020, 264703, 64, 64
-org.apache.lucene.queryParser.QueryParser, token_source, 393113, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, enablePositionIncrements, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParser, first, 0, 131018, 64, 64
-org.apache.lucene.queryParser.QueryParser, jj_lastpos, 393111, 393106, 64, 64
-org.dacapo.parser.ConfigFile, next, 4137, 1547, 1, 1
-org.dacapo.parser.ConfigFile, image, 29, 0, 1, 1
-org.dacapo.parser.ConfigFile, jj_ntk, 2166, 2843, 1, 1
-org.dacapo.parser.ConfigFile, jj_nt, 0, 1296, 1, 1
-org.dacapo.parser.ConfigFile, kind, 2842, 0, 1, 1
-org.dacapo.parser.ConfigFile, token, 9240, 1547, 1, 1
-org.dacapo.parser.ConfigFile, jj_kind, 0, 1, 1, 1
-org.dacapo.parser.ConfigFile, jj_expentry, 0, 0, 0, 1
-org.dacapo.parser.ConfigFile, jj_input_stream, 1, 1, 1, 1
-org.dacapo.parser.ConfigFile, jj_expentries, 0, 1, 1, 1
-org.dacapo.parser.ConfigFile, jj_gen, 1971, 1547, 1, 1
-org.dacapo.parser.ConfigFile, jj_la1, 444, 1, 1, 1
-org.dacapo.parser.ConfigFile, token_source, 1547, 1, 1, 1
-org.apache.lucene.index.FieldInfos, byNumber, 8601326, 64, 64, 65
-org.apache.lucene.index.FieldInfos, name, 8485489, 0, 66, 65
-org.apache.lucene.index.FieldInfos, byName, 262255, 64, 64, 65
-org.apache.lucene.index.FieldInfos, storeTermVector, 192, 0, 64, 65
-org.apache.lucene.util.cache.Cache, cacheSize, 0, 0, 0, 64
-org.dacapo.lusearch.Search, completed, 65, 2, 1, 1
-org.apache.lucene.queryParser.Token, endLine, 0, 0, 0, 393086
-org.apache.lucene.queryParser.Token, next, 0, 0, 0, 393086
-org.apache.lucene.queryParser.Token, image, 0, 262053, 262023, 393086
-org.apache.lucene.queryParser.Token, endColumn, 0, 0, 0, 393086
-org.apache.lucene.queryParser.Token, specialToken, 0, 0, 0, 393086
-org.apache.lucene.queryParser.Token, beginColumn, 0, 0, 0, 393086
-org.apache.lucene.queryParser.Token, kind, 0, 262085, 262067, 393086
-org.apache.lucene.queryParser.Token, beginLine, 0, 0, 0, 393086
-org.apache.lucene.util.UnicodeUtil$UTF8Result, result, 8485496, 766, 579, 580
-org.apache.lucene.util.UnicodeUtil$UTF8Result, length, 190, 8484823, 131, 580
-org.apache.lucene.index.SegmentInfo, docStoreSegment, 192, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, delGen, 128, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, sizeInBytes, 0, 0, 0, 1
-org.apache.lucene.index.SegmentInfo, normGen, 1408, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, docCount, 0, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, docStoreOffset, 384, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, dir, 0, 0, 0, 1
-org.apache.lucene.index.SegmentInfo, hasProx, 0, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, docStoreIsCompoundFile, 128, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, hasSingleNormFile, 256, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, preLockless, 448, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, isCompoundFile, 320, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, name, 320, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, files, 256, 64, 1, 1
-org.apache.lucene.index.SegmentInfo, delCount, 0, 64, 1, 1
-org.apache.commons.cli.Parser, eatTheRest, 0, 0, 0, 1
-org.apache.commons.cli.Parser, currentOption, 0, 0, 0, 1
-org.apache.commons.cli.Parser, options, 1, 1, 1, 1
-org.apache.commons.cli.Parser, tokens, 0, 0, 0, 1
-org.apache.commons.cli.Parser, cmd, 2, 1, 1, 1
-org.apache.commons.cli.Parser, requiredOptions, 1, 1, 1, 1
-org.dacapo.harness.TeeOutputStream, toScreen, 430, 4, 2, 2
-org.dacapo.harness.TeeOutputStream, log, 1296, 8, 2, 2
-org.dacapo.harness.TeeOutputStream, logFile, 4, 2, 2, 2
-org.dacapo.harness.TeeOutputStream, version, 0, 2, 2, 2
-org.apache.lucene.analysis.standard.StandardAnalyzer, maxTokenLength, 131002, 64, 64, 64
-org.apache.lucene.analysis.standard.StandardAnalyzer, replaceInvalidAcronym, 131006, 64, 64, 64
-org.apache.lucene.analysis.standard.StandardAnalyzer, stopSet, 131004, 64, 64, 64
-org.apache.lucene.index.CompoundFileReader, entries, 1152, 128, 128, 128
-org.apache.lucene.index.CompoundFileReader, fileName, 0, 128, 128, 128
-org.apache.lucene.index.CompoundFileReader, offset, 1024, 512, 128, 128
-org.apache.lucene.index.CompoundFileReader, stream, 2560, 256, 128, 128
-org.apache.lucene.index.CompoundFileReader, length, 512, 512, 128, 128
-org.apache.lucene.index.CompoundFileReader, readBufferSize, 64, 128, 128, 128
-org.apache.lucene.index.CompoundFileReader, directory, 0, 128, 128, 128
-org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor, isOpen, 502, 512, 256, 256
-org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor, length, 0, 256, 256, 256
-org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor, position, 0, 0, 0, 256
-org.dacapo.lusearch.Search$QueryThread, parent, 64, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, totalQueries, 8, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, outBase, 63, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, hitsPerPage, 64, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, threadCount, 72, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, index, 63, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, raw, 64, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, normsField, 64, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, field, 64, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, this$0, 64, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, name, 64, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, id, 8, 4, 4, 4
-org.dacapo.lusearch.Search$QueryThread, queryBase, 64, 4, 4, 4
-org.apache.lucene.analysis.standard.StandardTokenizer, input, 0, 131002, 130979, 130977
-org.apache.lucene.analysis.standard.StandardTokenizer, maxTokenLength, 131041, 262057, 131000, 130977
-org.apache.lucene.analysis.standard.StandardTokenizer, scanner, 655151, 131012, 130988, 130977
-org.apache.lucene.analysis.standard.StandardTokenizer, replaceInvalidAcronym, 0, 262005, 130987, 130977
-org.dacapo.harness.TeePrintStream, out, 6, 0, 2, 2
-org.apache.lucene.document.FieldSelectorResult, id, 0, 7, 7, 7
-org.apache.lucene.search.BooleanScorer2$Coordinator, nrMatchers, 0, 0, 0, 36
-org.apache.lucene.search.BooleanScorer2$Coordinator, this$0, 36, 36, 36, 36
-org.apache.lucene.search.BooleanScorer2$Coordinator, maxCoord, 144, 36, 36, 36
-org.apache.lucene.search.BooleanScorer2$Coordinator, coordFactors, 36, 72, 36, 36
-org.apache.lucene.search.TermQuery$TermWeight, queryWeight, 1048222, 524140, 262049, 262003
-org.apache.lucene.search.TermQuery$TermWeight, similarity, 524154, 262054, 262027, 262003
-org.apache.lucene.search.TermQuery$TermWeight, this$0, 786197, 262063, 262038, 262003
-org.apache.lucene.search.TermQuery$TermWeight, idf, 524148, 262072, 262052, 262003
-org.apache.lucene.search.TermQuery$TermWeight, value, 262086, 262079, 262059, 262003
-org.apache.lucene.search.TermQuery$TermWeight, queryNorm, 0, 262076, 262052, 262003
-org.apache.lucene.util.PriorityQueue, size, 2309441, 443347, 262083, 262081
-org.apache.lucene.util.PriorityQueue, maxSize, 177831, 262108, 262082, 262081
-org.apache.lucene.util.PriorityQueue, heap, 2927101, 262109, 262091, 262081
-org.apache.lucene.store.BufferedIndexInput, file, 0, 0, 0, 33785
-org.apache.lucene.store.BufferedIndexInput, bufferLength, 63292297, 1415161, 33773, 33785
-org.apache.lucene.store.BufferedIndexInput, bufferPosition, 134468798, 64160457, 33775, 33785
-org.apache.lucene.store.BufferedIndexInput, buffer, 63033479, 541695, 17117, 33785
-org.apache.lucene.store.BufferedIndexInput, bufferStart, 2251210, 1415198, 33777, 33785
-org.apache.lucene.store.BufferedIndexInput, isClone, 0, 0, 0, 33785
-org.apache.lucene.store.BufferedIndexInput, bufferSize, 246605, 1536, 17039, 33785
-org.dacapo.harness.Benchmark, loader, 6, 1, 1, 1
-org.dacapo.harness.Benchmark, name, 5, 0, 1, 1
-org.dacapo.harness.Benchmark, iteration, 3, 2, 1, 1
-org.dacapo.harness.Benchmark, savedClassLoader, 2, 2, 1, 1
-org.dacapo.harness.Benchmark, scratch, 208, 1, 1, 1
-org.dacapo.harness.Benchmark, jar, 2, 0, 1, 1
-org.dacapo.harness.Benchmark, libs, 6, 0, 1, 1
-org.dacapo.harness.Benchmark, config, 544, 1, 1, 1
-org.dacapo.harness.Benchmark, benchmark, 0, 0, 0, 1
-org.apache.commons.cli.PosixParser, eatTheRest, 1, 1, 1, 1
-org.apache.commons.cli.PosixParser, currentOption, 0, 0, 0, 1
-org.apache.commons.cli.PosixParser, options, 0, 1, 1, 1
-org.apache.commons.cli.PosixParser, tokens, 4, 1, 1, 1
-org.apache.lucene.store.FSDirectory, refCount, 64, 64, 1, 1
-org.apache.lucene.store.FSDirectory, isOpen, 64, 1, 1, 1
-org.apache.lucene.store.FSDirectory, buffer, 0, 1, 1, 1
-org.apache.lucene.store.FSDirectory, directory, 322, 2, 1, 1
-org.apache.commons.cli.Option, opt, 69, 23, 36, 36
-org.apache.commons.cli.Option, argName, 0, 34, 12, 36
-org.apache.commons.cli.Option, numberOfArgs, 0, 34, 12, 36
-org.apache.commons.cli.Option, values, 23, 23, 24, 36
-org.apache.commons.cli.Option, description, 23, 23, 23, 36
-org.apache.commons.cli.Option, optionalArg, 0, 0, 0, 36
-org.apache.commons.cli.Option, type, 0, 0, 0, 36
-org.apache.commons.cli.Option, longOpt, 111, 23, 23, 36
-org.apache.commons.cli.Option, required, 45, 0, 23, 36
-org.apache.commons.cli.Option, valuesep, 0, 11, 11, 36
-org.apache.lucene.search.Searcher, closeReader, 0, 0, 0, 64
-org.apache.lucene.search.Searcher, similarity, 524148, 64, 64, 64
-org.apache.lucene.search.Searcher, reader, 0, 0, 0, 64
-org.apache.lucene.search.DocIdSetIterator, termDocs, 0, 0, 0, 262100
-org.apache.lucene.search.DocIdSetIterator, pointer, 0, 0, 0, 262100
-org.apache.lucene.search.DocIdSetIterator, docs, 0, 0, 0, 262100
-org.apache.lucene.search.DocIdSetIterator, scoreCache, 0, 0, 0, 262100
-org.apache.lucene.search.DocIdSetIterator, norms, 0, 0, 0, 262100
-org.apache.lucene.search.DocIdSetIterator, weight, 0, 0, 0, 262100
-org.apache.lucene.search.DocIdSetIterator, doc, 0, 0, 0, 262100
-org.apache.lucene.search.DocIdSetIterator, freqs, 0, 0, 0, 262100
-org.apache.lucene.search.DocIdSetIterator, pointerMax, 0, 0, 0, 262100
-org.apache.lucene.search.DocIdSetIterator, weightValue, 0, 0, 0, 262100
-org.apache.lucene.index.SegmentTermEnum, proxPointer, 8490646, 8515856, 128, 192
-org.apache.lucene.index.SegmentTermEnum, prevBuffer, 9629014, 192, 192, 192
-org.apache.lucene.index.SegmentTermEnum, fieldInfos, 8484472, 128, 192, 192
-org.apache.lucene.index.SegmentTermEnum, formatM1SkipInterval, 0, 0, 0, 192
-org.apache.lucene.index.SegmentTermEnum, indexInterval, 0, 128, 128, 192
-org.apache.lucene.index.SegmentTermEnum, format, 8499743, 128, 192, 192
-org.apache.lucene.index.SegmentTermEnum, scanBuffer, 9466745, 192, 192, 192
-org.apache.lucene.index.SegmentTermEnum, skipInterval, 8490261, 128, 192, 192
-org.apache.lucene.index.SegmentTermEnum, isIndex, 8487165, 256, 192, 192
-org.apache.lucene.index.SegmentTermEnum, input, 35016889, 192, 192, 192
-org.apache.lucene.index.SegmentTermEnum, maxSkipLevels, 0, 256, 128, 192
-org.apache.lucene.index.SegmentTermEnum, termInfo, 35074861, 192, 195, 192
-org.apache.lucene.index.SegmentTermEnum, size, 8495636, 128, 192, 192
-org.apache.lucene.index.SegmentTermEnum, freqPointer, 8480082, 8512319, 128, 192
-org.apache.lucene.index.SegmentTermEnum, termBuffer, 27604645, 192, 192, 192
-org.apache.lucene.index.SegmentTermEnum, position, 8504883, 8643843, 192, 192
-org.apache.lucene.index.SegmentTermEnum, skipOffset, 0, 1026220, 128, 192
-org.apache.lucene.index.SegmentTermEnum, indexPointer, 14592, 14720, 128, 192
-org.apache.lucene.index.SegmentTermEnum, docFreq, 8505503, 8483561, 130, 192
-org.apache.lucene.analysis.LowerCaseFilter, input, 262041, 0, 130955, 131006
-org.apache.lucene.search.TopDocs, scoreDocs, 0, 262106, 262089, 262076
-org.apache.lucene.search.TopDocs, totalHits, 0, 262100, 262087, 262076
-org.apache.lucene.search.TopDocs, maxScore, 0, 262101, 262084, 262076
-org.apache.lucene.store.IndexInput, file, 0, 0, 0, 1088
-org.apache.lucene.store.IndexInput, bytes, 428575, 525401, 704, 1088
-org.apache.lucene.store.IndexInput, preUTF8Strings, 107227, 0, 320, 1088
-org.apache.lucene.store.IndexInput, isClone, 0, 0, 0, 1088
-org.apache.lucene.store.IndexInput, chars, 0, 524921, 512, 1088
-org.apache.lucene.analysis.TokenStream, maxTokenLength, 0, 0, 0, 523878
-org.apache.lucene.analysis.TokenStream, scanner, 0, 0, 0, 523878
-org.apache.lucene.analysis.TokenStream, replaceInvalidAcronym, 0, 0, 0, 523878
-org.apache.lucene.store.SimpleFSLockFactory, lockDir, 0, 1, 1, 1
-org.apache.lucene.analysis.Analyzer, tokenStreams, 0, 64, 64, 64
-org.apache.lucene.analysis.Analyzer, maxTokenLength, 0, 0, 0, 64
-org.apache.lucene.analysis.Analyzer, replaceInvalidAcronym, 0, 0, 0, 64
-org.apache.lucene.analysis.Analyzer, stopSet, 0, 0, 0, 64
-org.apache.lucene.document.AbstractField, omitTf, 0, 106396, 106393, 106393
-org.apache.lucene.document.AbstractField, omitNorms, 0, 212793, 106393, 106393
-org.apache.lucene.document.AbstractField, isIndexed, 0, 106396, 106394, 106393
-org.apache.lucene.document.AbstractField, lazy, 0, 106396, 106391, 106393
-org.apache.lucene.document.AbstractField, fieldsData, 0, 106394, 106391, 106393
-org.apache.lucene.document.AbstractField, isBinary, 53199, 106397, 106394, 106393
-org.apache.lucene.document.AbstractField, isTokenized, 0, 106398, 106393, 106393
-org.apache.lucene.document.AbstractField, storeTermVector, 0, 212784, 106390, 106393
-org.apache.lucene.document.AbstractField, isStored, 0, 106397, 106393, 106393
-org.apache.lucene.document.AbstractField, isCompressed, 0, 106396, 106393, 106393
-org.apache.lucene.document.AbstractField, name, 212791, 106398, 106394, 106393
-org.apache.lucene.document.AbstractField, boost, 0, 106396, 106393, 106393
-org.apache.lucene.document.AbstractField, storeOffsetWithTermVector, 0, 212789, 106393, 106393
-org.apache.lucene.document.AbstractField, storePositionWithTermVector, 0, 212778, 106386, 106393
-org.apache.lucene.search.BooleanClause, occur, 0, 130956, 100464, 100440
-org.apache.lucene.search.BooleanClause, query, 0, 130971, 100479, 100440
-org.apache.lucene.util.cache.SimpleLRUCache$1, this$0, 8069, 64, 8070, 8070
-org.apache.lucene.queryParser.QueryParser$JJCalls, next, 0, 0, 0, 131087
-org.apache.lucene.queryParser.QueryParser$JJCalls, gen, 0, 0, 0, 131087
-org.apache.lucene.queryParser.QueryParser$JJCalls, arg, 0, 0, 0, 131087
-org.apache.lucene.queryParser.QueryParser$JJCalls, first, 0, 0, 0, 131087
-org.apache.lucene.search.BooleanQuery$BooleanWeight, similarity, 36, 36, 36, 36
-org.apache.lucene.search.BooleanQuery$BooleanWeight, this$0, 144, 36, 36, 36
-org.apache.lucene.search.BooleanQuery$BooleanWeight, weights, 108, 36, 36, 36
-org.apache.lucene.search.BooleanQuery$BooleanWeight, minNrShouldMatch, 36, 0, 36, 36
-org.apache.lucene.store.LockFactory, lockPrefix, 0, 3, 1, 1
-org.apache.lucene.store.LockFactory, lockDir, 0, 0, 0, 1
-org.apache.lucene.index.FieldInfo, omitTf, 0, 192, 192, 192
-org.apache.lucene.index.FieldInfo, number, 0, 192, 192, 192
-org.apache.lucene.index.FieldInfo, isIndexed, 0, 192, 192, 192
-org.apache.lucene.index.FieldInfo, omitNorms, 0, 192, 192, 192
-org.apache.lucene.index.FieldInfo, storePayloads, 0, 192, 192, 192
-org.apache.lucene.index.FieldInfo, name, 0, 192, 192, 192
-org.apache.lucene.index.FieldInfo, storeTermVector, 0, 192, 192, 192
-org.apache.lucene.index.FieldInfo, storeOffsetWithTermVector, 0, 192, 192, 192
-org.apache.lucene.index.FieldInfo, storePositionWithTermVector, 0, 192, 192, 192
-org.dacapo.parser.Token, endLine, 0, 0, 0, 1548
-org.dacapo.parser.Token, next, 0, 0, 0, 1548
-org.dacapo.parser.Token, image, 0, 1547, 1547, 1548
-org.dacapo.parser.Token, endColumn, 0, 0, 0, 1548
-org.dacapo.parser.Token, specialToken, 0, 0, 0, 1548
-org.dacapo.parser.Token, beginColumn, 0, 0, 0, 1548
-org.dacapo.parser.Token, kind, 0, 1547, 1547, 1548
-org.dacapo.parser.Token, beginLine, 0, 0, 0, 1548
-org.dacapo.lusearch.Search$QueryProcessor, parent, 272, 63, 64, 64
-org.dacapo.lusearch.Search$QueryProcessor, searcher, 315257, 64, 64, 64
-org.dacapo.lusearch.Search$QueryProcessor, hitsPerPage, 141088, 64, 64, 64
-org.dacapo.lusearch.Search$QueryProcessor, in, 131119, 64, 64, 64
-org.dacapo.lusearch.Search$QueryProcessor, reader, 128, 64, 64, 64
-org.dacapo.lusearch.Search$QueryProcessor, raw, 53199, 64, 71, 64
-org.dacapo.lusearch.Search$QueryProcessor, completed, 144, 64, 64, 64
-org.dacapo.lusearch.Search$QueryProcessor, out, 61398, 64, 64, 64
-org.dacapo.lusearch.Search$QueryProcessor, scoreDocs, 131063, 0, 64, 64
-org.dacapo.lusearch.Search$QueryProcessor, field, 8135, 64, 71, 64
-org.dacapo.lusearch.Search$QueryProcessor, this$0, 0, 62, 62, 64
-org.dacapo.lusearch.Search$QueryProcessor, doc, 53199, 0, 64, 64
-org.apache.lucene.analysis.standard.StandardFilter, input, 262034, 0, 130949, 130968
-org.dacapo.parser.Config$ThreadModel, description, 0, 3, 3, 3
-org.apache.lucene.index.IndexFileNameFilter, extensions, 207, 1, 1, 1
-org.apache.lucene.index.IndexFileNameFilter, extensionsInCFS, 11, 1, 1, 1
-org.apache.lucene.search.HitQueue, score, 2903174, 0, 11052, 262080
-org.apache.lucene.search.HitQueue, doc, 389001, 0, 9212, 262080
-org.dacapo.parser.Config$OutputFile, filter, 0, 206, 206, 206
-org.dacapo.parser.Config$OutputFile, bytes, 66, 206, 206, 206
-org.dacapo.parser.Config$OutputFile, this$0, 0, 206, 206, 206
-org.dacapo.parser.Config$OutputFile, keep, 0, 206, 206, 206
-org.dacapo.parser.Config$OutputFile, digest, 66, 206, 206, 206
-org.dacapo.parser.Config$OutputFile, existence, 0, 206, 206, 206
-org.dacapo.parser.Config$OutputFile, name, 0, 206, 206, 206
-org.dacapo.parser.Config$OutputFile, text, 0, 206, 206, 206
-org.dacapo.parser.Config$OutputFile, lines, 66, 206, 206, 206
-org.apache.lucene.store.ChecksumIndexInput, digest, 3904, 64, 64, 64
-org.apache.lucene.store.ChecksumIndexInput, main, 3904, 64, 64, 64
-org.apache.lucene.queryParser.FastCharStream, input, 393183, 131116, 131108, 131087
-org.apache.lucene.queryParser.FastCharStream, bufferLength, 2175842, 655233, 131113, 131087
-org.apache.lucene.queryParser.FastCharStream, bufferPosition, 3434196, 1783042, 131116, 131087
-org.apache.lucene.queryParser.FastCharStream, tokenStart, 1834342, 786349, 131109, 131087
-org.apache.lucene.queryParser.FastCharStream, buffer, 2830664, 262157, 131112, 131087
-org.apache.lucene.queryParser.FastCharStream, bufferStart, 917181, 524274, 131105, 131087
-org.apache.lucene.index.TermBuffer, dirty, 8515307, 9413250, 454, 584
-org.apache.lucene.index.TermBuffer, result, 35921352, 0, 261, 584
-org.apache.lucene.index.TermBuffer, field, 29282725, 17734239, 322, 584
-org.apache.lucene.index.TermBuffer, bytes, 25606182, 576, 512, 584
-org.apache.lucene.index.TermBuffer, length, 18386760, 0, 259, 584
-org.apache.lucene.index.TermBuffer, preUTF8Strings, 8504861, 0, 131, 584
-org.apache.lucene.index.TermBuffer, term, 13642709, 18052577, 320, 584
-org.apache.lucene.index.TermBuffer, text, 63371351, 576, 580, 584
-org.apache.lucene.search.BooleanScorer2, optionalScorers, 36, 36, 36, 36
-org.apache.lucene.search.BooleanScorer2, allowDocsOutOfOrder, 36, 36, 36, 36
-org.apache.lucene.search.BooleanScorer2, countingSumScorer, 72, 72, 36, 36
-org.apache.lucene.search.BooleanScorer2, coordinator, 36, 36, 36, 36
-org.apache.lucene.search.BooleanScorer2, prohibitedScorers, 0, 36, 36, 36
-org.apache.lucene.search.BooleanScorer2, minNrShouldMatch, 0, 36, 36, 36
-org.apache.lucene.search.BooleanScorer2, requiredScorers, 36, 36, 36, 36
-org.apache.lucene.search.TermScorer, termDocs, 546697, 262072, 262046, 262032
-org.apache.lucene.search.TermScorer, pointer, 1436664, 588840, 262009, 262032
-org.apache.lucene.search.TermScorer, docs, 588848, 262040, 262022, 262032
-org.apache.lucene.search.TermScorer, scoreCache, 8682128, 262064, 262041, 262032
-org.apache.lucene.search.TermScorer, norms, 304261, 262068, 262040, 262032
-org.apache.lucene.search.TermScorer, freqs, 588850, 262065, 262042, 262032
-org.apache.lucene.search.TermScorer, weight, 0, 262069, 262044, 262032
-org.apache.lucene.search.TermScorer, doc, 1158569, 566306, 262051, 262032
-org.apache.lucene.search.TermScorer, pointerMax, 850862, 284604, 262049, 262032
-org.apache.lucene.search.TermScorer, weightValue, 8383211, 262064, 262043, 262032
-org.apache.lucene.store.Directory, refCount, 0, 0, 0, 129
-org.apache.lucene.store.Directory, isOpen, 449, 129, 129, 129
-org.apache.lucene.store.Directory, lockFactory, 0, 1, 1, 129
-org.apache.lucene.store.Directory, buffer, 0, 0, 0, 129
-org.apache.lucene.store.Directory, directory, 0, 0, 0, 129
-org.apache.lucene.search.Scorer, termDocs, 0, 0, 0, 262130
-org.apache.lucene.search.Scorer, pointer, 0, 0, 0, 262130
-org.apache.lucene.search.Scorer, docs, 0, 0, 0, 262130
-org.apache.lucene.search.Scorer, scoreCache, 0, 0, 0, 262130
-org.apache.lucene.search.Scorer, norms, 0, 0, 0, 262130
-org.apache.lucene.search.Scorer, similarity, 8642864, 262143, 262124, 262130
-org.apache.lucene.search.Scorer, weight, 0, 0, 0, 262130
-org.apache.lucene.search.Scorer, doc, 0, 0, 0, 262130
-org.apache.lucene.search.Scorer, freqs, 0, 0, 0, 262130
-org.apache.lucene.search.Scorer, pointerMax, 0, 0, 0, 262130
-org.apache.lucene.search.Scorer, weightValue, 0, 0, 0, 262130
-org.apache.lucene.index.SegmentTermDocs, omitTf, 262072, 0, 262050, 262028
-org.apache.lucene.index.SegmentTermDocs, parent, 524147, 262075, 262053, 262028
-org.apache.lucene.index.SegmentTermDocs, proxPointer, 16142, 0, 16142, 262028
-org.apache.lucene.index.SegmentTermDocs, df, 582385, 262081, 262063, 262028
-org.apache.lucene.index.SegmentTermDocs, fieldInfos, 262087, 0, 262062, 262028
-org.apache.lucene.index.SegmentTermDocs, freq, 304263, 304259, 16141, 262028
-org.apache.lucene.index.SegmentTermDocs, proxBasePointer, 0, 16141, 16141, 262028
-org.apache.lucene.index.SegmentTermDocs, maxSkipLevels, 0, 262054, 262032, 262028
-org.apache.lucene.index.SegmentTermDocs, storePayloads, 262072, 0, 262050, 262028
-org.apache.lucene.index.SegmentTermDocs, freqBasePointer, 32283, 16142, 16142, 262028
-org.apache.lucene.index.SegmentTermDocs, tis, 786187, 0, 262057, 262028
-org.apache.lucene.index.SegmentTermDocs, skipPointer, 0, 16142, 16142, 262028
-org.apache.lucene.index.SegmentTermDocs, currentFieldOmitTf, 284588, 262066, 262042, 262028
-org.apache.lucene.index.SegmentTermDocs, deletedDocs, 566323, 262092, 262055, 262028
-org.apache.lucene.index.SegmentTermDocs, currentFieldStoresPayloads, 0, 262069, 262047, 262028
-org.apache.lucene.index.SegmentTermDocs, count, 886587, 566306, 262042, 262028
-org.apache.lucene.index.SegmentTermDocs, skipInterval, 0, 262067, 262046, 262028
-org.apache.lucene.index.SegmentTermDocs, skipListReader, 262078, 0, 262056, 262028
-org.apache.lucene.index.SegmentTermDocs, field, 262083, 0, 262061, 262028
-org.apache.lucene.index.SegmentTermDocs, freqStream, 969084, 262092, 262054, 262028
-org.apache.lucene.index.SegmentTermDocs, freqPointer, 16142, 0, 16142, 262028
-org.apache.lucene.index.SegmentTermDocs, doc, 608490, 582444, 262046, 262028
-org.apache.lucene.index.SegmentTermDocs, skipOffset, 16142, 0, 16141, 262028
-org.apache.lucene.index.SegmentTermDocs, docFreq, 16142, 0, 16142, 262028
-org.apache.lucene.index.SegmentTermDocs, haveSkipped, 0, 16142, 16142, 262028
-org.apache.lucene.index.SegmentReader$Norm, normSeek, 0, 192, 192, 192
-org.apache.lucene.index.SegmentReader$Norm, dirty, 0, 0, 0, 192
-org.apache.lucene.index.SegmentReader$Norm, number, 0, 192, 192, 192
-org.apache.lucene.index.SegmentReader$Norm, refCount, 384, 384, 192, 192
-org.apache.lucene.index.SegmentReader$Norm, useSingleNormStream, 192, 192, 192, 192
-org.apache.lucene.index.SegmentReader$Norm, rollbackDirty, 0, 0, 0, 192
-org.apache.lucene.index.SegmentReader$Norm, in, 256, 448, 192, 192
-org.apache.lucene.index.SegmentReader$Norm, bytes, 0, 0, 0, 192
-org.apache.lucene.index.SegmentReader$Norm, this$0, 0, 192, 192, 192
-org.apache.lucene.index.SegmentInfos, generation, 64, 128, 1, 1
-org.apache.lucene.index.SegmentInfos, pendingOutput, 0, 0, 0, 1
-org.apache.lucene.index.SegmentInfos, lastGeneration, 0, 128, 1, 1
-org.apache.lucene.index.SegmentInfos, counter, 0, 128, 1, 1
-org.apache.lucene.index.SegmentInfos, version, 0, 128, 1, 1
-org.apache.lucene.index.FieldsReader, indexStream, 106652, 64, 64, 64
-org.apache.lucene.index.FieldsReader, fieldInfos, 106396, 64, 64, 64
-org.apache.lucene.index.FieldsReader, isIndexed, 212793, 0, 64, 64
-org.apache.lucene.index.FieldsReader, omitNorms, 106398, 0, 64, 64
-org.apache.lucene.index.FieldsReader, fieldsStreamTL, 64, 64, 64, 64
-org.apache.lucene.index.FieldsReader, format, 192, 64, 64, 64
-org.apache.lucene.index.FieldsReader, docStoreOffset, 53198, 64, 64, 64
-org.apache.lucene.index.FieldsReader, storeTermVector, 106396, 0, 64, 64
-org.apache.lucene.index.FieldsReader, cloneableFieldsStream, 192, 64, 64, 64
-org.apache.lucene.index.FieldsReader, fieldsStream, 425696, 64, 64, 64
-org.apache.lucene.index.FieldsReader, formatSize, 53262, 64, 64, 64
-org.apache.lucene.index.FieldsReader, size, 0, 64, 64, 64
-org.apache.lucene.index.FieldsReader, name, 106397, 0, 64, 64
-org.apache.lucene.index.FieldsReader, closed, 64, 64, 64, 64
-org.apache.lucene.index.FieldsReader, numTotalDocs, 0, 64, 64, 64
-org.apache.lucene.index.CompoundFileReader$FileEntry, offset, 0, 0, 0, 512
-org.apache.lucene.index.CompoundFileReader$FileEntry, length, 0, 0, 0, 512
-org.apache.lucene.analysis.TokenFilter, input, 393128, 393069, 393015, 392993
-org.apache.lucene.index.IndexReader, fieldInfos, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, deletedDocsDirty, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, rollbackNormsDirty, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, singleNormStream, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, undeleteAll, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, storeCFSReader, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, si, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, termVectorsLocal, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, rollbackDeletedDocsDirty, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, cfsReader, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, segment, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, termVectorsReaderOrig, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, referencedSegmentReader, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, rollbackUndeleteAll, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, readBufferSize, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, tis, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, fieldsReader, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, hasChanges, 64, 64, 64, 65
-org.apache.lucene.index.IndexReader, deletedDocs, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, proxStream, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, readOnly, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, rollbackPendingDeleteCount, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, normsDirty, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, refCount, 1155063, 128, 64, 65
-org.apache.lucene.index.IndexReader, freqStream, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, norms, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, ones, 0, 0, 0, 65
-org.apache.lucene.index.IndexReader, closed, 64, 64, 64, 65
-org.apache.lucene.index.IndexReader, pendingDeleteCount, 0, 0, 0, 65
-org.apache.lucene.search.IndexSearcher, closeReader, 0, 64, 64, 64
-org.apache.lucene.search.IndexSearcher, reader, 1101302, 64, 64, 64
-org.dacapo.harness.Lusearch, method, 1, 1, 1, 1
-org.dacapo.harness.Lusearch, loader, 1, 0, 1, 1
-org.dacapo.harness.Lusearch, scratch, 1, 0, 1, 1
-org.dacapo.harness.Lusearch, config, 1, 0, 1, 1
-org.dacapo.harness.Lusearch, benchmark, 1, 1, 1, 1
-org.apache.lucene.index.SegmentInfos$FindSegmentsFile, val$closeDirectory, 0, 0, 0, 64
-org.apache.lucene.index.SegmentInfos$FindSegmentsFile, val$readOnly, 0, 0, 0, 64
-org.apache.lucene.index.SegmentInfos$FindSegmentsFile, val$deletionPolicy, 0, 0, 0, 64
-org.apache.lucene.index.SegmentInfos$FindSegmentsFile, directory, 256, 64, 64, 64
-org.apache.lucene.analysis.Tokenizer, input, 131006, 0, 130988, 130979
-org.apache.lucene.analysis.Tokenizer, maxTokenLength, 0, 0, 0, 130979
-org.apache.lucene.analysis.Tokenizer, scanner, 0, 0, 0, 130979
-org.apache.lucene.analysis.Tokenizer, replaceInvalidAcronym, 0, 0, 0, 130979
-org.apache.lucene.analysis.CharArraySet, entries, 679158, 64, 34, 35
-org.apache.lucene.analysis.CharArraySet, ignoreCase, 136025, 0, 34, 35
-org.apache.lucene.analysis.CharArraySet, count, 6336, 2112, 33, 35
-org.apache.commons.cli.Options, shortOpts, 46, 2, 2, 2
-org.apache.commons.cli.Options, longOpts, 45, 2, 2, 2
-org.apache.commons.cli.Options, requiredOpts, 1, 2, 2, 2
-org.apache.commons.cli.Options, optionGroups, 0, 2, 2, 2
-org.dacapo.parser.ConfigFileTokenManager, curChar, 46344, 18233, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, endLine, 0, 1547, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjstateSet, 42928, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, image, 1547, 1548, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, input_stream, 27089, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, endColumn, 0, 1547, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, specialToken, 0, 1547, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, beginColumn, 0, 1547, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, curLexState, 1547, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjrounds, 30406, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, defaultLexState, 0, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjmatchedPos, 2206, 11586, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjimage, 1548, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjnewStateCnt, 34056, 34958, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, debugStream, 0, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, beginLine, 0, 1547, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjimageLen, 0, 1547, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, lengthOfMatch, 0, 0, 0, 1
-org.dacapo.parser.ConfigFileTokenManager, jjmatchedKind, 9278, 11591, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjround, 43900, 13494, 1, 1
-org.dacapo.parser.SimpleCharStream, line, 17821, 250, 1, 1
-org.dacapo.parser.SimpleCharStream, column, 35176, 17843, 1, 1
-org.dacapo.parser.SimpleCharStream, bufsize, 671, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, available, 26, 6, 1, 1
-org.dacapo.parser.SimpleCharStream, inputStream, 10, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, maxNextCharInd, 17609, 12, 1, 1
-org.dacapo.parser.SimpleCharStream, tabSize, 20, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, inBuf, 21104, 2870, 1, 1
-org.dacapo.parser.SimpleCharStream, prevCharIsLF, 17573, 498, 1, 1
-org.dacapo.parser.SimpleCharStream, prevCharIsCR, 17325, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, bufpos, 81182, 20451, 1, 1
-org.dacapo.parser.SimpleCharStream, buffer, 18704, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, tokenBegin, 4483, 6690, 1, 1
-org.dacapo.parser.SimpleCharStream, bufline, 20667, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, bufcolumn, 20667, 1, 1, 1
-org.apache.lucene.index.TermInfo, proxPointer, 153350, 176239, 22859, 22858
-org.apache.lucene.index.TermInfo, freqPointer, 153369, 176226, 22858, 22858
-org.apache.lucene.index.TermInfo, skipOffset, 153368, 153378, 22730, 22858
-org.apache.lucene.index.TermInfo, docFreq, 153357, 176189, 22857, 22858
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, yyline, 0, 0, 0, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, yychar, 393077, 262052, 130963, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzEndRead, 1833982, 261980, 130965, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzBuffer, 2226899, 130979, 130958, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, yycolumn, 0, 0, 0, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzLexicalState, 262074, 130989, 130977, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzReader, 393120, 131024, 131011, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzCurrentPos, 1048084, 786173, 130973, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzMarkedPos, 1048106, 786236, 130951, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzAtEOF, 393078, 131048, 130948, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzPushbackPos, 131030, 131055, 131014, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzStartRead, 1964951, 393005, 130957, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzAtBOL, 0, 131022, 131002, 130988
-org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzState, 3769549, 1519761, 130959, 130988
-org.apache.lucene.analysis.Token, endOffset, 0, 131023, 100742, 312267
-org.apache.lucene.analysis.Token, positionIncrement, 262047, 391960, 100535, 312267
-org.apache.lucene.analysis.Token, startOffset, 0, 131006, 100732, 312267
-org.apache.lucene.analysis.Token, termText, 1179143, 261470, 211735, 312267
-org.apache.lucene.analysis.Token, termLength, 655174, 261588, 211682, 312267
-org.apache.lucene.analysis.Token, payload, 131018, 130683, 100517, 312267
-org.apache.lucene.analysis.Token, termBuffer, 2225814, 178275, 211666, 312267
-org.apache.lucene.analysis.Token, flags, 0, 130486, 1, 312267
-org.apache.lucene.analysis.Token, type, 131061, 261274, 100767, 312267
-org.apache.lucene.util.cache.SimpleLRUCache, cacheSize, 0, 64, 64, 64
-org.apache.lucene.util.cache.SimpleLRUCache, map, 0, 64, 64, 64
-org.apache.lucene.index.DirectoryIndexReader, fieldInfos, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, deletedDocsDirty, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, writeLock, 59, 0, 59, 64
-org.apache.lucene.index.DirectoryIndexReader, rollbackNormsDirty, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, singleNormStream, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, directory, 448, 64, 64, 64
-org.apache.lucene.index.DirectoryIndexReader, undeleteAll, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, closeDirectory, 64, 64, 64, 64
-org.apache.lucene.index.DirectoryIndexReader, storeCFSReader, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, si, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, termVectorsLocal, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, rollbackDeletedDocsDirty, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, cfsReader, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, segment, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, termVectorsReaderOrig, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, referencedSegmentReader, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, rollbackUndeleteAll, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, deletionPolicy, 0, 64, 64, 64
-org.apache.lucene.index.DirectoryIndexReader, readBufferSize, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, tis, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, synced, 128, 64, 64, 64
-org.apache.lucene.index.DirectoryIndexReader, fieldsReader, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, deletedDocs, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, proxStream, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, readOnly, 0, 64, 64, 64
-org.apache.lucene.index.DirectoryIndexReader, rollbackPendingDeleteCount, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, normsDirty, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, segmentInfos, 0, 64, 64, 64
-org.apache.lucene.index.DirectoryIndexReader, freqStream, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, norms, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, ones, 0, 0, 0, 64
-org.apache.lucene.index.DirectoryIndexReader, pendingDeleteCount, 0, 0, 0, 64
-org.dacapo.parser.Config$Size, args, 0, 3, 3, 3
-org.dacapo.parser.Config$Size, nThreads, 13, 3, 3, 3
-org.dacapo.parser.Config$Size, outputFiles, 1152, 3, 3, 3
-org.dacapo.parser.Config$Size, this$0, 206, 3, 3, 3
-org.dacapo.parser.Config$Size, name, 0, 3, 3, 3
-org.dacapo.parser.Config$Size, threadLimit, 7, 9, 3, 3
-org.dacapo.parser.Config$Size, description, 0, 0, 0, 3
-org.apache.lucene.index.CompoundFileReader$CSIndexInput, length, 716222, 262730, 16786, 262717
-org.apache.lucene.index.CompoundFileReader$CSIndexInput, fileOffset, 487999, 262728, 16788, 262717
-org.apache.lucene.index.CompoundFileReader$CSIndexInput, base, 976414, 262726, 262721, 262717
-org.apache.commons.cli.CommandLine, args, 4, 1, 1, 1
-org.apache.commons.cli.CommandLine, options, 43, 1, 1, 1
-org.apache.lucene.index.SegmentReader, omitTf, 64, 0, 64, 64
-org.apache.lucene.index.SegmentReader, fieldInfos, 768, 64, 64, 64
-org.apache.lucene.index.SegmentReader, omitNorms, 191, 0, 64, 64
-org.apache.lucene.index.SegmentReader, deletedDocsDirty, 0, 64, 64, 64
-org.apache.lucene.index.SegmentReader, rollbackNormsDirty, 0, 64, 64, 64
-org.apache.lucene.index.SegmentReader, singleNormStream, 576, 128, 64, 64
-org.apache.lucene.index.SegmentReader, undeleteAll, 0, 64, 64, 64
-org.apache.lucene.index.SegmentReader, storeCFSReader, 192, 128, 64, 64
-org.apache.lucene.index.SegmentReader, number, 576, 0, 64, 64
-org.apache.lucene.index.SegmentReader, useSingleNormStream, 64, 0, 64, 64
-org.apache.lucene.index.SegmentReader, termVectorsLocal, 64, 64, 64, 64
-org.apache.lucene.index.SegmentReader, rollbackDeletedDocsDirty, 0, 64, 64, 64
-org.apache.lucene.index.SegmentReader, cfsReader, 192, 128, 64, 64
-org.apache.lucene.index.SegmentReader, si, 262697, 64, 64, 64
-org.apache.lucene.index.SegmentReader, segment, 320, 64, 64, 64
-org.apache.lucene.index.SegmentReader, termVectorsReaderOrig, 64, 64, 64, 64
-org.apache.lucene.index.SegmentReader, referencedSegmentReader, 64, 64, 64, 64
-org.apache.lucene.index.SegmentReader, rollbackUndeleteAll, 0, 64, 64, 64
-org.apache.lucene.index.SegmentReader, readBufferSize, 0, 64, 64, 64
-org.apache.lucene.index.SegmentReader, tis, 262125, 64, 64, 64
-org.apache.lucene.index.SegmentReader, isIndexed, 191, 0, 64, 64
-org.apache.lucene.index.SegmentReader, fieldsReader, 53326, 64, 64, 64
-org.apache.lucene.index.SegmentReader, deletedDocs, 53195, 128, 64, 64
-org.apache.lucene.index.SegmentReader, proxStream, 128, 64, 64, 64
-org.apache.lucene.index.SegmentReader, readOnly, 0, 0, 0, 64
-org.apache.lucene.index.SegmentReader, docCount, 262326, 0, 64, 64
-org.apache.lucene.index.SegmentReader, rollbackPendingDeleteCount, 0, 0, 0, 64
-org.apache.lucene.index.SegmentReader, normsDirty, 0, 64, 64, 64
-org.apache.lucene.index.SegmentReader, norms, 262569, 64, 64, 64
-org.apache.lucene.index.SegmentReader, freqStream, 128, 64, 64, 64
-org.apache.lucene.index.SegmentReader, name, 448, 0, 64, 64
-org.apache.lucene.index.SegmentReader, ones, 0, 0, 0, 64
-org.apache.lucene.index.SegmentReader, pendingDeleteCount, 0, 0, 0, 64
-org.apache.lucene.index.SegmentReader, docFreq, 16142, 0, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, curChar, 7810544, 1258914, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, endLine, 0, 262084, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, jjstateSet, 16945358, 64, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, input_stream, 2699197, 131099, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, endColumn, 0, 262073, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, beginColumn, 0, 262081, 65, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, curLexState, 131044, 131096, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, jjrounds, 22290547, 64, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, defaultLexState, 131039, 64, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, jjmatchedPos, 131045, 1520784, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, jjnewStateCnt, 10067627, 10325480, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, debugStream, 0, 64, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, beginLine, 0, 262090, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, jjmatchedKind, 1048072, 1520750, 64, 64
-org.apache.lucene.queryParser.QueryParserTokenManager, jjround, 18859447, 1389775, 64, 64
-org.apache.lucene.analysis.StopFilter, stopWords, 131054, 131001, 130984, 130984
-org.apache.lucene.analysis.StopFilter, input, 262000, 0, 130913, 130984
-org.apache.lucene.analysis.StopFilter, enablePositionIncrements, 131019, 131013, 131002, 130984
-org.dacapo.harness.TestHarness, className, 1, 0, 1, 1
-org.dacapo.harness.TestHarness, config, 9, 1, 1, 1
-org.apache.lucene.index.DirectoryIndexReader$1, val$closeDirectory, 64, 64, 64, 64
-org.apache.lucene.index.DirectoryIndexReader$1, val$readOnly, 64, 64, 64, 64
-org.apache.lucene.index.DirectoryIndexReader$1, val$deletionPolicy, 64, 64, 64, 64
-org.apache.lucene.index.DirectoryIndexReader$1, directory, 64, 0, 64, 64
-org.apache.lucene.index.DirectoryIndexReader$1, closeDirectory, 0, 64, 64, 64
-org.apache.lucene.util.Parameter, name, 0, 18, 18, 18
-org.apache.lucene.search.TopDocCollector, score, 226585, 84009, 16142, 262077
-org.apache.lucene.search.TopDocCollector, totalHits, 959424, 304252, 262095, 262077
-org.apache.lucene.search.TopDocCollector, hq, 792649, 262112, 262092, 262077
-org.apache.lucene.search.TopDocCollector, doc, 0, 84011, 3057, 262077
-org.apache.lucene.search.TopDocCollector, reusableSD, 860479, 271639, 16142, 262077
-org.dacapo.parser.Config, outputFiles, 2, 0, 1, 1
-org.dacapo.parser.Config, threadModel, 41, 2, 1, 1
-org.dacapo.parser.Config, existence, 66, 0, 1, 1
-org.dacapo.parser.Config, className, 1, 2, 1, 1
-org.dacapo.parser.Config, filter, 66, 6, 1, 1
-org.dacapo.parser.Config, args, 1, 0, 1, 1
-org.dacapo.parser.Config, sizes, 1185, 1, 1, 1
-org.dacapo.parser.Config, keep, 66, 0, 1, 1
-org.dacapo.parser.Config, name, 0, 1, 1, 1
-org.dacapo.parser.Config, digest, 66, 206, 1, 1
-org.dacapo.parser.Config, jar, 1, 1, 1, 1
-org.dacapo.parser.Config, text, 66, 206, 1, 1
-org.dacapo.parser.Config, libs, 1, 1, 1, 1
-org.dacapo.parser.Config, desc, 9, 1, 1, 1
-org.apache.lucene.util.CloseableThreadLocal, t, 524132, 448, 256, 256
-org.apache.lucene.util.CloseableThreadLocal, hardRefs, 192, 448, 256, 256
-org.apache.lucene.search.TermQuery, term, 16141, 130991, 100487, 100464
-org.apache.lucene.search.BooleanQuery, disableCoord, 72, 18, 1, 1
-org.apache.lucene.search.BooleanQuery, clauses, 72, 18, 1, 1
-org.apache.lucene.search.BooleanQuery, minNrShouldMatch, 36, 18, 1, 1
-org.apache.lucene.document.Field, isIndexed, 0, 106395, 106392, 106393
-org.apache.lucene.document.Field, fieldsData, 106394, 106396, 106393, 106393
-org.apache.lucene.document.Field, name, 0, 106396, 106392, 106393
-org.apache.lucene.document.Field, isBinary, 0, 106396, 106393, 106393
-org.apache.lucene.document.Field, isTokenized, 0, 106396, 106393, 106393
-org.apache.lucene.document.Field, isStored, 0, 106396, 106393, 106393
-org.apache.lucene.document.Field, isCompressed, 0, 106394, 106391, 106393
-org.dacapo.harness.CommandLineArgs, line, 29, 1, 1, 1
-org.dacapo.harness.CommandLineArgs, callback, 2, 2, 1, 1
-org.dacapo.harness.CommandLineArgs, benchmarks, 2, 1, 1, 1
-org.apache.lucene.util.cache.SimpleMapCache, cacheSize, 0, 0, 0, 64
-org.apache.lucene.util.cache.SimpleMapCache, map, 532107, 64, 64, 64
+CLASS, VARIABLE, TYPE, READS, WRITES, INSTANCES-USE-VARIABLE, INSTANCES-TOTAL
+org.dacapo.parser.Config$ThreadModel, description, java.lang.String, 0, 3, 3, 3
+org.apache.lucene.search.ScoreDoc, score, float, 0, 93819, 93818, 93817
+org.apache.lucene.search.ScoreDoc, doc, int, 0, 93816, 93815, 93817
+org.apache.lucene.index.IndexFileNameFilter, extensions, java.util.HashSet, 207, 1, 1, 1
+org.apache.lucene.index.IndexFileNameFilter, extensionsInCFS, java.util.HashSet, 11, 1, 1, 1
+org.apache.lucene.store.FSDirectory$FSIndexInput, file, org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor, 1553620, 252, 16843, 262992
+org.apache.lucene.store.FSDirectory$FSIndexInput, isClone, boolean, 262914, 262700, 262900, 262992
+org.dacapo.parser.Config$OutputFile, filter, boolean, 0, 206, 206, 206
+org.dacapo.parser.Config$OutputFile, bytes, long, 66, 206, 206, 206
+org.dacapo.parser.Config$OutputFile, keep, boolean, 0, 206, 206, 206
+org.dacapo.parser.Config$OutputFile, this$0, org.dacapo.parser.Config, 0, 206, 206, 206
+org.dacapo.parser.Config$OutputFile, name, java.lang.String, 0, 206, 206, 206
+org.dacapo.parser.Config$OutputFile, digest, java.lang.String, 66, 206, 206, 206
+org.dacapo.parser.Config$OutputFile, existence, boolean, 0, 206, 206, 206
+org.dacapo.parser.Config$OutputFile, text, boolean, 0, 206, 206, 206
+org.dacapo.parser.Config$OutputFile, lines, int, 66, 206, 206, 206
+org.apache.lucene.index.TermInfosReader, threadResources, org.apache.lucene.util.CloseableThreadLocal, 523978, 61, 64, 64
+org.apache.lucene.index.TermInfosReader, origEnum, org.apache.lucene.index.SegmentTermEnum, 524394, 61, 64, 64
+org.apache.lucene.index.TermInfosReader, indexPointers, [J, 145206, 64, 64, 64
+org.apache.lucene.index.TermInfosReader, fieldInfos, org.apache.lucene.index.FieldInfos, 122, 61, 61, 64
+org.apache.lucene.index.TermInfosReader, indexTerms, [Lorg.apache.lucene.index.Term;, 2694477, 125, 65, 64
+org.apache.lucene.index.TermInfosReader, size, long, 523870, 61, 64, 64
+org.apache.lucene.index.TermInfosReader, indexEnum, org.apache.lucene.index.SegmentTermEnum, 58620, 125, 64, 64
+org.apache.lucene.index.TermInfosReader, segment, java.lang.String, 122, 61, 61, 64
+org.apache.lucene.index.TermInfosReader, indexInfos, [Lorg.apache.lucene.index.TermInfo;, 145173, 64, 64, 64
+org.apache.lucene.index.TermInfosReader, directory, org.apache.lucene.store.Directory, 122, 61, 61, 64
+org.apache.lucene.index.TermInfosReader, totalIndexInterval, int, 564915, 61, 64, 64
+org.apache.lucene.index.TermInfosReader, indexDivisor, int, 14655, 61, 64, 64
+org.apache.lucene.index.Term, field, java.lang.String, 6487427, 0, 100694, 117837
+org.apache.lucene.index.Term, text, java.lang.String, 6207207, 406248, 117876, 117837
+org.dacapo.harness.Callback, mode, org.dacapo.harness.Callback$Mode, 4, 1, 1, 1
+org.dacapo.harness.Callback, args, org.dacapo.harness.CommandLineArgs, 2, 1, 1, 1
+org.dacapo.harness.Callback, elapsed, long, 1, 1, 1, 1
+org.dacapo.harness.Callback, timer, long, 1, 1, 1, 1
+org.dacapo.harness.Callback, times, [J, 1, 0, 1, 1
+org.dacapo.harness.Callback, iterations, int, 0, 1, 1, 1
+org.dacapo.harness.Callback, verbose, boolean, 3, 2, 1, 1
+org.apache.lucene.store.ChecksumIndexInput, digest, java.util.zip.Checksum, 3904, 64, 64, 64
+org.apache.lucene.store.ChecksumIndexInput, main, org.apache.lucene.store.IndexInput, 3904, 64, 64, 64
+org.apache.lucene.index.TermInfosReader$ThreadResources, termInfoCache, org.apache.lucene.util.cache.Cache, 0, 0, 0, 61
+org.apache.lucene.index.TermInfosReader$ThreadResources, termEnum, org.apache.lucene.index.SegmentTermEnum, 0, 0, 0, 61
+org.apache.lucene.util.UnicodeUtil$UTF16Result, result, [C, 26101473, 921, 580, 581
+org.apache.lucene.util.UnicodeUtil$UTF16Result, offsets, [I, 0, 576, 576, 581
+org.apache.lucene.util.UnicodeUtil$UTF16Result, length, int, 16926648, 9239565, 321, 581
+org.apache.lucene.queryParser.FastCharStream, input, java.io.Reader, 393155, 131127, 131122, 131082
+org.apache.lucene.queryParser.FastCharStream, bufferLength, int, 2175067, 655054, 131113, 131082
+org.apache.lucene.queryParser.FastCharStream, bufferPosition, int, 3432184, 1782543, 131125, 131082
+org.apache.lucene.queryParser.FastCharStream, tokenStart, int, 1833851, 786283, 131117, 131082
+org.apache.lucene.queryParser.FastCharStream, buffer, [C, 2829324, 262105, 131094, 131082
+org.apache.lucene.queryParser.FastCharStream, bufferStart, int, 917000, 524268, 131118, 131082
+org.apache.lucene.document.Document, boost, float, 0, 53199, 53199, 53191
+org.apache.lucene.document.Document, fields, java.util.List, 585001, 53197, 53199, 53191
+org.apache.lucene.index.TermBuffer, dirty, boolean, 8466213, 9331219, 454, 588
+org.apache.lucene.index.TermBuffer, field, java.lang.String, 28929429, 17573890, 327, 588
+org.apache.lucene.index.TermBuffer, bytes, org.apache.lucene.util.UnicodeUtil$UTF8Result, 25289478, 576, 514, 588
+org.apache.lucene.index.TermBuffer, preUTF8Strings, boolean, 8425397, 0, 129, 588
+org.apache.lucene.index.TermBuffer, term, org.apache.lucene.index.Term, 13552794, 17900279, 322, 588
+org.apache.lucene.index.TermBuffer, text, org.apache.lucene.util.UnicodeUtil$UTF16Result, 62365954, 576, 586, 588
+org.apache.lucene.search.BooleanScorer2, optionalScorers, java.util.ArrayList, 36, 36, 36, 36
+org.apache.lucene.search.BooleanScorer2, allowDocsOutOfOrder, boolean, 36, 36, 36, 36
+org.apache.lucene.search.BooleanScorer2, coordinator, org.apache.lucene.search.BooleanScorer2$Coordinator, 36, 36, 36, 36
+org.apache.lucene.search.BooleanScorer2, countingSumScorer, org.apache.lucene.search.Scorer, 72, 72, 36, 36
+org.apache.lucene.search.BooleanScorer2, prohibitedScorers, java.util.ArrayList, 0, 36, 36, 36
+org.apache.lucene.search.BooleanScorer2, minNrShouldMatch, int, 0, 36, 36, 36
+org.apache.lucene.search.BooleanScorer2, requiredScorers, java.util.ArrayList, 36, 36, 36, 36
+org.apache.lucene.queryParser.QueryParser, allowLeadingWildcard, boolean, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, fuzzyMinSim, float, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, fieldToDateResolution, java.util.Map, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, jj_ntk, int, 1571267, 654851, 64, 65
+org.apache.lucene.queryParser.QueryParser, useOldRangeQuery, boolean, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, locale, java.util.Locale, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, jj_scanpos, org.apache.lucene.queryParser.Token, 1571552, 654958, 64, 65
+org.apache.lucene.queryParser.QueryParser, operator, org.apache.lucene.queryParser.QueryParser$Operator, 130905, 61, 64, 65
+org.apache.lucene.queryParser.QueryParser, dateResolution, org.apache.lucene.document.DateTools$Resolution, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, lowercaseExpandedTerms, boolean, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, jj_kind, int, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, jj_la, int, 524012, 392968, 64, 65
+org.apache.lucene.queryParser.QueryParser, jj_expentries, java.util.List, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, analyzer, org.apache.lucene.analysis.Analyzer, 130960, 61, 64, 65
+org.apache.lucene.queryParser.QueryParser, jj_2_rtns, [Lorg.apache.lucene.queryParser.QueryParser$JJCalls;, 531869, 61, 64, 65
+org.apache.lucene.queryParser.QueryParser, jj_lasttokens, [I, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, fuzzyPrefixLength, int, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, jj_rescan, boolean, 393021, 61, 64, 65
+org.apache.lucene.queryParser.QueryParser, jj_ls, org.apache.lucene.queryParser.QueryParser$LookaheadSuccess, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, jj_endpos, int, 0, 0, 0, 65
+org.apache.lucene.queryParser.QueryParser, jj_nt, org.apache.lucene.queryParser.Token, 131023, 261897, 64, 65
+org.apache.lucene.queryParser.QueryParser, token, org.apache.lucene.queryParser.Token, 1701761, 392842, 64, 65
+org.apache.lucene.queryParser.QueryParser, jj_expentry, [I, 0, 0, 0, 65
+org.apache.lucene.queryParser.QueryParser, field, java.lang.String, 131035, 61, 64, 65
+org.apache.lucene.queryParser.QueryParser, jj_gen, int, 1050269, 392996, 64, 65
+org.apache.lucene.queryParser.QueryParser, phraseSlop, int, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, rangeCollator, java.text.Collator, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, jj_la1, [I, 3534569, 61, 64, 65
+org.apache.lucene.queryParser.QueryParser, jj_gc, int, 261902, 264626, 64, 65
+org.apache.lucene.queryParser.QueryParser, token_source, org.apache.lucene.queryParser.QueryParserTokenManager, 393059, 61, 64, 65
+org.apache.lucene.queryParser.QueryParser, enablePositionIncrements, boolean, 0, 61, 61, 65
+org.apache.lucene.queryParser.QueryParser, jj_lastpos, org.apache.lucene.queryParser.Token, 393048, 393031, 64, 65
+org.apache.lucene.search.TermScorer, termDocs, org.apache.lucene.index.TermDocs, 546652, 262068, 262049, 262025
+org.apache.lucene.search.TermScorer, pointer, int, 1436457, 588788, 262035, 262025
+org.apache.lucene.search.TermScorer, docs, [I, 588804, 262015, 261990, 262025
+org.apache.lucene.search.TermScorer, scoreCache, [F, 8677122, 262044, 262033, 262025
+org.apache.lucene.search.TermScorer, norms, [B, 304260, 262079, 262061, 262025
+org.apache.lucene.search.TermScorer, weight, org.apache.lucene.search.Weight, 0, 262069, 262047, 262025
+org.apache.lucene.search.TermScorer, doc, int, 1158491, 566290, 262057, 262025
+org.apache.lucene.search.TermScorer, freqs, [I, 588795, 262060, 262037, 262025
+org.apache.lucene.search.TermScorer, pointerMax, int, 850815, 284592, 262043, 262025
+org.apache.lucene.search.TermScorer, weightValue, float, 8379293, 262078, 262057, 262025
+org.dacapo.parser.ConfigFile, jj_expentry, [I, 0, 0, 0, 1
+org.dacapo.parser.ConfigFile, jj_kind, int, 0, 1, 1, 1
+org.dacapo.parser.ConfigFile, jj_input_stream, org.dacapo.parser.SimpleCharStream, 1, 1, 1, 1
+org.dacapo.parser.ConfigFile, jj_nt, org.dacapo.parser.Token, 0, 1296, 1, 1
+org.dacapo.parser.ConfigFile, jj_ntk, int, 2166, 2843, 1, 1
+org.dacapo.parser.ConfigFile, jj_expentries, java.util.List, 0, 1, 1, 1
+org.dacapo.parser.ConfigFile, jj_gen, int, 1971, 1547, 1, 1
+org.dacapo.parser.ConfigFile, jj_la1, [I, 444, 1, 1, 1
+org.dacapo.parser.ConfigFile, token_source, org.dacapo.parser.ConfigFileTokenManager, 1547, 1, 1, 1
+org.dacapo.parser.ConfigFile, token, org.dacapo.parser.Token, 9240, 1547, 1, 1
+org.apache.lucene.index.FieldInfos, byNumber, java.util.ArrayList, 8463637, 64, 65, 64
+org.apache.lucene.index.FieldInfos, byName, java.util.HashMap, 262203, 64, 64, 64
+org.dacapo.lusearch.Search, completed, int, 65, 2, 1, 1
+org.apache.lucene.queryParser.Token, endLine, int, 0, 0, 0, 393033
+org.apache.lucene.queryParser.Token, next, org.apache.lucene.queryParser.Token, 0, 0, 0, 393033
+org.apache.lucene.queryParser.Token, image, java.lang.String, 0, 262072, 262049, 393033
+org.apache.lucene.queryParser.Token, endColumn, int, 0, 0, 0, 393033
+org.apache.lucene.queryParser.Token, specialToken, org.apache.lucene.queryParser.Token, 0, 0, 0, 393033
+org.apache.lucene.queryParser.Token, beginColumn, int, 0, 0, 0, 393033
+org.apache.lucene.queryParser.Token, kind, int, 0, 262064, 262036, 393033
+org.apache.lucene.queryParser.Token, beginLine, int, 0, 0, 0, 393033
+org.apache.lucene.util.UnicodeUtil$UTF8Result, result, [B, 8366950, 766, 577, 580
+org.apache.lucene.util.UnicodeUtil$UTF8Result, length, int, 190, 8374133, 128, 580
+org.apache.lucene.index.SegmentInfo, docStoreSegment, java.lang.String, 192, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, delGen, long, 128, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, sizeInBytes, long, 0, 0, 0, 1
+org.apache.lucene.index.SegmentInfo, normGen, [J, 1408, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, docCount, int, 0, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, docStoreOffset, int, 384, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, dir, org.apache.lucene.store.Directory, 0, 0, 0, 1
+org.apache.lucene.index.SegmentInfo, hasProx, boolean, 0, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, docStoreIsCompoundFile, boolean, 128, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, hasSingleNormFile, boolean, 256, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, preLockless, boolean, 448, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, isCompoundFile, byte, 320, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, name, java.lang.String, 320, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, files, java.util.List, 256, 64, 1, 1
+org.apache.lucene.index.SegmentInfo, delCount, int, 0, 64, 1, 1
+org.apache.lucene.index.SegmentTermDocs, parent, org.apache.lucene.index.SegmentReader, 524146, 262085, 262068, 262044
+org.apache.lucene.index.SegmentTermDocs, df, int, 582356, 262082, 262066, 262044
+org.apache.lucene.index.SegmentTermDocs, skipPointer, long, 0, 16141, 16141, 262044
+org.apache.lucene.index.SegmentTermDocs, currentFieldOmitTf, boolean, 284575, 262081, 262052, 262044
+org.apache.lucene.index.SegmentTermDocs, deletedDocs, org.apache.lucene.util.BitVector, 304264, 262087, 262067, 262044
+org.apache.lucene.index.SegmentTermDocs, currentFieldStoresPayloads, boolean, 0, 262077, 262058, 262044
+org.apache.lucene.index.SegmentTermDocs, count, int, 886523, 566306, 262057, 262044
+org.apache.lucene.index.SegmentTermDocs, freq, int, 304262, 304254, 16139, 262044
+org.apache.lucene.index.SegmentTermDocs, skipInterval, int, 0, 262067, 262042, 262044
+org.apache.lucene.index.SegmentTermDocs, proxBasePointer, long, 0, 16141, 16141, 262044
+org.apache.lucene.index.SegmentTermDocs, maxSkipLevels, int, 0, 262070, 262051, 262044
+org.apache.lucene.index.SegmentTermDocs, skipListReader, org.apache.lucene.index.DefaultSkipListReader, 262087, 0, 262068, 262044
+org.apache.lucene.index.SegmentTermDocs, freqStream, org.apache.lucene.store.IndexInput, 707013, 262083, 262065, 262044
+org.apache.lucene.index.SegmentTermDocs, freqBasePointer, long, 32283, 16141, 16141, 262044
+org.apache.lucene.index.SegmentTermDocs, doc, int, 608473, 582431, 262051, 262044
+org.apache.lucene.index.SegmentTermDocs, haveSkipped, boolean, 0, 16140, 16140, 262044
+org.apache.lucene.index.SegmentReader$Norm, this$0, org.apache.lucene.index.SegmentReader, 0, 192, 192, 192
+org.apache.lucene.index.SegmentInfos, generation, long, 64, 128, 1, 1
+org.apache.lucene.index.SegmentInfos, pendingOutput, org.apache.lucene.store.ChecksumIndexOutput, 0, 0, 0, 1
+org.apache.lucene.index.SegmentInfos, lastGeneration, long, 0, 128, 1, 1
+org.apache.lucene.index.SegmentInfos, counter, int, 0, 128, 2, 1
+org.apache.lucene.index.SegmentInfos, version, long, 0, 128, 1, 1
+org.apache.lucene.index.FieldsReader, indexStream, org.apache.lucene.store.IndexInput, 106644, 64, 64, 64
+org.apache.lucene.index.FieldsReader, fieldInfos, org.apache.lucene.index.FieldInfos, 106390, 64, 64, 64
+org.apache.lucene.index.FieldsReader, fieldsStream, org.apache.lucene.store.IndexInput, 425640, 64, 64, 64
+org.apache.lucene.index.FieldsReader, size, int, 0, 64, 64, 64
+org.apache.lucene.index.FieldsReader, formatSize, int, 53259, 64, 64, 64
+org.apache.lucene.index.FieldsReader, fieldsStreamTL, org.apache.lucene.util.CloseableThreadLocal, 64, 64, 64, 64
+org.apache.lucene.index.FieldsReader, format, int, 192, 64, 64, 64
+org.apache.lucene.index.FieldsReader, closed, boolean, 64, 64, 64, 64
+org.apache.lucene.index.FieldsReader, docStoreOffset, int, 53195, 64, 64, 64
+org.apache.lucene.index.FieldsReader, numTotalDocs, int, 0, 64, 64, 64
+org.apache.lucene.index.FieldsReader, cloneableFieldsStream, org.apache.lucene.store.IndexInput, 192, 64, 64, 64
+org.dacapo.harness.TeeOutputStream, toScreen, boolean, 430, 4, 2, 2
+org.dacapo.harness.TeeOutputStream, log, java.io.OutputStream, 1296, 8, 2, 2
+org.dacapo.harness.TeeOutputStream, logFile, java.io.File, 4, 2, 2, 2
+org.dacapo.harness.TeeOutputStream, version, int, 0, 2, 2, 2
+org.apache.lucene.analysis.standard.StandardAnalyzer, maxTokenLength, int, 131016, 61, 64, 64
+org.apache.lucene.analysis.standard.StandardAnalyzer, replaceInvalidAcronym, boolean, 130947, 61, 64, 64
+org.apache.lucene.analysis.standard.StandardAnalyzer, stopSet, java.util.Set, 130948, 64, 64, 64
+org.apache.lucene.index.CompoundFileReader, fileName, java.lang.String, 0, 126, 126, 128
+org.apache.lucene.index.CompoundFileReader, entries, java.util.HashMap, 1152, 126, 128, 128
+org.apache.lucene.index.CompoundFileReader, stream, org.apache.lucene.store.IndexInput, 2554, 254, 128, 128
+org.apache.lucene.index.CompoundFileReader, readBufferSize, int, 64, 126, 128, 128
+org.apache.lucene.index.CompoundFileReader, directory, org.apache.lucene.store.Directory, 0, 126, 126, 128
+org.apache.lucene.index.CompoundFileReader$FileEntry, offset, long, 0, 0, 0, 512
+org.apache.lucene.index.CompoundFileReader$FileEntry, length, long, 0, 0, 0, 512
+org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor, isOpen, boolean, 496, 511, 256, 256
+org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor, length, long, 0, 256, 255, 256
+org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor, position, long, 0, 0, 0, 256
+org.dacapo.lusearch.Search$QueryThread, parent, org.dacapo.lusearch.Search, 64, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, totalQueries, int, 8, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, outBase, java.lang.String, 64, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, hitsPerPage, int, 64, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, threadCount, int, 72, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, index, java.lang.String, 64, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, raw, boolean, 64, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, normsField, java.lang.String, 64, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, field, java.lang.String, 64, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, this$0, org.dacapo.lusearch.Search, 63, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, name, java.lang.String, 64, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, id, int, 8, 4, 4, 4
+org.dacapo.lusearch.Search$QueryThread, queryBase, java.lang.String, 64, 4, 4, 4
+org.apache.lucene.search.IndexSearcher, closeReader, boolean, 0, 64, 64, 64
+org.apache.lucene.search.IndexSearcher, reader, org.apache.lucene.index.IndexReader, 1100884, 64, 65, 64
+org.dacapo.harness.Lusearch, benchmark, java.lang.Object, 1, 1, 1, 1
+org.apache.lucene.analysis.standard.StandardTokenizer, maxTokenLength, int, 131047, 262043, 130996, 130969
+org.apache.lucene.analysis.standard.StandardTokenizer, scanner, org.apache.lucene.analysis.standard.StandardTokenizerImpl, 654927, 131020, 131008, 130969
+org.apache.lucene.analysis.standard.StandardTokenizer, replaceInvalidAcronym, boolean, 0, 261977, 130963, 130969
+org.apache.lucene.analysis.CharArraySet, entries, [[C, 678561, 64, 34, 34
+org.apache.lucene.analysis.CharArraySet, ignoreCase, boolean, 135822, 0, 34, 34
+org.apache.lucene.analysis.CharArraySet, count, int, 6336, 2112, 33, 34
+org.apache.lucene.document.FieldSelectorResult, id, int, 0, 7, 7, 7
+org.apache.lucene.search.BooleanScorer2$Coordinator, nrMatchers, int, 0, 0, 0, 36
+org.apache.lucene.search.BooleanScorer2$Coordinator, maxCoord, int, 144, 36, 36, 36
+org.apache.lucene.search.BooleanScorer2$Coordinator, this$0, org.apache.lucene.search.BooleanScorer2, 36, 36, 36, 36
+org.apache.lucene.search.BooleanScorer2$Coordinator, coordFactors, [F, 36, 72, 36, 36
+org.apache.commons.cli.Options, shortOpts, java.util.Map, 46, 2, 2, 2
+org.apache.commons.cli.Options, longOpts, java.util.Map, 45, 2, 2, 2
+org.apache.commons.cli.Options, requiredOpts, java.util.List, 1, 2, 2, 2
+org.apache.commons.cli.Options, optionGroups, java.util.Map, 0, 2, 2, 2
+org.dacapo.parser.ConfigFileTokenManager, curChar, char, 46344, 18233, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjstateSet, [I, 42928, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, image, java.lang.StringBuffer, 1547, 1548, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, input_stream, org.dacapo.parser.SimpleCharStream, 27089, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, curLexState, int, 1547, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjrounds, [I, 30406, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, defaultLexState, int, 0, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjmatchedPos, int, 2206, 11586, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjimage, java.lang.StringBuffer, 1548, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjnewStateCnt, int, 34056, 34958, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, debugStream, java.io.PrintStream, 0, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjimageLen, int, 0, 1547, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, lengthOfMatch, int, 0, 0, 0, 1
+org.dacapo.parser.ConfigFileTokenManager, jjmatchedKind, int, 9278, 11591, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjround, int, 43900, 13494, 1, 1
+org.apache.lucene.search.TermQuery$TermWeight, queryWeight, float, 1048133, 524152, 262066, 261943
+org.apache.lucene.search.TermQuery$TermWeight, similarity, org.apache.lucene.search.Similarity, 524102, 262049, 262017, 261943
+org.apache.lucene.search.TermQuery$TermWeight, this$0, org.apache.lucene.search.TermQuery, 786116, 262032, 262017, 261943
+org.apache.lucene.search.TermQuery$TermWeight, idf, float, 524137, 262065, 262037, 261943
+org.apache.lucene.search.TermQuery$TermWeight, value, float, 262088, 262081, 262063, 261943
+org.apache.lucene.search.TermQuery$TermWeight, queryNorm, float, 0, 262083, 262057, 261943
+org.dacapo.parser.SimpleCharStream, line, int, 17821, 250, 1, 1
+org.dacapo.parser.SimpleCharStream, bufsize, int, 671, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, available, int, 26, 6, 1, 1
+org.dacapo.parser.SimpleCharStream, column, int, 35176, 17843, 1, 1
+org.dacapo.parser.SimpleCharStream, inputStream, java.io.Reader, 10, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, maxNextCharInd, int, 17609, 12, 1, 1
+org.dacapo.parser.SimpleCharStream, tabSize, int, 20, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, inBuf, int, 21104, 2870, 1, 1
+org.dacapo.parser.SimpleCharStream, prevCharIsLF, boolean, 17573, 498, 1, 1
+org.dacapo.parser.SimpleCharStream, prevCharIsCR, boolean, 17325, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, bufpos, int, 81182, 20451, 1, 1
+org.dacapo.parser.SimpleCharStream, buffer, [C, 18704, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, tokenBegin, int, 4483, 6690, 1, 1
+org.dacapo.parser.SimpleCharStream, bufline, [I, 20667, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, bufcolumn, [I, 20667, 1, 1, 1
+org.apache.lucene.index.TermInfo, proxPointer, long, 153330, 176210, 22857, 22860
+org.apache.lucene.index.TermInfo, freqPointer, long, 153312, 176184, 22859, 22860
+org.apache.lucene.index.TermInfo, skipOffset, int, 153332, 153365, 22729, 22860
+org.apache.lucene.index.TermInfo, docFreq, int, 153326, 176184, 22858, 22860
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, yyline, int, 0, 0, 0, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, yychar, int, 393076, 262016, 130984, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzEndRead, int, 1833673, 261969, 130929, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzBuffer, [C, 2226285, 130917, 130890, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, yycolumn, int, 0, 0, 0, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzLexicalState, int, 262070, 130994, 130989, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzReader, java.io.Reader, 393082, 131012, 131005, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzCurrentPos, int, 1047910, 786073, 130955, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzMarkedPos, int, 1048001, 786196, 131000, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzAtEOF, boolean, 393099, 131046, 130996, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzPushbackPos, int, 131028, 131057, 131013, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzStartRead, int, 1964525, 393038, 130989, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzAtBOL, boolean, 0, 131019, 131013, 130954
+org.apache.lucene.analysis.standard.StandardTokenizerImpl, zzState, int, 3769245, 1519863, 131003, 130954
+org.apache.lucene.analysis.Token, endOffset, int, 0, 131032, 100753, 312310
+org.apache.lucene.analysis.Token, startOffset, int, 0, 131025, 100743, 312310
+org.apache.lucene.analysis.Token, positionIncrement, int, 262044, 391406, 100540, 312310
+org.apache.lucene.analysis.Token, termText, java.lang.String, 1179008, 261171, 211696, 312310
+org.apache.lucene.analysis.Token, termLength, int, 655143, 261439, 211697, 312310
+org.apache.lucene.analysis.Token, payload, org.apache.lucene.index.Payload, 131025, 130516, 100528, 312310
+org.apache.lucene.analysis.Token, termBuffer, [C, 2225400, 178258, 212094, 312310
+org.apache.lucene.analysis.Token, flags, int, 0, 130301, 1, 312310
+org.apache.lucene.analysis.Token, type, java.lang.String, 131047, 261567, 100771, 312310
+org.apache.lucene.util.cache.SimpleLRUCache, cacheSize, int, 0, 64, 64, 64
+org.dacapo.parser.Config$Size, args, [Ljava.lang.String;, 0, 3, 3, 3
+org.dacapo.parser.Config$Size, nThreads, int, 13, 3, 3, 3
+org.dacapo.parser.Config$Size, outputFiles, java.util.HashMap, 1152, 3, 3, 3
+org.dacapo.parser.Config$Size, this$0, org.dacapo.parser.Config, 206, 3, 3, 3
+org.dacapo.parser.Config$Size, name, java.lang.String, 0, 3, 3, 3
+org.dacapo.parser.Config$Size, threadLimit, int, 7, 9, 3, 3
+org.dacapo.parser.Config$Size, description, java.lang.String, 0, 0, 0, 3
+org.apache.lucene.index.CompoundFileReader$CSIndexInput, length, long, 716017, 262737, 16785, 262710
+org.apache.lucene.index.CompoundFileReader$CSIndexInput, fileOffset, long, 487945, 262727, 16784, 262710
+org.apache.lucene.index.CompoundFileReader$CSIndexInput, base, org.apache.lucene.store.IndexInput, 976223, 262719, 262839, 262710
+org.apache.commons.cli.CommandLine, args, java.util.List, 4, 1, 1, 1
+org.apache.commons.cli.CommandLine, options, java.util.List, 43, 1, 1, 1
+org.apache.lucene.index.SegmentReader, fieldInfos, org.apache.lucene.index.FieldInfos, 768, 64, 64, 64
+org.apache.lucene.index.SegmentReader, deletedDocsDirty, boolean, 0, 64, 64, 64
+org.apache.lucene.index.SegmentReader, rollbackNormsDirty, boolean, 0, 64, 64, 64
+org.apache.lucene.index.SegmentReader, singleNormStream, org.apache.lucene.store.IndexInput, 574, 127, 65, 64
+org.apache.lucene.index.SegmentReader, undeleteAll, boolean, 0, 64, 64, 64
+org.apache.lucene.index.SegmentReader, storeCFSReader, org.apache.lucene.index.CompoundFileReader, 192, 128, 64, 64
+org.apache.lucene.index.SegmentReader, si, org.apache.lucene.index.SegmentInfo, 262675, 64, 64, 64
+org.apache.lucene.index.SegmentReader, termVectorsLocal, org.apache.lucene.util.CloseableThreadLocal, 64, 64, 64, 64
+org.apache.lucene.index.SegmentReader, rollbackDeletedDocsDirty, boolean, 0, 64, 64, 64
+org.apache.lucene.index.SegmentReader, cfsReader, org.apache.lucene.index.CompoundFileReader, 192, 128, 64, 64
+org.apache.lucene.index.SegmentReader, segment, java.lang.String, 320, 64, 64, 64
+org.apache.lucene.index.SegmentReader, termVectorsReaderOrig, org.apache.lucene.index.TermVectorsReader, 64, 61, 64, 64
+org.apache.lucene.index.SegmentReader, referencedSegmentReader, org.apache.lucene.index.SegmentReader, 64, 64, 64, 64
+org.apache.lucene.index.SegmentReader, rollbackUndeleteAll, boolean, 0, 64, 64, 64
+org.apache.lucene.index.SegmentReader, readBufferSize, int, 0, 64, 64, 64
+org.apache.lucene.index.SegmentReader, tis, org.apache.lucene.index.TermInfosReader, 262067, 64, 64, 64
+org.apache.lucene.index.SegmentReader, fieldsReader, org.apache.lucene.index.FieldsReader, 53323, 64, 64, 64
+org.apache.lucene.index.SegmentReader, deletedDocs, org.apache.lucene.util.BitVector, 53191, 128, 64, 64
+org.apache.lucene.index.SegmentReader, proxStream, org.apache.lucene.store.IndexInput, 128, 64, 64, 64
+org.apache.lucene.index.SegmentReader, readOnly, boolean, 0, 0, 0, 64
+org.apache.lucene.index.SegmentReader, rollbackPendingDeleteCount, int, 0, 0, 0, 64
+org.apache.lucene.index.SegmentReader, normsDirty, boolean, 0, 64, 64, 64
+org.apache.lucene.index.SegmentReader, freqStream, org.apache.lucene.store.IndexInput, 128, 64, 64, 64
+org.apache.lucene.index.SegmentReader, norms, java.util.Map, 262529, 64, 64, 64
+org.apache.lucene.index.SegmentReader, ones, [B, 0, 0, 0, 64
+org.apache.lucene.index.SegmentReader, pendingDeleteCount, int, 0, 0, 0, 64
+org.apache.commons.cli.PosixParser, eatTheRest, boolean, 1, 1, 1, 1
+org.apache.commons.cli.PosixParser, currentOption, org.apache.commons.cli.Option, 0, 0, 0, 1
+org.apache.commons.cli.PosixParser, options, org.apache.commons.cli.Options, 0, 1, 1, 1
+org.apache.commons.cli.PosixParser, tokens, java.util.List, 4, 1, 1, 1
+org.apache.lucene.store.FSDirectory, refCount, int, 64, 64, 1, 1
+org.apache.lucene.store.FSDirectory, buffer, [B, 0, 1, 1, 1
+org.apache.lucene.store.FSDirectory, directory, java.io.File, 322, 2, 1, 1
+org.apache.commons.cli.Option, opt, java.lang.String, 70, 23, 36, 36
+org.apache.commons.cli.Option, argName, java.lang.String, 0, 34, 12, 36
+org.apache.commons.cli.Option, numberOfArgs, int, 0, 34, 12, 36
+org.apache.commons.cli.Option, values, java.util.List, 23, 23, 24, 36
+org.apache.commons.cli.Option, description, java.lang.String, 23, 23, 23, 36
+org.apache.commons.cli.Option, optionalArg, boolean, 0, 0, 0, 36
+org.apache.commons.cli.Option, type, java.lang.Object, 0, 0, 0, 36
+org.apache.commons.cli.Option, longOpt, java.lang.String, 112, 23, 24, 36
+org.apache.commons.cli.Option, required, boolean, 45, 0, 23, 36
+org.apache.commons.cli.Option, valuesep, char, 0, 11, 11, 36
+org.apache.lucene.queryParser.QueryParserTokenManager, curChar, char, 7800351, 1258246, 67, 65
+org.apache.lucene.queryParser.QueryParserTokenManager, jjstateSet, [I, 16913242, 64, 65, 65
+org.apache.lucene.queryParser.QueryParserTokenManager, jjnewStateCnt, int, 10056190, 10311431, 64, 65
+org.apache.lucene.queryParser.QueryParserTokenManager, input_stream, org.apache.lucene.queryParser.CharStream, 2697167, 131036, 65, 65
+org.apache.lucene.queryParser.QueryParserTokenManager, debugStream, java.io.PrintStream, 0, 64, 64, 65
+org.apache.lucene.queryParser.QueryParserTokenManager, curLexState, int, 131019, 131047, 64, 65
+org.apache.lucene.queryParser.QueryParserTokenManager, jjmatchedKind, int, 1047386, 1519752, 64, 65
+org.apache.lucene.queryParser.QueryParserTokenManager, jjrounds, [I, 22215937, 64, 65, 65
+org.apache.lucene.queryParser.QueryParserTokenManager, defaultLexState, int, 131002, 64, 64, 65
+org.apache.lucene.queryParser.QueryParserTokenManager, jjmatchedPos, int, 130946, 1519950, 64, 65
+org.apache.lucene.queryParser.QueryParserTokenManager, jjround, int, 18821473, 1389323, 65, 65
+org.apache.lucene.index.SegmentTermEnum, fieldInfos, org.apache.lucene.index.FieldInfos, 8412306, 128, 191, 194
+org.apache.lucene.index.SegmentTermEnum, prevBuffer, org.apache.lucene.index.TermBuffer, 9503721, 192, 191, 194
+org.apache.lucene.index.SegmentTermEnum, formatM1SkipInterval, int, 0, 0, 0, 194
+org.apache.lucene.index.SegmentTermEnum, indexInterval, int, 0, 128, 128, 194
+org.apache.lucene.index.SegmentTermEnum, format, int, 8447701, 128, 192, 194
+org.apache.lucene.index.SegmentTermEnum, scanBuffer, org.apache.lucene.index.TermBuffer, 9380697, 192, 191, 194
+org.apache.lucene.index.SegmentTermEnum, skipInterval, int, 8442753, 128, 192, 194
+org.apache.lucene.index.SegmentTermEnum, isIndex, boolean, 8406880, 256, 194, 194
+org.apache.lucene.index.SegmentTermEnum, input, org.apache.lucene.store.IndexInput, 34660947, 192, 192, 194
+org.apache.lucene.index.SegmentTermEnum, maxSkipLevels, int, 0, 256, 128, 194
+org.apache.lucene.index.SegmentTermEnum, termInfo, org.apache.lucene.index.TermInfo, 34626379, 192, 194, 194
+org.apache.lucene.index.SegmentTermEnum, size, long, 8423730, 128, 192, 194
+org.apache.lucene.index.SegmentTermEnum, termBuffer, org.apache.lucene.index.TermBuffer, 27202221, 192, 194, 194
+org.apache.lucene.index.SegmentTermEnum, position, long, 8448754, 8599827, 191, 194
+org.apache.lucene.index.SegmentTermEnum, indexPointer, long, 14592, 14720, 128, 194
+org.apache.lucene.search.TopDocs, scoreDocs, [Lorg.apache.lucene.search.ScoreDoc;, 0, 262098, 262075, 262068
+org.apache.lucene.search.TopDocs, totalHits, int, 0, 262105, 262084, 262068
+org.apache.lucene.search.TopDocs, maxScore, float, 0, 262108, 262091, 262068
+org.apache.lucene.analysis.StopFilter, stopWords, org.apache.lucene.analysis.CharArraySet, 131045, 131019, 131012, 130974
+org.apache.lucene.analysis.StopFilter, enablePositionIncrements, boolean, 131029, 130998, 130984, 130974
+org.dacapo.harness.TestHarness, config, org.dacapo.parser.Config, 9, 1, 1, 1
+org.apache.lucene.index.DirectoryIndexReader$1, val$closeDirectory, boolean, 64, 61, 64, 64
+org.apache.lucene.index.DirectoryIndexReader$1, val$readOnly, boolean, 64, 61, 64, 64
+org.apache.lucene.index.DirectoryIndexReader$1, val$deletionPolicy, org.apache.lucene.index.IndexDeletionPolicy, 64, 61, 64, 64
+org.apache.lucene.store.SimpleFSLockFactory, lockDir, java.io.File, 0, 1, 1, 1
+org.apache.lucene.search.TopDocCollector, totalHits, int, 959315, 304259, 262078, 262083
+org.apache.lucene.search.TopDocCollector, hq, org.apache.lucene.util.PriorityQueue, 792564, 262086, 262066, 262083
+org.apache.lucene.search.TopDocCollector, reusableSD, org.apache.lucene.search.ScoreDoc, 860417, 271628, 16142, 262083
+org.dacapo.parser.Config, sizes, java.util.HashMap, 1185, 1, 1, 1
+org.dacapo.parser.Config, threadModel, org.dacapo.parser.Config$ThreadModel, 41, 2, 1, 1
+org.dacapo.parser.Config, name, java.lang.String, 0, 1, 1, 1
+org.dacapo.parser.Config, className, java.lang.String, 1, 2, 1, 1
+org.dacapo.parser.Config, jar, java.lang.String, 1, 1, 1, 1
+org.dacapo.parser.Config, libs, [Ljava.lang.String;, 1, 1, 1, 1
+org.dacapo.parser.Config, desc, java.util.HashMap, 9, 1, 1, 1
+org.apache.lucene.util.CloseableThreadLocal, t, java.lang.ThreadLocal, 523962, 445, 255, 256
+org.apache.lucene.util.CloseableThreadLocal, hardRefs, java.util.Map, 192, 445, 256, 256
+org.apache.lucene.search.BooleanClause, occur, org.apache.lucene.search.BooleanClause$Occur, 0, 130989, 100467, 100576
+org.apache.lucene.search.BooleanClause, query, org.apache.lucene.search.Query, 0, 130959, 100446, 100576
+org.apache.lucene.util.cache.SimpleLRUCache$1, this$0, org.apache.lucene.util.cache.SimpleLRUCache, 8069, 64, 8070, 8070
+org.apache.lucene.search.TermQuery, term, org.apache.lucene.index.Term, 16137, 130995, 100496, 100478
+org.apache.lucene.queryParser.QueryParser$JJCalls, next, org.apache.lucene.queryParser.QueryParser$JJCalls, 0, 0, 0, 131086
+org.apache.lucene.queryParser.QueryParser$JJCalls, gen, int, 0, 0, 0, 131086
+org.apache.lucene.queryParser.QueryParser$JJCalls, arg, int, 0, 0, 0, 131086
+org.apache.lucene.queryParser.QueryParser$JJCalls, first, org.apache.lucene.queryParser.Token, 0, 0, 0, 131086
+org.apache.lucene.search.BooleanQuery, disableCoord, boolean, 72, 18, 1, 1
+org.apache.lucene.search.BooleanQuery, clauses, java.util.ArrayList, 72, 18, 1, 1
+org.apache.lucene.search.BooleanQuery, minNrShouldMatch, int, 36, 18, 1, 1
+org.apache.lucene.search.BooleanQuery$BooleanWeight, similarity, org.apache.lucene.search.Similarity, 36, 36, 36, 36
+org.apache.lucene.search.BooleanQuery$BooleanWeight, this$0, org.apache.lucene.search.BooleanQuery, 144, 36, 36, 36
+org.apache.lucene.search.BooleanQuery$BooleanWeight, weights, java.util.ArrayList, 108, 36, 36, 36
+org.apache.lucene.index.FieldInfo, omitTf, boolean, 0, 192, 192, 192
+org.apache.lucene.index.FieldInfo, number, int, 0, 192, 192, 192
+org.apache.lucene.index.FieldInfo, isIndexed, boolean, 0, 192, 192, 192
+org.apache.lucene.index.FieldInfo, omitNorms, boolean, 0, 192, 192, 192
+org.apache.lucene.index.FieldInfo, storePayloads, boolean, 0, 192, 192, 192
+org.apache.lucene.index.FieldInfo, name, java.lang.String, 0, 192, 192, 192
+org.apache.lucene.index.FieldInfo, storeTermVector, boolean, 0, 192, 192, 192
+org.apache.lucene.index.FieldInfo, storeOffsetWithTermVector, boolean, 0, 192, 192, 192
+org.apache.lucene.index.FieldInfo, storePositionWithTermVector, boolean, 0, 192, 192, 192
+org.dacapo.parser.Token, endLine, int, 0, 0, 0, 1548
+org.dacapo.parser.Token, next, org.dacapo.parser.Token, 0, 0, 0, 1548
+org.dacapo.parser.Token, image, java.lang.String, 0, 1547, 1547, 1548
+org.dacapo.parser.Token, endColumn, int, 0, 0, 0, 1548
+org.dacapo.parser.Token, specialToken, org.dacapo.parser.Token, 0, 0, 0, 1548
+org.dacapo.parser.Token, beginColumn, int, 0, 0, 0, 1548
+org.dacapo.parser.Token, kind, int, 0, 1547, 1547, 1548
+org.dacapo.parser.Token, beginLine, int, 0, 0, 0, 1548
+org.dacapo.harness.CommandLineArgs, line, org.apache.commons.cli.CommandLine, 29, 1, 1, 1
+org.dacapo.harness.CommandLineArgs, callback, org.dacapo.harness.Callback, 2, 2, 1, 1
+org.dacapo.harness.CommandLineArgs, benchmarks, java.util.List, 2, 1, 1, 1
+org.dacapo.lusearch.Search$QueryProcessor, parent, org.dacapo.lusearch.Search, 272, 61, 64, 63
+org.dacapo.lusearch.Search$QueryProcessor, searcher, org.apache.lucene.search.Searcher, 315153, 64, 64, 63
+org.dacapo.lusearch.Search$QueryProcessor, field, java.lang.String, 8135, 61, 64, 63
+org.dacapo.lusearch.Search$QueryProcessor, hitsPerPage, int, 141073, 61, 64, 63
+org.dacapo.lusearch.Search$QueryProcessor, in, java.io.BufferedReader, 131102, 64, 64, 63
+org.dacapo.lusearch.Search$QueryProcessor, reader, org.apache.lucene.index.IndexReader, 128, 64, 64, 63
+org.dacapo.lusearch.Search$QueryProcessor, this$0, org.dacapo.lusearch.Search, 0, 61, 61, 63
+org.dacapo.lusearch.Search$QueryProcessor, raw, boolean, 53196, 61, 64, 63
+org.dacapo.lusearch.Search$QueryProcessor, out, java.io.PrintWriter, 61389, 64, 64, 63

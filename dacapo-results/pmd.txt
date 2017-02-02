@@ -1,1377 +1,839 @@
-CLASS, VARIABLE, READS, WRITES, INSTANCES-USE-VARIABLE, INSTANCES-TOTAL
-net.sourceforge.pmd.ast.SimpleJavaNode, next, 1737413, 0, 579249, 579988
-net.sourceforge.pmd.ast.SimpleJavaNode, endLine, 232538, 232543, 232519, 579988
-net.sourceforge.pmd.ast.SimpleJavaNode, endColumn, 232539, 232546, 232521, 579988
-net.sourceforge.pmd.ast.SimpleJavaNode, comments, 0, 0, 0, 579988
-net.sourceforge.pmd.ast.SimpleJavaNode, parser, 2201905, 0, 579248, 579988
-net.sourceforge.pmd.ast.SimpleJavaNode, beginColumn, 579290, 579366, 579209, 579988
-net.sourceforge.pmd.ast.SimpleJavaNode, children, 12505837, 0, 232786, 579988
-net.sourceforge.pmd.ast.SimpleJavaNode, beginLine, 1623032, 579350, 579220, 579988
-net.sourceforge.pmd.ast.SimpleJavaNode, classTypeResolver, 0, 0, 0, 579988
-net.sourceforge.pmd.ast.SimpleJavaNode, id, 461974, 0, 231539, 579988
-net.sourceforge.pmd.ast.SimpleJavaNode, token, 2202028, 0, 579262, 579988
-org.jaxen.SimpleVariableContext, variables, 26, 95, 95, 95
-org.apache.xerces.impl.XMLDocumentScannerImpl$TrailingMiscDispatcher, fEntityScanner, 6, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$TrailingMiscDispatcher, this$0, 24, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$TrailingMiscDispatcher, fMarkupDepth, 6, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$TrailingMiscDispatcher, fScannerState, 6, 0, 6, 12
-net.sourceforge.pmd.rules.UnnecessaryConversionTemporary, inPrimaryExpressionContext, 8112, 1386, 1, 2
-net.sourceforge.pmd.rules.UnnecessaryConversionTemporary, usingPrimitiveWrapperAllocation, 202, 693, 1, 2
-net.sourceforge.pmd.rules.UnnecessaryConversionTemporary, primary, 0, 693, 1, 2
-net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, fieldVisitor, 928, 218, 218, 218
-net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, packages, 31061, 218, 218, 218
-net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, annotationVisitor, 1, 218, 218, 218
-net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, sigVisitor, 262, 218, 218, 218
-net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, methodVisitor, 2593, 218, 218, 218
-net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, innerClasses, 598, 15, 218, 218
-net.sourceforge.pmd.symboltable.VariableUsageFinderFunction, decls, 178, 63, 63, 63
-net.sourceforge.pmd.symboltable.VariableUsageFinderFunction, results, 241, 63, 63, 63
-org.jaxen.expr.DefaultFunctionCallExpr, functionName, 16475, 392, 392, 392
-org.jaxen.expr.DefaultFunctionCallExpr, prefix, 32753, 392, 392, 392
-org.jaxen.expr.DefaultFunctionCallExpr, parameters, 17419, 784, 392, 392
-net.sourceforge.pmd.ast.JavaRuleChainVisitor$1, this$0, 231560, 219, 219, 219
-org.apache.xerces.impl.XMLNSDocumentScannerImpl$NSContentDispatcher, this$0, 0, 6, 6, 6
-org.jaxen.expr.PredicateSet, predicates, 299191, 4200, 3745, 3745
-net.sourceforge.pmd.typeresolution.PMDASMClassLoader, dontBother, 218, 220, 220, 220
-org.apache.xerces.impl.dtd.XMLDTDDescription, fPossibleRoots, 0, 24, 1, 1
-org.apache.xerces.impl.dtd.XMLDTDDescription, fRootName, 0, 24, 1, 1
-org.apache.xerces.dom.DeferredAttrImpl, name, 0, 1235, 1235, 1236
-org.apache.xerces.dom.DeferredAttrImpl, fNodeIndex, 4899, 1236, 1236, 1236
-org.apache.xerces.dom.DeferredAttrImpl, type, 0, 1236, 1236, 1236
-org.apache.xerces.impl.XMLScanner, fEntityScanner, 5106, 24, 18, 18
-org.apache.xerces.impl.XMLScanner, fReportEntity, 0, 18, 18, 18
-org.apache.xerces.impl.XMLScanner, fStringBuffer3, 0, 18, 18, 18
-org.apache.xerces.impl.XMLScanner, fNotifyCharRefs, 0, 36, 18, 18
-org.apache.xerces.impl.XMLScanner, fStringBuffer2, 168, 18, 18, 18
-org.apache.xerces.impl.XMLScanner, fNamespaces, 0, 18, 18, 18
-org.apache.xerces.impl.XMLScanner, fBindNamespaces, 0, 0, 0, 18
-org.apache.xerces.impl.XMLScanner, fEntityDepth, 1356, 30, 18, 18
-org.apache.xerces.impl.XMLScanner, literal, 6, 6, 6, 18
-org.apache.xerces.impl.XMLScanner, fResourceIdentifier, 18, 18, 18, 18
-org.apache.xerces.impl.XMLScanner, fDTDValidator, 0, 0, 0, 18
-org.apache.xerces.impl.XMLScanner, fErrorReporter, 0, 18, 18, 18
-org.apache.xerces.impl.XMLScanner, fParserSettings, 18, 36, 18, 18
-org.apache.xerces.impl.XMLScanner, fStringBuffer, 168, 18, 18, 18
-org.apache.xerces.impl.XMLScanner, fString, 12, 18, 18, 18
-org.apache.xerces.impl.XMLScanner, offset, 2598, 0, 6, 18
-org.apache.xerces.impl.XMLScanner, ch, 40585, 0, 6, 18
-org.apache.xerces.impl.XMLScanner, fScanningAttribute, 0, 60, 6, 18
-org.apache.xerces.impl.XMLScanner, fValidation, 0, 48, 18, 18
-org.apache.xerces.impl.XMLScanner, fCharRefLiteral, 0, 18, 18, 18
-org.apache.xerces.impl.XMLScanner, length, 1314, 0, 6, 18
-org.apache.xerces.impl.XMLScanner, fPerformValidation, 0, 0, 0, 18
-org.apache.xerces.impl.XMLScanner, fEntityManager, 18, 18, 18, 18
-org.apache.xerces.impl.XMLScanner, fSymbolTable, 0, 18, 18, 18
-org.apache.xerces.impl.XMLScanner, fSawSpace, 0, 0, 0, 18
-org.apache.xerces.impl.XMLEntityScanner, ch, 287177, 0, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, reader, 222, 0, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, fBufferSize, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, count, 288402, 222, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, fCurrentEntity, 1252044, 60, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, encoding, 6, 0, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, startPosition, 222, 228, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, literal, 2484, 0, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, fEntityManager, 6, 30, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, baseCharOffset, 222, 222, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, columnNumber, 31052, 38513, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, fSymbolTable, 2549, 30, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, fErrorReporter, 0, 24, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, position, 614732, 246319, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, entityLocation, 12, 0, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, lineNumber, 7461, 7462, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, xmlVersion, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityScanner, mayReadChunks, 222, 0, 6, 6
-net.sourceforge.pmd.ast.ASTAssignmentOperator, isCompound, 0, 116, 116, 2029
-org.apache.xerces.parsers.XMLParser, fConfiguration, 12, 6, 6, 6
-org.apache.xerces.parsers.XMLParser, fUseEntityResolver2, 0, 0, 0, 6
-net.sourceforge.pmd.ScopedLogHandlersManager, newHandlers, 2, 1, 1, 1
-net.sourceforge.pmd.ScopedLogHandlersManager, logger, 6, 1, 1, 1
-net.sourceforge.pmd.ScopedLogHandlersManager, oldLogLevel, 1, 1, 1, 1
-net.sourceforge.pmd.ScopedLogHandlersManager, oldHandlers, 2, 1, 1, 1
-net.sourceforge.pmd.ast.ASTFormalParameter, isVarargs, 39272, 6, 455, 2729
-org.apache.xerces.util.SymbolTable, next, 36, 0, 6, 6
-org.apache.xerces.util.SymbolTable, symbol, 2550, 0, 6, 6
-org.apache.xerces.util.SymbolTable, characters, 19985, 0, 6, 6
-org.apache.xerces.util.SymbolTable, fThreshold, 114, 6, 6, 6
-org.apache.xerces.util.SymbolTable, fTableSize, 2561, 6, 6, 6
-org.apache.xerces.util.SymbolTable, fLoadFactor, 0, 6, 6, 6
-org.apache.xerces.util.SymbolTable, fCount, 228, 120, 6, 6
-org.apache.xerces.util.SymbolTable, fBuckets, 2776, 12, 6, 6
-net.sourceforge.pmd.ast.ASTConstructorDeclaration, containsComment, 0, 3, 3, 344
-org.apache.commons.cli.PosixParser, eatTheRest, 1, 1, 1, 1
-org.apache.commons.cli.PosixParser, currentOption, 0, 0, 0, 1
-org.apache.commons.cli.PosixParser, options, 0, 1, 1, 1
-org.apache.commons.cli.PosixParser, tokens, 4, 1, 1, 1
-org.jaxen.ContextSupport, functionContext, 16279, 87, 87, 87
-org.jaxen.ContextSupport, navigator, 893167, 86, 86, 87
-org.jaxen.ContextSupport, namespaceContext, 16288, 87, 87, 87
-org.jaxen.ContextSupport, variableContext, 9, 95, 87, 87
-org.apache.xerces.impl.dtd.XMLDTDValidator, fDynamicValidation, 24, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fInElementContent, 0, 30, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fValidationManager, 24, 24, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fRootElement, 12, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fNamespaces, 12, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fInCDATASection, 0, 24, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fBalanceSyntaxTrees, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fDocLocation, 0, 6, 6, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fDTDValidation, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fNamespaceContext, 0, 18, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fValidationState, 36, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fSeenRootElement, 6, 30, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fElementQNamePartsStack, 204, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fElementChildrenOffsetStack, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fAttributeQName, 0, 0, 0, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fGrammarBucket, 24, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fDocumentHandler, 54, 6, 6, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fErrorReporter, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fCurrentElement, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fTempElementDecl, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fCurrentContentSpecType, 0, 30, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fElementIndexStack, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fElementChildrenLength, 0, 24, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fValidation, 18, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fWarnDuplicateAttdef, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fDTDGrammar, 12, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fTempAttDecl, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fTempQName, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fGrammarPool, 6, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fElementChildren, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fPerformValidation, 18, 6, 6, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fDocumentSource, 18, 6, 6, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fDatatypeValidatorFactory, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fCurrentElementIndex, 0, 30, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fSchemaType, 6, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fEntityDecl, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fSymbolTable, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fBuffer, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fSeenDoctypeDecl, 6, 24, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fContentSpecTypeStack, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLDTDValidator, fElementDepth, 0, 24, 12, 12
-net.sourceforge.pmd.util.Benchmark$BenchmarkResult, name, 0, 41, 41, 41
-net.sourceforge.pmd.util.Benchmark$BenchmarkResult, count, 8549, 8549, 41, 41
-net.sourceforge.pmd.util.Benchmark$BenchmarkResult, time, 8549, 8549, 41, 41
-net.sourceforge.pmd.util.Benchmark$BenchmarkResult, type, 0, 41, 41, 41
-net.sourceforge.pmd.ast.Comment, endLine, 1277, 1276, 1277, 1277
-net.sourceforge.pmd.ast.Comment, image, 1277, 1277, 1277, 1277
-net.sourceforge.pmd.ast.Comment, endColumn, 1277, 1277, 1277, 1277
-net.sourceforge.pmd.ast.Comment, beginColumn, 1277, 2554, 1277, 1277
-net.sourceforge.pmd.ast.Comment, beginLine, 1276, 2554, 1277, 1277
-net.sourceforge.pmd.ast.ASTPrimaryPrefix, usesThisModifier, 29036, 595, 29036, 29086
-net.sourceforge.pmd.ast.ASTPrimaryPrefix, usesSuperModifier, 29916, 46, 29082, 29086
-net.sourceforge.pmd.PMD$PmdRunnable, fileName, 441, 220, 220, 220
-net.sourceforge.pmd.PMD$PmdRunnable, rulesets, 220, 220, 220, 220
-net.sourceforge.pmd.PMD$PmdRunnable, executor, 0, 220, 220, 220
-net.sourceforge.pmd.PMD$PmdRunnable, renderers, 220, 220, 220, 220
-net.sourceforge.pmd.PMD$PmdRunnable, encoding, 220, 220, 220, 220
-net.sourceforge.pmd.PMD$PmdRunnable, dataSource, 440, 220, 220, 220
-net.sourceforge.pmd.jaxen.DocumentNavigator$2, this$0, 0, 1086, 1086, 1086
-net.sourceforge.pmd.PMD, fileName, 0, 0, 0, 220
-net.sourceforge.pmd.PMD, rulesets, 0, 0, 0, 220
-net.sourceforge.pmd.PMD, excludeMarker, 220, 440, 220, 220
-net.sourceforge.pmd.PMD, classLoader, 220, 440, 220, 220
-net.sourceforge.pmd.PMD, executor, 0, 0, 0, 220
-net.sourceforge.pmd.PMD, renderers, 0, 0, 0, 220
-net.sourceforge.pmd.PMD, sourceTypeDiscoverer, 440, 220, 220, 220
-net.sourceforge.pmd.PMD, encoding, 0, 0, 0, 220
-net.sourceforge.pmd.PMD, dataSource, 0, 0, 0, 220
-net.sourceforge.pmd.jaxen.DocumentNavigator$1, this$0, 0, 100468, 100465, 100467
-org.apache.xerces.dom.ChildNode, fNodeExtra, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fNamespacesEnabled, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fIdCount, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fNodeCount, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fIdElement, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fNodeType, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fNodePrevSib, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fNodeParent, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fBufferStr, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fStrChunks, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fNodeValue, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fNodeURI, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fNodeLastChild, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fNodeName, 0, 0, 0, 4594
-org.apache.xerces.dom.ChildNode, fIdName, 0, 0, 0, 4594
-net.sourceforge.pmd.ast.ASTBlock, containsComment, 0, 14, 14, 4615
-net.sourceforge.pmd.FileDataSource, file, 1738, 220, 220, 220
-org.dacapo.parser.Config$ThreadModel, description, 0, 3, 3, 3
-net.sourceforge.pmd.ast.SimpleNode, endLine, 433, 0, 433, 581179
-net.sourceforge.pmd.ast.SimpleNode, image, 2702403, 46510, 158769, 581179
-net.sourceforge.pmd.ast.SimpleNode, parent, 587254, 232309, 232384, 581179
-net.sourceforge.pmd.ast.SimpleNode, endColumn, 433, 0, 433, 581179
-net.sourceforge.pmd.ast.SimpleNode, comments, 0, 0, 0, 581179
-net.sourceforge.pmd.ast.SimpleNode, beginColumn, 866, 597070, 579196, 581179
-net.sourceforge.pmd.ast.SimpleNode, parser, 0, 579300, 579216, 581179
-net.sourceforge.pmd.ast.SimpleNode, children, 7630575, 183075, 235856, 581179
-net.sourceforge.pmd.ast.SimpleNode, beginLine, 433, 597096, 579222, 581179
-net.sourceforge.pmd.ast.SimpleNode, scope, 248317, 11699, 131641, 581179
-net.sourceforge.pmd.ast.SimpleNode, classTypeResolver, 0, 0, 0, 581179
-net.sourceforge.pmd.ast.SimpleNode, id, 0, 579275, 579197, 581179
-org.jaxen.util.SingleObjectIterator, seen, 364230, 212674, 106335, 106336
-org.jaxen.util.SingleObjectIterator, object, 106340, 106341, 106337, 106336
-org.apache.xerces.impl.Constants$ArrayEnumeration, array, 0, 1, 1, 1
-org.apache.xerces.impl.Constants$ArrayEnumeration, index, 0, 0, 0, 1
-org.jaxen.SimpleNamespaceContext, namespaces, 16288, 87, 87, 87
-org.apache.xerces.impl.XMLDocumentScannerImpl$DTDDispatcher, this$0, 0, 12, 12, 12
-org.jaxen.util.DescendantAxisIterator, stack, 53955, 967, 967, 967
-org.jaxen.util.DescendantAxisIterator, children, 67355, 27461, 967, 967
-org.jaxen.util.DescendantAxisIterator, navigator, 13247, 967, 967, 967
-net.sourceforge.pmd.ast.ASTInitializer, isStatic, 3, 3, 3, 3
-org.jaxen.saxpath.base.Token, tokenEnd, 4604, 13120, 13120, 13120
-org.jaxen.saxpath.base.Token, tokenType, 79036, 13120, 13121, 13120
-org.jaxen.saxpath.base.Token, parseText, 4604, 13120, 13120, 13120
-org.jaxen.saxpath.base.Token, tokenBegin, 4604, 13120, 13120, 13120
-net.sourceforge.pmd.ast.ASTSwitchLabel, isDefault, 0, 197, 197, 1868
-org.apache.xerces.util.AugmentationsImpl$SmallContainer, fNumEntries, 3707, 1313, 78, 78
-org.apache.xerces.util.AugmentationsImpl$SmallContainer, fAugmentations, 0, 78, 78, 78
-org.apache.xerces.util.AugmentationsImpl$SmallContainer, this$0, 0, 78, 78, 78
-org.apache.xerces.impl.XMLErrorReporter, fErrorHandler, 0, 6, 6, 6
-org.apache.xerces.impl.XMLErrorReporter, fLocale, 6, 6, 6, 6
-org.apache.xerces.impl.XMLErrorReporter, fMessageFormatters, 24, 6, 6, 6
-org.apache.xerces.impl.XMLErrorReporter, fDefaultErrorHandler, 0, 0, 0, 6
-org.apache.xerces.impl.XMLErrorReporter, fContinueAfterFatalError, 0, 6, 6, 6
-org.apache.xerces.impl.XMLErrorReporter, fLocator, 0, 12, 6, 6
-org.apache.xerces.impl.XMLErrorReporter, fSaxProxy, 0, 6, 6, 6
-org.jaxen.JaxenHandler, stack, 37726, 184, 184, 184
-org.jaxen.JaxenHandler, xpath, 368, 184, 184, 184
-org.jaxen.JaxenHandler, simplified, 184, 368, 184, 184
-org.jaxen.JaxenHandler, xpathFactory, 8504, 184, 184, 184
-org.apache.xerces.util.XMLStringBuffer, offset, 156, 3244, 18, 108
-org.apache.xerces.util.XMLStringBuffer, ch, 6995, 126, 108, 108
-org.apache.xerces.util.XMLStringBuffer, length, 10380, 6648, 18, 108
-org.apache.xerces.util.NamespaceSupport, fPrefixes, 0, 18, 18, 18
-org.apache.xerces.util.NamespaceSupport, fCurrentContext, 24, 24, 6, 18
-org.apache.xerces.util.NamespaceSupport, fNamespace, 48, 18, 18, 18
-org.apache.xerces.util.NamespaceSupport, fContext, 12, 18, 18, 18
-org.apache.xerces.util.NamespaceSupport, fNamespaceSize, 60, 60, 6, 18
-net.sourceforge.pmd.CommandLineOptions, targetJDK, 2, 1, 1, 1
-net.sourceforge.pmd.CommandLineOptions, stressTestEnabled, 1, 0, 1, 1
-net.sourceforge.pmd.CommandLineOptions, xsltFilename, 0, 0, 0, 1
-net.sourceforge.pmd.CommandLineOptions, cpus, 1, 1, 1, 1
-net.sourceforge.pmd.CommandLineOptions, shortNamesEnabled, 1, 0, 1, 1
-net.sourceforge.pmd.CommandLineOptions, reportFile, 3, 0, 1, 1
-net.sourceforge.pmd.CommandLineOptions, checkJavaFiles, 1, 1, 1, 1
-net.sourceforge.pmd.CommandLineOptions, reportFormat, 4, 1, 1, 1
-net.sourceforge.pmd.CommandLineOptions, debugEnabled, 1, 0, 1, 1
-net.sourceforge.pmd.CommandLineOptions, encoding, 1, 1, 1, 1
-net.sourceforge.pmd.CommandLineOptions, ruleSets, 2, 1, 1, 1
-net.sourceforge.pmd.CommandLineOptions, linkPrefix, 0, 0, 0, 1
-net.sourceforge.pmd.CommandLineOptions, benchmark, 1, 0, 1, 1
-net.sourceforge.pmd.CommandLineOptions, args, 0, 1, 1, 1
-net.sourceforge.pmd.CommandLineOptions, excludeMarker, 1, 1, 1, 1
-net.sourceforge.pmd.CommandLineOptions, inputPath, 3, 1, 1, 1
-net.sourceforge.pmd.CommandLineOptions, auxClasspath, 1, 0, 1, 1
-net.sourceforge.pmd.CommandLineOptions, checkJspFiles, 1, 0, 1, 1
-net.sourceforge.pmd.CommandLineOptions, linePrefix, 0, 0, 0, 1
-net.sourceforge.pmd.CommandLineOptions, minPriority, 1, 1, 1, 1
-net.sourceforge.pmd.util.filter.OrFilter, filters, 1974, 0, 12, 12
-org.apache.xerces.xni.XMLString, offset, 10980, 5866, 24, 180
-org.apache.xerces.xni.XMLString, ch, 10980, 5867, 24, 180
-org.apache.xerces.xni.XMLString, length, 16775, 5868, 24, 180
-net.sourceforge.pmd.renderers.AbstractRenderer, showSuppressedViolations, 0, 1, 1, 1
-net.sourceforge.pmd.renderers.AbstractRenderer, writer, 29, 1, 1, 1
-net.sourceforge.pmd.renderers.AbstractRenderer, empty, 0, 0, 0, 1
-org.apache.xerces.parsers.XIncludeAwareParserConfiguration, fConfigUpdated, 42, 0, 6, 6
-org.apache.xerces.parsers.XIncludeAwareParserConfiguration, fXIncludeEnabled, 6, 6, 6, 6
-org.apache.xerces.parsers.XIncludeAwareParserConfiguration, fNonXIncludeNSContext, 18, 6, 6, 6
-org.apache.xerces.parsers.XIncludeAwareParserConfiguration, fCurrentNSContext, 6, 6, 6, 6
-org.apache.xerces.parsers.XIncludeAwareParserConfiguration, fXIncludeHandler, 0, 0, 0, 6
-org.apache.xerces.parsers.XIncludeAwareParserConfiguration, fXIncludeNSContext, 0, 0, 0, 6
-org.apache.commons.cli.CommandLine, args, 4, 1, 1, 1
-org.apache.commons.cli.CommandLine, options, 43, 1, 1, 1
-org.jaxen.expr.DefaultFilterExpr, predicates, 2320, 1160, 1160, 1160
-org.jaxen.expr.DefaultFilterExpr, expr, 3480, 2320, 1160, 1160
-org.apache.xerces.dom.NodeImpl, fNodeExtra, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fNamespacesEnabled, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, flags, 68340, 30485, 5832, 5831
-org.apache.xerces.dom.NodeImpl, fIdCount, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fNodeCount, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fIdElement, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fNodeType, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fNodePrevSib, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fNodeParent, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fBufferStr, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fStrChunks, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fNodeValue, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fNodeURI, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fNodeLastChild, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, ownerNode, 5164, 5831, 5831, 5831
-org.apache.xerces.dom.NodeImpl, fNodeName, 0, 0, 0, 5831
-org.apache.xerces.dom.NodeImpl, fIdName, 0, 0, 0, 5831
-org.apache.xerces.jaxp.DocumentBuilderImpl, fInitErrorHandler, 0, 6, 6, 6
-org.apache.xerces.jaxp.DocumentBuilderImpl, grammar, 6, 6, 6, 6
-org.apache.xerces.jaxp.DocumentBuilderImpl, fInitEntityResolver, 0, 6, 6, 6
-org.apache.xerces.jaxp.DocumentBuilderImpl, domParser, 60, 12, 6, 6
-org.apache.xerces.jaxp.DocumentBuilderImpl, fSchemaValidatorComponentManager, 0, 0, 0, 6
-org.apache.xerces.jaxp.DocumentBuilderImpl, fSchemaValidationManager, 0, 0, 0, 6
-org.apache.xerces.jaxp.DocumentBuilderImpl, fSchemaValidator, 6, 0, 6, 6
-net.sourceforge.pmd.util.TypeMap, typesByName, 64, 4, 4, 4
-org.apache.xerces.dom.CoreDocumentImpl, fConfiguration, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, next, 834, 864, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fLength, 0, 834, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, actualEncoding, 0, 12, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, documentNumber, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fNamespacesEnabled, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, changes, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fIdCount, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, fNodeCount, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, fIdElement, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, fNodePrevSib, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, fNodeParent, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, fBufferStr, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, fNodeListCache, 0, 834, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, xmlVersionChanged, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, xml11Version, 0, 12, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fChildIndex, 0, 833, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, nodeCounter, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fNodeExtra, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, docType, 1295, 0, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, standalone, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, docElement, 6, 0, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, errorChecking, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, encoding, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fNodeType, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, version, 12, 0, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fDocumentURI, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fOwner, 1668, 834, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fStrChunks, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, fNodeValue, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, fChild, 0, 834, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, ownerDocument, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fNodeURI, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, fXPathEvaluator, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fNodeLastChild, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, fFreeNLCache, 3394, 1696, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, domNormalizer, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, allowGrammarAccess, 0, 6, 6, 6
-org.apache.xerces.dom.CoreDocumentImpl, fNodeName, 0, 0, 0, 6
-org.apache.xerces.dom.CoreDocumentImpl, fIdName, 0, 0, 0, 6
-net.sourceforge.pmd.symboltable.AbstractScope, parent, 167378, 11198, 11375, 11418
-net.sourceforge.pmd.symboltable.AbstractScope, packageImage, 0, 0, 0, 11418
-net.sourceforge.pmd.symboltable.AbstractScope, classNames, 0, 0, 0, 11418
-org.apache.xerces.impl.dv.dtd.ListDatatypeValidator, fItemValidator, 0, 3, 3, 3
-net.sourceforge.pmd.ast.SimpleJavaAccessNode, modifiers, 7788, 3720, 3719, 7417
-net.sourceforge.pmd.ast.SimpleJavaAccessNode, isInterface, 0, 0, 0, 7417
-net.sourceforge.pmd.jaxen.AttributeAxisIterator, node, 224050, 28352, 28352, 28351
-net.sourceforge.pmd.jaxen.AttributeAxisIterator, method, 224050, 0, 28351, 28351
-net.sourceforge.pmd.jaxen.AttributeAxisIterator, name, 224042, 0, 28352, 28351
-net.sourceforge.pmd.jaxen.AttributeAxisIterator, position, 476426, 252400, 28352, 28351
-net.sourceforge.pmd.jaxen.AttributeAxisIterator, methodWrappers, 476440, 28352, 28352, 28351
-net.sourceforge.pmd.jaxen.AttributeAxisIterator, currObj, 728772, 252397, 28352, 28351
-net.sourceforge.pmd.ast.ASTCompilationUnit, comments, 0, 220, 220, 220
-net.sourceforge.pmd.ast.ASTCompilationUnit, classTypeResolver, 0, 220, 220, 220
-org.jaxen.expr.DefaultBinaryExpr, lhs, 66042, 1024, 512, 512
-org.jaxen.expr.DefaultBinaryExpr, rhs, 52088, 1024, 512, 512
-org.apache.xerces.impl.dv.SecuritySupport$1, this$0, 0, 6, 6, 6
-org.apache.xerces.impl.dv.SecuritySupport$2, this$0, 0, 6, 6, 6
-net.sourceforge.pmd.ast.ASTExplicitConstructorInvocation, thisOrSuper, 0, 34, 34, 289
-org.apache.xerces.impl.dtd.XMLEntityDecl, systemId, 0, 0, 0, 18
-org.apache.xerces.impl.dtd.XMLEntityDecl, baseSystemId, 0, 0, 0, 18
-org.apache.xerces.impl.dtd.XMLEntityDecl, notation, 0, 0, 0, 18
-org.apache.xerces.impl.dtd.XMLEntityDecl, name, 0, 0, 0, 18
-org.apache.xerces.impl.dtd.XMLEntityDecl, inExternal, 0, 0, 0, 18
-org.apache.xerces.impl.dtd.XMLEntityDecl, value, 0, 0, 0, 18
-org.apache.xerces.impl.dtd.XMLEntityDecl, publicId, 0, 0, 0, 18
-org.apache.xerces.impl.dtd.XMLEntityDecl, isPE, 0, 0, 0, 18
-org.apache.xerces.impl.dv.SecuritySupport$3, this$0, 0, 12, 12, 12
-org.apache.xerces.impl.dv.SecuritySupport$3, val$cl, 24, 12, 12, 12
-net.sourceforge.pmd.ast.ASTImportDeclaration, isImportOnDemand, 1203, 6, 403, 403
-net.sourceforge.pmd.ast.ASTImportDeclaration, isStatic, 0, 0, 0, 403
-net.sourceforge.pmd.ast.ASTImportDeclaration, pkg, 0, 371, 371, 403
-org.apache.xerces.parsers.AbstractDOMParser, fConfiguration, 90, 0, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fAttrQName, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fSkippedElemStack, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fCreateEntityRefNodes, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fInCDATASection, 6491, 774, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fDocumentImpl, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fDocumentType, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fLocator, 12, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fDOMFilter, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fDeferNodeExpansion, 9865, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fCurrentNode, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fCurrentCDATASectionIndex, 3570, 774, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fInDTDExternalSubset, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fIncludeIgnorableWhitespace, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fDocumentTypeIndex, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fDocument, 6, 12, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fStorePSVI, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fInEntityRef, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fRejectedElement, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fStringBuffer, 6, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fCurrentNodeIndex, 9463, 3371, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fFilterReject, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fFirstChunk, 0, 12, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, length, 3302, 0, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fCurrentCDATASection, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fRoot, 6, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fInDTD, 3304, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fErrorHandler, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fBaseURIStack, 6, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fIncludeComments, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fDocumentIndex, 6, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fNamespaceAware, 1301, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fUseEntityResolver2, 0, 0, 0, 6
-org.apache.xerces.parsers.AbstractDOMParser, fDeferredDocumentImpl, 18528, 12, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fCreateCDATANodes, 3186, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, fDocumentClassName, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractDOMParser, rawname, 1293, 0, 6, 6
-org.apache.xerces.dom.ElementImpl, name, 2980, 1296, 1296, 1295
-org.apache.xerces.dom.ElementImpl, fNodeIndex, 0, 0, 0, 1295
-org.apache.xerces.dom.ElementImpl, attributes, 4953, 366, 364, 1295
-org.apache.xerces.dom.ElementImpl, ownerDocument, 1296, 0, 1296, 1295
-org.apache.xerces.xni.parser.XMLInputSource, fByteStream, 6, 6, 6, 6
-org.apache.xerces.xni.parser.XMLInputSource, fPublicId, 6, 6, 6, 6
-org.apache.xerces.xni.parser.XMLInputSource, fEncoding, 6, 6, 6, 6
-org.apache.xerces.xni.parser.XMLInputSource, fSystemId, 6, 6, 6, 6
-org.apache.xerces.xni.parser.XMLInputSource, fBaseSystemId, 6, 6, 6, 6
-org.apache.xerces.xni.parser.XMLInputSource, fCharStream, 6, 6, 6, 6
-org.apache.xerces.impl.io.UTF8Reader, fInputStream, 228, 6, 6, 6
-org.apache.xerces.impl.io.UTF8Reader, fSurrogate, 222, 6, 6, 6
-org.apache.xerces.impl.io.UTF8Reader, fLocale, 0, 12, 6, 6
-org.apache.xerces.impl.io.UTF8Reader, fBuffer, 219321, 6, 6, 6
-org.apache.xerces.impl.io.UTF8Reader, fFormatter, 0, 12, 6, 6
-org.apache.xerces.impl.io.UTF8Reader, fOffset, 222, 0, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fNodeExtra, 14693, 6, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fNamespacesEnabled, 2532, 12, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, docElement, 1296, 12, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fIdCount, 0, 0, 0, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fNodeCount, 27074, 9016, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, nextSibling, 0, 4587, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fIdElement, 1302, 0, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fNodeType, 55758, 6, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, mutationEvents, 6, 12, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fNodePrevSib, 19555, 6, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fBufferStr, 4908, 6, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fNodeParent, 10699, 6, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, firstChild, 0, 1290, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fStrChunks, 7907, 6, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fNodeValue, 14911, 6, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, previousSibling, 0, 3297, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fCount, 20698, 15473, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fNodeURI, 2536, 6, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fNodeLastChild, 19669, 6, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, value, 0, 1194, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fNodeName, 5063, 6, 6, 6
-org.apache.xerces.dom.DeferredDocumentImpl, fIdName, 0, 0, 0, 6
-org.apache.xerces.dom.DeferredDocumentImpl, ownerNode, 0, 4589, 6, 6
-net.sourceforge.pmd.rules.basic.BooleanInstantiation, customBoolean, 29686, 219, 1, 2
-org.dacapo.harness.TeeOutputStream, toScreen, 67594, 4, 2, 2
-org.dacapo.harness.TeeOutputStream, log, 202818, 8, 2, 2
-org.dacapo.harness.TeeOutputStream, logFile, 4, 2, 2, 2
-org.dacapo.harness.TeeOutputStream, version, 0, 2, 2, 2
-net.sourceforge.pmd.AbstractJavaRule, regexpFunctionRegistered, 0, 0, 0, 13
-net.sourceforge.pmd.AbstractJavaRule, nodeNameToXPaths, 0, 0, 0, 13
-net.sourceforge.pmd.AbstractJavaRule, typeofFunctionRegistered, 0, 0, 0, 13
-org.apache.xerces.impl.dtd.XMLSimpleType, datatypeValidator, 0, 0, 0, 24
-org.apache.xerces.impl.dtd.XMLSimpleType, defaultValue, 0, 0, 0, 24
-org.apache.xerces.impl.dtd.XMLSimpleType, nonNormalizedDefaultValue, 0, 0, 0, 24
-org.apache.xerces.impl.dtd.XMLSimpleType, name, 0, 0, 0, 24
-org.apache.xerces.impl.dtd.XMLSimpleType, type, 0, 0, 0, 24
-org.apache.xerces.impl.dtd.XMLSimpleType, enumeration, 0, 0, 0, 24
-org.apache.xerces.impl.dtd.XMLSimpleType, list, 0, 0, 0, 24
-org.apache.xerces.impl.dtd.XMLSimpleType, defaultType, 0, 0, 0, 24
-org.dacapo.harness.TeePrintStream, out, 6, 0, 2, 2
-net.sourceforge.pmd.ast.ASTVariableDeclaratorId, arrayDepth, 9, 9, 9, 4673
-net.sourceforge.pmd.ast.ASTVariableDeclaratorId, nameDeclaration, 9359, 4673, 4673, 4673
-org.jaxen.expr.DefaultLocationPath, steps, 299019, 952, 952, 952
-net.sourceforge.pmd.PMD$1, val$shortNamesEnabled, 1298, 1, 1, 1
-net.sourceforge.pmd.PMD$1, val$inputPath, 1298, 1, 1, 1
-org.apache.xerces.dom.CDATASectionImpl, fNodeIndex, 0, 0, 0, 384
-net.sourceforge.pmd.symboltable.NameFinder, names, 86240, 29082, 29083, 29082
-org.apache.xerces.impl.XMLEntityManager$CharacterBuffer, isExternal, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$CharacterBuffer, ch, 0, 6, 6, 6
-net.sourceforge.pmd.symboltable.ScopeAndDeclarationFinder, scopes, 34034, 220, 220, 220
-net.sourceforge.pmd.symboltable.Search, decl, 20861, 20861, 20860, 20860
-net.sourceforge.pmd.symboltable.Search, occ, 38731, 20861, 20860, 20860
-org.apache.xerces.impl.validation.ValidationState, fIdRefTable, 12, 12, 12, 12
-org.apache.xerces.impl.validation.ValidationState, fEntityState, 0, 24, 12, 12
-org.apache.xerces.impl.validation.ValidationState, fNamespaces, 0, 24, 12, 12
-org.apache.xerces.impl.validation.ValidationState, fSymbolTable, 0, 12, 12, 12
-org.apache.xerces.impl.validation.ValidationState, fNormalize, 0, 12, 12, 12
-org.apache.xerces.impl.validation.ValidationState, fExtraChecking, 0, 12, 12, 12
-org.apache.xerces.impl.validation.ValidationState, fNamespaceContext, 0, 12, 12, 12
-org.apache.xerces.impl.validation.ValidationState, fIdTable, 12, 12, 12, 12
-org.apache.xerces.impl.validation.ValidationState, fFacetChecking, 0, 12, 12, 12
-org.apache.xerces.dom.DeferredDocumentImpl$RefCount, this$0, 0, 18, 18, 18
-org.apache.xerces.dom.DeferredDocumentImpl$RefCount, fCount, 0, 0, 0, 18
-org.jaxen.saxpath.base.XPathReader, handler, 26750, 368, 184, 184
-org.jaxen.saxpath.base.XPathReader, tokens, 161950, 368, 184, 184
-org.jaxen.saxpath.base.XPathReader, lexer, 11616, 368, 184, 184
-net.sourceforge.pmd.util.filter.NotFilter, filter, 658, 0, 4, 4
-org.apache.xerces.impl.XMLDocumentScannerImpl$PrologDispatcher, fEntityScanner, 24, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$PrologDispatcher, fContentDispatcher, 6, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$PrologDispatcher, this$0, 72, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$PrologDispatcher, fMarkupDepth, 6, 6, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$PrologDispatcher, fScannerState, 12, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fEntityScanner, 26511, 6, 6, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fAttributes, 3840, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fStringBuffer2, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fTempString2, 1242, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fNamespaces, 2544, 0, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fDispatcher, 24, 42, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fTempString, 5794, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fBindNamespaces, 0, 0, 0, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fEntityDepth, 1314, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fAttributeQName, 3706, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fDocumentHandler, 20094, 12, 6, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fStandalone, 12, 18, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fDTDValidator, 0, 0, 0, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fScannerState, 0, 6378, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fSingleChar, 24, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fCurrentElement, 1235, 1308, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fElementStack, 2603, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fStringBuffer, 9958, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fParserSettings, 12, 0, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fScanningAttribute, 12, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fExternalSubsetResolver, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, length, 3701, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fInScanContent, 6, 24, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fPerformValidation, 0, 0, 0, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fEntityStack, 1314, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fEntityManager, 18, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fNotifyBuiltInRefs, 24, 24, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fContentDispatcher, 12, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fMarkupDepth, 5574, 2994, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fElementQName, 9047, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fStrings, 24, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fSawSpace, 0, 0, 0, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fHasExternalDTD, 1236, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fQName, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fExternalEntity, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, fTempAugmentations, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl, rawname, 5052, 0, 6, 12
-org.apache.xerces.util.XMLAttributesImpl$Attribute, next, 0, 0, 0, 72
-org.apache.xerces.util.XMLAttributesImpl$Attribute, nonNormalizedValue, 0, 0, 0, 72
-org.apache.xerces.util.XMLAttributesImpl$Attribute, schemaId, 0, 0, 0, 72
-org.apache.xerces.util.XMLAttributesImpl$Attribute, name, 0, 72, 72, 72
-org.apache.xerces.util.XMLAttributesImpl$Attribute, type, 0, 0, 0, 72
-org.apache.xerces.util.XMLAttributesImpl$Attribute, augs, 0, 72, 72, 72
-org.apache.xerces.util.XMLAttributesImpl$Attribute, value, 0, 0, 0, 72
-org.apache.xerces.util.XMLAttributesImpl$Attribute, specified, 0, 0, 0, 72
-net.sourceforge.pmd.dfa.report.ClassNode, className, 419, 14, 14, 14
-net.sourceforge.pmd.ast.ASTIfStatement, hasElse, 5381, 379, 2685, 2690
-net.sourceforge.pmd.dfa.report.ReportTree, level, 5216, 2608, 14, 225
-net.sourceforge.pmd.dfa.report.ReportTree, rootNode, 433, 225, 225, 225
-org.apache.xerces.impl.XMLVersionDetector, fEntityManager, 48, 6, 6, 6
-org.apache.xerces.impl.XMLVersionDetector, fEncoding, 6, 12, 6, 6
-org.apache.xerces.impl.XMLVersionDetector, baseCharOffset, 0, 6, 6, 6
-org.apache.xerces.impl.XMLVersionDetector, ch, 24, 0, 6, 6
-org.apache.xerces.impl.XMLVersionDetector, columnNumber, 0, 6, 6, 6
-org.apache.xerces.impl.XMLVersionDetector, fSymbolTable, 0, 6, 6, 6
-org.apache.xerces.impl.XMLVersionDetector, count, 18, 6, 6, 6
-org.apache.xerces.impl.XMLVersionDetector, fErrorReporter, 6, 6, 6, 6
-org.apache.xerces.impl.XMLVersionDetector, fExpectedVersionString, 120, 6, 6, 6
-org.apache.xerces.impl.XMLVersionDetector, position, 30, 6, 6, 6
-org.apache.xerces.impl.XMLVersionDetector, lineNumber, 0, 6, 6, 6
-org.apache.xerces.impl.XMLVersionDetector, startPosition, 0, 6, 6, 6
-org.jaxen.expr.DefaultStep, predicates, 225069, 2584, 2584, 2584
-org.jaxen.expr.DefaultStep, axis, 800196, 2584, 2584, 2584
-org.apache.xerces.impl.XMLDocumentScannerImpl$XMLDeclDispatcher, fEntityScanner, 12, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$XMLDeclDispatcher, fEntityManager, 6, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$XMLDeclDispatcher, fPrologDispatcher, 6, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$XMLDeclDispatcher, this$0, 48, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$XMLDeclDispatcher, fMarkupDepth, 6, 6, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$XMLDeclDispatcher, fCurrentEntity, 6, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$XMLDeclDispatcher, mayReadChunks, 0, 6, 6, 12
-org.apache.xerces.xni.QName, prefix, 3825, 6779, 18, 18
-org.apache.xerces.xni.QName, localpart, 3823, 6783, 18, 18
-org.apache.xerces.xni.QName, uri, 3825, 6783, 18, 18
-org.apache.xerces.xni.QName, rawname, 3827, 6782, 18, 18
-org.apache.xerces.util.XMLAttributesImpl, nonNormalizedValue, 0, 2477, 6, 12
-org.apache.xerces.util.XMLAttributesImpl, fLength, 17026, 2532, 6, 12
-org.apache.xerces.util.XMLAttributesImpl, fAttributes, 14635, 18, 12, 12
-org.apache.xerces.util.XMLAttributesImpl, fTableViewBuckets, 0, 12, 12, 12
-org.apache.xerces.util.XMLAttributesImpl, fNamespaces, 0, 24, 12, 12
-org.apache.xerces.util.XMLAttributesImpl, type, 0, 1236, 6, 12
-org.apache.xerces.util.XMLAttributesImpl, fIsTableViewConsistent, 0, 0, 0, 12
-org.apache.xerces.util.XMLAttributesImpl, uri, 2471, 0, 6, 12
-org.apache.xerces.util.XMLAttributesImpl, augs, 3706, 0, 6, 12
-org.apache.xerces.util.XMLAttributesImpl, specified, 1235, 2470, 6, 12
-org.apache.xerces.util.XMLAttributesImpl, fAttributeTableViewChainState, 0, 0, 0, 12
-org.apache.xerces.util.XMLAttributesImpl, fAttributeTableView, 0, 0, 0, 12
-org.apache.xerces.util.XMLAttributesImpl, name, 5849, 0, 6, 12
-org.apache.xerces.util.XMLAttributesImpl, fLargeCount, 0, 12, 12, 12
-org.apache.xerces.util.XMLAttributesImpl, value, 1235, 2469, 6, 12
-org.apache.xerces.util.XMLAttributesImpl, rawname, 4610, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$ElementStack, fElements, 5434, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$ElementStack, fSize, 5184, 2604, 12, 12
-net.sourceforge.pmd.ast.JavaParserVisitorAdapter, scopes, 0, 0, 0, 1099
-org.dacapo.parser.ConfigFileTokenManager, curChar, 9931, 2982, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, endLine, 0, 204, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjstateSet, 12834, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, image, 204, 205, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, input_stream, 4139, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, endColumn, 0, 204, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, specialToken, 0, 204, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, beginColumn, 0, 204, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, curLexState, 204, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjrounds, 12384, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, defaultLexState, 0, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjmatchedPos, 249, 607, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjimage, 205, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjnewStateCnt, 8653, 8778, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, debugStream, 0, 1, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, beginLine, 0, 204, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjimageLen, 0, 204, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, lengthOfMatch, 0, 0, 0, 1
-org.dacapo.parser.ConfigFileTokenManager, jjmatchedKind, 1220, 612, 1, 1
-org.dacapo.parser.ConfigFileTokenManager, jjround, 14745, 2361, 1, 1
-org.jaxen.expr.DefaultLiteralExpr, literal, 28480, 240, 240, 240
-net.sourceforge.pmd.ast.SimpleJavaTypeNode, comments, 0, 0, 0, 494520
-net.sourceforge.pmd.ast.SimpleJavaTypeNode, classTypeResolver, 0, 0, 0, 494520
-net.sourceforge.pmd.ast.SimpleJavaTypeNode, type, 112841, 132044, 145096, 494520
-org.apache.xerces.parsers.DOMParser, fConfiguration, 54, 0, 6, 6
-org.apache.xerces.parsers.DOMParser, fUseEntityResolver2, 0, 6, 6, 6
-net.sourceforge.pmd.dfa.report.ViolationNode, ruleViolation, 241947, 433, 433, 433
-org.dacapo.parser.Config$Size, args, 0, 4, 4, 4
-org.dacapo.parser.Config$Size, nThreads, 0, 4, 4, 4
-org.dacapo.parser.Config$Size, outputFiles, 24, 4, 4, 4
-org.dacapo.parser.Config$Size, this$0, 4, 4, 4, 4
-org.dacapo.parser.Config$Size, name, 0, 4, 4, 4
-org.dacapo.parser.Config$Size, threadLimit, 3, 4, 4, 4
-org.dacapo.parser.Config$Size, description, 0, 0, 0, 4
-net.sourceforge.pmd.jaxen.Attribute, parent, 28261, 224049, 224038, 224031
-net.sourceforge.pmd.jaxen.Attribute, method, 28257, 224033, 224023, 224031
-net.sourceforge.pmd.jaxen.Attribute, name, 224043, 224041, 224033, 224031
-net.sourceforge.pmd.symboltable.LocalScope, variableNames, 59131, 8363, 8363, 8363
-org.dacapo.harness.TestHarness, className, 1, 0, 1, 1
-org.dacapo.harness.TestHarness, config, 5, 1, 1, 1
-org.apache.xerces.impl.XMLEntityManager$ExternalEntity, notation, 0, 24, 12, 12
-org.apache.xerces.impl.XMLEntityManager$ExternalEntity, entityLocation, 0, 24, 12, 12
-net.sourceforge.pmd.rules.XPathRule, regexpFunctionRegistered, 88, 88, 22, 23
-net.sourceforge.pmd.rules.XPathRule, nodeNameToXPaths, 121856, 88, 22, 23
-net.sourceforge.pmd.rules.XPathRule, typeofFunctionRegistered, 88, 88, 22, 23
-org.jaxen.expr.IdentitySet, contents, 143287, 63505, 63504, 63502
-org.jaxen.expr.iter.IterableAxis, value, 575522, 2584, 2584, 2584
-net.sourceforge.pmd.RuleSetFactory, minPriority, 202, 2, 1, 1
-org.dacapo.harness.Callback, args, 2, 1, 1, 1
-org.dacapo.harness.Callback, mode, 4, 1, 1, 1
-org.dacapo.harness.Callback, elapsed, 1, 1, 1, 1
-org.dacapo.harness.Callback, timer, 1, 1, 1, 1
-org.dacapo.harness.Callback, times, 1, 0, 1, 1
-org.dacapo.harness.Callback, iterations, 0, 1, 1, 1
-org.dacapo.harness.Callback, verbose, 3, 2, 1, 1
-org.apache.xerces.util.SymbolTable$Entry, next, 0, 114, 114, 114
-org.apache.xerces.util.SymbolTable$Entry, characters, 228, 114, 114, 114
-org.apache.xerces.util.SymbolTable$Entry, symbol, 0, 114, 114, 114
-net.sourceforge.pmd.CommonAbstractRule, usesTypeResolution, 220, 203, 14, 120
-net.sourceforge.pmd.CommonAbstractRule, regexpFunctionRegistered, 0, 0, 0, 120
-net.sourceforge.pmd.CommonAbstractRule, typeofFunctionRegistered, 0, 0, 0, 120
-net.sourceforge.pmd.CommonAbstractRule, description, 0, 204, 34, 120
-net.sourceforge.pmd.CommonAbstractRule, usesDFA, 7480, 0, 34, 120
-net.sourceforge.pmd.CommonAbstractRule, externalInfoUrl, 0, 204, 34, 120
-net.sourceforge.pmd.CommonAbstractRule, priority, 21726, 406, 72, 120
-net.sourceforge.pmd.CommonAbstractRule, message, 853, 204, 43, 120
-net.sourceforge.pmd.CommonAbstractRule, examples, 222, 203, 47, 120
-net.sourceforge.pmd.CommonAbstractRule, ruleSetName, 0, 204, 34, 120
-net.sourceforge.pmd.CommonAbstractRule, name, 50491, 407, 81, 120
-net.sourceforge.pmd.CommonAbstractRule, ruleChainVisits, 13089, 203, 47, 120
-net.sourceforge.pmd.CommonAbstractRule, nodeNameToXPaths, 0, 0, 0, 120
-net.sourceforge.pmd.CommonAbstractRule, ruleClass, 0, 204, 13, 120
-net.sourceforge.pmd.CommonAbstractRule, properties, 53676, 204, 73, 120
-net.sourceforge.pmd.CommonAbstractRule, since, 0, 204, 34, 120
-org.jaxen.util.AncestorOrSelfAxisIterator, navigator, 13446, 630, 630, 630
-org.jaxen.util.AncestorOrSelfAxisIterator, contextNode, 54414, 14076, 630, 630
-org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fInternalBufferPool, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fExternalTop, 18, 12, 6, 6
-org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fExternalBufferPool, 12, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, poolSize, 12, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fExternalBufferSize, 6, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fInternalTop, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fInternalBufferSize, 0, 6, 6, 6
-org.apache.xerces.dom.DeferredTextImpl, data, 0, 1116, 1114, 2910
-org.apache.xerces.dom.DeferredTextImpl, fNodeIndex, 2230, 2910, 2910, 2910
-org.jaxen.BaseXPath, xpath, 58575, 184, 184, 184
-org.jaxen.BaseXPath, navigator, 87, 184, 184, 184
-org.jaxen.BaseXPath, exprText, 0, 184, 184, 184
-org.jaxen.BaseXPath, support, 116988, 87, 87, 184
-org.apache.xerces.impl.XMLEntityManager, fSecurityManager, 6, 12, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fEntityScanner, 90, 18, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fValidationManager, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, reader, 6, 0, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fExternalParameterEntities, 0, 12, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fCurrentEntity, 78, 18, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fStrictURI, 6, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fBufferPool, 6, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fInExternalSubset, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fWarnDuplicateEntityDef, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fResourceIdentifier, 12, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fEntities, 6, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fDeclaredEntities, 6, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fStandalone, 0, 12, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fExternalGeneralEntities, 0, 12, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fErrorReporter, 36, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fAllowJavaEncodings, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fEntityHandler, 12, 18, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fEntityExpansionCount, 0, 12, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fEntityResolver, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fValidation, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fBufferSize, 12, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fEntityAugs, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fEntityStack, 12, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fXML10EntityScanner, 66, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fReaderStack, 24, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fSymbolTable, 24, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager, name, 6, 0, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fEntityExpansionLimit, 0, 12, 6, 6
-org.apache.xerces.impl.XMLEntityManager, fXML11EntityScanner, 6, 0, 6, 6
-net.sourceforge.pmd.ast.ASTBooleanLiteral, isTrue, 0, 1431, 1431, 2065
-net.sourceforge.pmd.SimpleRuleSetNameMapper, rulesets, 3, 1, 1, 1
-net.sourceforge.pmd.SimpleRuleSetNameMapper, nameMap, 37, 1, 1, 1
-net.sourceforge.pmd.symboltable.AbstractNameDeclaration, node, 2357934, 7081, 2677, 2677
-net.sourceforge.pmd.RuleChain, languageToRuleChainVisitor, 429, 6, 6, 6
-org.apache.xerces.parsers.AbstractXMLDocumentParser, fDocumentSource, 0, 12, 6, 6
-org.apache.xerces.parsers.AbstractXMLDocumentParser, fDTDContentModelSource, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractXMLDocumentParser, fDTDSource, 0, 6, 6, 6
-org.apache.xerces.parsers.AbstractXMLDocumentParser, fUseEntityResolver2, 0, 0, 0, 6
-org.apache.xerces.parsers.AbstractXMLDocumentParser, fInDTD, 0, 6, 6, 6
-net.sourceforge.pmd.Language, name, 1756, 2, 2, 2
-net.sourceforge.pmd.sourcetypehandlers.JavaTypeHandler$2, this$0, 0, 220, 220, 220
-net.sourceforge.pmd.sourcetypehandlers.JavaTypeHandler$3, this$0, 0, 220, 220, 220
-net.sourceforge.pmd.sourcetypehandlers.JavaTypeHandler$3, val$classLoader, 220, 220, 220, 220
-org.apache.xerces.impl.XMLNSDocumentScannerImpl, fBindNamespaces, 0, 6, 6, 6
-org.apache.xerces.impl.XMLNSDocumentScannerImpl, fDTDValidator, 0, 0, 0, 6
-org.apache.xerces.impl.XMLNSDocumentScannerImpl, fSawSpace, 0, 0, 0, 6
-org.apache.xerces.impl.XMLNSDocumentScannerImpl, fPerformValidation, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLAttributeDecl, simpleType, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLAttributeDecl, name, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLAttributeDecl, optional, 0, 0, 0, 12
-net.sourceforge.pmd.jaxen.AttributeAxisIterator$MethodWrapper, method, 0, 110, 110, 110
-net.sourceforge.pmd.jaxen.AttributeAxisIterator$MethodWrapper, name, 0, 110, 110, 110
-org.apache.xerces.dom.AttributeMap, nodes, 2470, 365, 366, 366
-org.apache.xerces.dom.AttributeMap, errorChecking, 1236, 0, 366, 366
-org.apache.xerces.dom.AttributeMap, ownerNode, 6177, 1234, 366, 366
-net.sourceforge.pmd.ast.ASTReferenceType, arrayDepth, 210, 210, 203, 5122
-org.dacapo.harness.Benchmark, args, 0, 0, 0, 1
-org.dacapo.harness.Benchmark, loader, 3, 1, 1, 1
-org.dacapo.harness.Benchmark, name, 5, 0, 1, 1
-org.dacapo.harness.Benchmark, iteration, 3, 2, 1, 1
-org.dacapo.harness.Benchmark, savedClassLoader, 1, 1, 1, 1
-org.dacapo.harness.Benchmark, scratch, 35, 1, 1, 1
-org.dacapo.harness.Benchmark, jar, 2, 0, 1, 1
-org.dacapo.harness.Benchmark, libs, 12, 0, 1, 1
-org.dacapo.harness.Benchmark, config, 30, 1, 1, 1
-org.apache.xerces.dom.DeferredCDATASectionImpl, data, 0, 384, 384, 384
-org.apache.xerces.dom.DeferredCDATASectionImpl, fNodeIndex, 383, 384, 384, 384
-org.apache.commons.cli.Option, opt, 69, 23, 36, 36
-org.apache.commons.cli.Option, argName, 0, 34, 12, 36
-org.apache.commons.cli.Option, numberOfArgs, 0, 34, 12, 36
-org.apache.commons.cli.Option, values, 23, 23, 24, 36
-org.apache.commons.cli.Option, description, 23, 23, 23, 36
-org.apache.commons.cli.Option, optionalArg, 0, 0, 0, 36
-org.apache.commons.cli.Option, type, 0, 0, 0, 36
-org.apache.commons.cli.Option, longOpt, 111, 23, 23, 36
-org.apache.commons.cli.Option, required, 45, 0, 23, 36
-org.apache.commons.cli.Option, valuesep, 0, 11, 11, 36
-org.jaxen.expr.DefaultNumberExpr, number, 6564, 200, 200, 200
-net.sourceforge.pmd.PMDException, severity, 0, 0, 0, 1
-org.objectweb.asm.signature.SignatureReader, a, 262, 262, 262, 262
-org.apache.xerces.util.AugmentationsImpl, fAugmentationsContainer, 3707, 78, 78, 78
-net.sourceforge.pmd.jaxen.NodeIterator, node, 705639, 228113, 101554, 101551
-net.sourceforge.pmd.jaxen.NodeIterator, this$0, 0, 0, 0, 101551
-net.sourceforge.pmd.ast.JavaParserTokenManager, endLine, 0, 368605, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, next, 0, 155296, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, jjstateSet, 1273658, 220, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, input_stream, 2752421, 220, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, endColumn, 0, 368599, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, specialToken, 0, 298007, 221, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, jjrounds, 1019535, 220, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, jjnewStateCnt, 973889, 1054881, 221, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, excludeMarker, 256, 440, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, lengthOfMatch, 0, 74238, 209, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, curChar, 1768722, 927854, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, image, 370452, 368363, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, comments, 1277, 220, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, beginColumn, 0, 368593, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, curLexState, 441021, 2261, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, realKind, 0, 25, 7, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, kind, 0, 25, 7, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, defaultLexState, 0, 220, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, jjmatchedPos, 669675, 1074971, 221, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, jjimage, 368339, 220, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, debugStream, 0, 220, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, beginLine, 0, 368602, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, excludeMap, 220, 220, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, jjimageLen, 74938, 441764, 220, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, jjmatchedKind, 4061157, 1248120, 221, 220
-net.sourceforge.pmd.ast.JavaParserTokenManager, jjround, 1437501, 418150, 221, 220
-org.dacapo.parser.Token, endLine, 0, 0, 0, 205
-org.dacapo.parser.Token, next, 0, 0, 0, 205
-org.dacapo.parser.Token, image, 0, 204, 204, 205
-org.dacapo.parser.Token, endColumn, 0, 0, 0, 205
-org.dacapo.parser.Token, specialToken, 0, 0, 0, 205
-org.dacapo.parser.Token, beginColumn, 0, 0, 0, 205
-org.dacapo.parser.Token, kind, 0, 204, 204, 205
-org.dacapo.parser.Token, beginLine, 0, 0, 0, 205
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher, fEntityScanner, 14599, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher, this$0, 38510, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher, fMarkupDepth, 2968, 2969, 6, 12
-org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher, fScannerState, 6325, 0, 6, 12
-org.apache.xerces.dom.CharacterDataImpl, data, 1499, 3294, 3294, 3294
-org.apache.xerces.dom.CharacterDataImpl, fNodeIndex, 0, 0, 0, 3294
-org.dacapo.parser.Config$OutputFile, filter, 0, 4, 4, 4
-org.dacapo.parser.Config$OutputFile, bytes, 1, 4, 4, 4
-org.dacapo.parser.Config$OutputFile, this$0, 0, 4, 4, 4
-org.dacapo.parser.Config$OutputFile, keep, 0, 4, 4, 4
-org.dacapo.parser.Config$OutputFile, digest, 1, 4, 4, 4
-org.dacapo.parser.Config$OutputFile, existence, 0, 4, 4, 4
-org.dacapo.parser.Config$OutputFile, name, 0, 4, 4, 4
-org.dacapo.parser.Config$OutputFile, text, 0, 4, 4, 4
-org.dacapo.parser.Config$OutputFile, lines, 1, 4, 4, 4
-net.sourceforge.pmd.SourceTypeDiscoverer, mapExtensionOnSourceType, 1100, 220, 220, 220
-net.sourceforge.pmd.AbstractRule, inPrimaryExpressionContext, 0, 0, 0, 9
-net.sourceforge.pmd.AbstractRule, usingPrimitiveWrapperAllocation, 0, 0, 0, 9
-net.sourceforge.pmd.AbstractRule, primary, 0, 0, 0, 9
-net.sourceforge.pmd.util.filter.Filters$1, val$filter, 658, 4, 4, 4
-net.sourceforge.pmd.symboltable.ClassScope, methodNames, 18616, 327, 327, 327
-net.sourceforge.pmd.symboltable.ClassScope, classNames, 24, 327, 327, 327
-net.sourceforge.pmd.symboltable.ClassScope, className, 43591, 327, 327, 327
-net.sourceforge.pmd.symboltable.ClassScope, variableNames, 25764, 327, 327, 327
-net.sourceforge.pmd.ast.JJTJavaParserState, nodes, 697090, 220, 220, 221
-net.sourceforge.pmd.ast.JJTJavaParserState, node_created, 0, 579335, 221, 221
-net.sourceforge.pmd.ast.JJTJavaParserState, marks, 1737252, 220, 221, 221
-net.sourceforge.pmd.ast.JJTJavaParserState, sp, 1551810, 465055, 221, 221
-net.sourceforge.pmd.ast.JJTJavaParserState, mk, 1319494, 1158711, 221, 221
-org.apache.xerces.impl.validation.ValidationManager, fCachedDTD, 0, 12, 6, 6
-org.apache.xerces.impl.validation.ValidationManager, fGrammarFound, 0, 18, 6, 6
-org.apache.xerces.impl.validation.ValidationManager, fVSs, 36, 6, 6, 6
-net.sourceforge.pmd.renderers.OnTheFlyRenderer, showSuppressedViolations, 221, 0, 1, 1
-net.sourceforge.pmd.renderers.OnTheFlyRenderer, suppressed, 221, 1, 1, 1
-net.sourceforge.pmd.renderers.OnTheFlyRenderer, errors, 1, 1, 1, 1
-net.sourceforge.pmd.renderers.OnTheFlyRenderer, empty, 0, 0, 0, 1
-net.sourceforge.pmd.ast.ASTClassOrInterfaceDeclaration, isInterface, 2677, 25, 243, 244
-org.jaxen.expr.DefaultPredicate, expr, 63330, 896, 449, 448
-net.sourceforge.pmd.ast.ASTPrimitiveType, arrayDepth, 0, 0, 0, 2581
-net.sourceforge.pmd.PMD$PmdThreadFactory, threadList, 4, 1, 1, 1
-net.sourceforge.pmd.PMD$PmdThreadFactory, ctx, 4, 1, 1, 1
-net.sourceforge.pmd.PMD$PmdThreadFactory, ruleSetFactory, 4, 1, 1, 1
-net.sourceforge.pmd.PMD$PmdThreadFactory, counter, 4, 1, 1, 1
-org.objectweb.asm.ClassReader, a, 98352, 10747, 281, 281
-org.objectweb.asm.ClassReader, b, 311477, 12832, 281, 281
-org.objectweb.asm.ClassReader, c, 86351, 281, 281, 281
-org.objectweb.asm.ClassReader, d, 281, 281, 281, 281
-org.objectweb.asm.ClassReader, header, 281, 281, 281, 281
-org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher, fTrailingMiscDispatcher, 6, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher, fExternalSubsetResolver, 6, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher, this$0, 30, 12, 12, 12
-net.sourceforge.pmd.rules.UselessOverridingMethod, ignoreAnnotations, 2, 218, 1, 2
-net.sourceforge.pmd.rules.UselessOverridingMethod, exceptions, 6, 6, 1, 2
-net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor$PMDSignatureVisitor, parent, 557, 218, 218, 218
-net.sourceforge.pmd.dfa.report.PackageNode, packageName, 1680, 287, 287, 287
-net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor$PMDMethodVisitor, parent, 35407, 218, 218, 218
-org.apache.commons.cli.Options, shortOpts, 46, 2, 2, 2
-org.apache.commons.cli.Options, longOpts, 45, 2, 2, 2
-org.apache.commons.cli.Options, requiredOpts, 1, 2, 2, 2
-org.apache.commons.cli.Options, optionGroups, 0, 2, 2, 2
-net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor$PMDAnnotationVisitor, parent, 0, 218, 218, 218
-net.sourceforge.pmd.rules.OverrideBothEqualsAndHashcode, nodeFound, 6, 227, 2, 2
-net.sourceforge.pmd.rules.OverrideBothEqualsAndHashcode, containsHashCode, 165, 224, 2, 2
-net.sourceforge.pmd.rules.OverrideBothEqualsAndHashcode, containsEquals, 165, 227, 2, 2
-net.sourceforge.pmd.rules.OverrideBothEqualsAndHashcode, implementsComparable, 2162, 277, 2, 2
-net.sourceforge.pmd.typeresolution.ClassTypeResolver, importedClasses, 41385, 437, 220, 220
-net.sourceforge.pmd.typeresolution.ClassTypeResolver, pmdClassLoader, 23534, 220, 220, 220
-net.sourceforge.pmd.typeresolution.ClassTypeResolver, importedOnDemand, 7239, 220, 220, 220
-org.apache.xerces.dom.DocumentImpl, fNodeExtra, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fNamespacesEnabled, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fIdCount, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fNodeCount, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fIdElement, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fNodeType, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, mutationEvents, 3711, 4956, 6, 6
-org.apache.xerces.dom.DocumentImpl, fNodePrevSib, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fNodeParent, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fBufferStr, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fStrChunks, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fNodeValue, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fNodeURI, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fNodeLastChild, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fNodeName, 0, 0, 0, 6
-org.apache.xerces.dom.DocumentImpl, fIdName, 0, 0, 0, 6
-org.xml.sax.InputSource, systemId, 6, 0, 6, 6
-org.xml.sax.InputSource, characterStream, 6, 0, 6, 6
-org.xml.sax.InputSource, byteStream, 6, 6, 6, 6
-org.xml.sax.InputSource, encoding, 6, 0, 6, 6
-org.xml.sax.InputSource, publicId, 6, 0, 6, 6
-net.sourceforge.pmd.ast.ASTLiteral, isChar, 1624, 129, 1624, 9984
-net.sourceforge.pmd.ast.ASTLiteral, isInt, 7650, 6017, 7653, 9984
-net.sourceforge.pmd.ast.ASTLiteral, isString, 1495, 1495, 1495, 9984
-net.sourceforge.pmd.ast.ASTLiteral, isFloat, 1636, 12, 1636, 9984
-net.sourceforge.pmd.properties.AbstractPMDProperty, isRequired, 0, 2, 2, 2
-net.sourceforge.pmd.properties.AbstractPMDProperty, defaultValue, 9978, 2, 2, 2
-net.sourceforge.pmd.properties.AbstractPMDProperty, name, 10197, 2, 2, 2
-net.sourceforge.pmd.properties.AbstractPMDProperty, description, 0, 2, 2, 2
-net.sourceforge.pmd.properties.AbstractPMDProperty, multiValueDelimiter, 0, 2, 2, 2
-net.sourceforge.pmd.properties.AbstractPMDProperty, uiOrder, 0, 2, 2, 2
-net.sourceforge.pmd.properties.AbstractPMDProperty, maxValueCount, 10414, 2, 2, 2
-org.jaxen.expr.DefaultXPathExpr, rootExpr, 58756, 368, 184, 184
-org.jaxen.Context, size, 543480, 884205, 278117, 278115
-org.jaxen.Context, nodeSet, 497568, 821558, 278122, 278115
-org.jaxen.Context, contextSupport, 530449, 278136, 278118, 278115
-org.jaxen.Context, position, 543464, 551234, 278124, 278115
-net.sourceforge.pmd.symboltable.NameOccurrence, image, 2279300, 21594, 2379, 2379
-net.sourceforge.pmd.symboltable.NameOccurrence, argumentCount, 9687, 6206, 1212, 2379
-net.sourceforge.pmd.symboltable.NameOccurrence, qualifiedName, 0, 3882, 468, 2379
-net.sourceforge.pmd.symboltable.NameOccurrence, location, 33028, 0, 2020, 2379
-net.sourceforge.pmd.symboltable.NameOccurrence, isMethodOrConstructorInvocation, 119385, 6206, 2305, 2379
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, isExternal, 17240, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, ch, 0, 12, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, reader, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, count, 0, 0, 0, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, encoding, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, startPosition, 0, 0, 0, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, literal, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, fInExternalSubset, 6, 0, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, fEntityStack, 6, 0, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, baseCharOffset, 0, 0, 0, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, columnNumber, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, stream, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, this$0, 6, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, externallySpecifiedEncoding, 0, 12, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, fBuffer, 6, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, entityLocation, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, position, 0, 0, 0, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, lineNumber, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, xmlVersion, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$ScannedEntity, mayReadChunks, 0, 6, 6, 6
-org.dacapo.harness.CommandLineArgs, line, 29, 1, 1, 1
-org.dacapo.harness.CommandLineArgs, callback, 2, 2, 1, 1
-org.dacapo.harness.CommandLineArgs, benchmarks, 2, 1, 1, 1
-net.sourceforge.pmd.ast.ASTConditionalExpression, isTernary, 45, 45, 45, 22035
-net.sourceforge.pmd.RuleViolation, endLine, 0, 433, 433, 433
-net.sourceforge.pmd.RuleViolation, endColumn, 0, 433, 433, 433
-net.sourceforge.pmd.RuleViolation, filename, 170251, 433, 433, 433
-net.sourceforge.pmd.RuleViolation, variableName, 866, 1299, 433, 433
-net.sourceforge.pmd.RuleViolation, beginColumn, 0, 433, 433, 433
-net.sourceforge.pmd.RuleViolation, isSuppressed, 433, 0, 433, 433
-net.sourceforge.pmd.RuleViolation, beginLine, 179204, 433, 433, 433
-net.sourceforge.pmd.RuleViolation, rule, 871, 433, 433, 433
-net.sourceforge.pmd.RuleViolation, description, 489, 433, 433, 433
-net.sourceforge.pmd.RuleViolation, methodName, 0, 433, 433, 433
-net.sourceforge.pmd.RuleViolation, className, 433, 866, 433, 433
-net.sourceforge.pmd.RuleViolation, packageName, 433, 433, 433, 433
-org.apache.xerces.dom.AttrImpl, name, 7547, 1236, 1236, 1237
-org.apache.xerces.dom.AttrImpl, fNodeIndex, 0, 0, 0, 1237
-org.apache.xerces.dom.AttrImpl, value, 2388, 1236, 1236, 1237
-org.apache.xerces.dom.NamedNodeMapImpl, nodes, 13832, 0, 365, 366
-org.apache.xerces.dom.NamedNodeMapImpl, flags, 1234, 0, 366, 366
-org.apache.xerces.dom.NamedNodeMapImpl, ownerNode, 0, 366, 366, 366
-org.jaxen.SimpleFunctionContext, functions, 32765, 1, 1, 1
-org.jaxen.expr.DefaultNameStep, localName, 369146, 1728, 1728, 1728
-org.jaxen.expr.DefaultNameStep, prefix, 5085, 1728, 1728, 1728
-org.jaxen.expr.DefaultNameStep, hasPrefix, 398664, 1727, 1727, 1728
-org.jaxen.expr.DefaultNameStep, matchesAnyName, 917436, 1728, 1728, 1728
-net.sourceforge.pmd.ast.ASTName, nd, 43081, 14593, 17378, 17801
-org.jaxen.expr.IdentitySet$IdentityWrapper, object, 143288, 143289, 50712, 50711
-net.sourceforge.pmd.dfa.report.AbstractReportNode, childNodes, 249262, 734, 734, 734
-net.sourceforge.pmd.dfa.report.AbstractReportNode, parentNode, 0, 1243, 734, 734
-net.sourceforge.pmd.dfa.report.AbstractReportNode, packageName, 0, 0, 0, 734
-net.sourceforge.pmd.symboltable.MethodNameDeclaration, node, 157236, 0, 1264, 1264
-org.apache.xerces.parsers.SecuritySupport$7, this$0, 0, 6, 6, 6
-org.apache.xerces.parsers.SecuritySupport$7, val$f, 6, 6, 6, 6
-net.sourceforge.pmd.ast.AccessNode, isInterface, 0, 0, 0, 7417
-org.apache.xerces.parsers.SecuritySupport$3, this$0, 0, 24, 24, 24
-org.apache.xerces.parsers.SecuritySupport$3, val$cl, 48, 24, 24, 24
-org.apache.xerces.impl.XMLDTDScannerImpl, fStringBuffer, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fDTDContentModelHandler, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fContentDepth, 0, 0, 0, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fString, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fSeenExternalPE, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fStringBuffer2, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fLiteral2, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fExtEntityDepth, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fEnumeration, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fStartDTDCalled, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fPEReport, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fIgnoreConditionalBuffer, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fMarkUpDepth, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fEnumerationCount, 0, 0, 0, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fDTDHandler, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fStandalone, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fIncludeSectDepth, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fLiteral, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fScannerState, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fStrings, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fPEStack, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fContentStack, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fPEDepth, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDTDScannerImpl, fSeenExternalDTD, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLNSDTDValidator, fAttributeQName, 0, 6, 6, 6
-org.apache.xerces.parsers.SecuritySupport$4, this$0, 0, 12, 12, 12
-org.apache.xerces.parsers.SecuritySupport$4, val$propName, 12, 12, 12, 12
-org.apache.xerces.parsers.SecuritySupport$6, this$0, 0, 6, 6, 6
-org.apache.xerces.parsers.SecuritySupport$6, val$cl, 12, 6, 6, 6
-org.apache.xerces.parsers.SecuritySupport$6, val$name, 6, 6, 6, 6
-org.apache.xerces.parsers.SecuritySupport$1, this$0, 0, 12, 12, 12
-org.apache.xerces.parsers.SecuritySupport$2, this$0, 0, 12, 12, 12
-org.dacapo.parser.ConfigFile, next, 446, 204, 1, 1
-org.dacapo.parser.ConfigFile, image, 19, 0, 1, 1
-org.dacapo.parser.ConfigFile, jj_ntk, 180, 326, 1, 1
-org.dacapo.parser.ConfigFile, jj_nt, 0, 122, 1, 1
-org.dacapo.parser.ConfigFile, kind, 325, 0, 1, 1
-org.dacapo.parser.ConfigFile, token, 1149, 204, 1, 1
-org.dacapo.parser.ConfigFile, jj_kind, 0, 1, 1, 1
-org.dacapo.parser.ConfigFile, jj_expentry, 0, 0, 0, 1
-org.dacapo.parser.ConfigFile, jj_input_stream, 1, 1, 1, 1
-org.dacapo.parser.ConfigFile, jj_expentries, 0, 1, 1, 1
-org.dacapo.parser.ConfigFile, jj_gen, 227, 204, 1, 1
-org.dacapo.parser.ConfigFile, jj_la1, 43, 1, 1, 1
-org.dacapo.parser.ConfigFile, token_source, 204, 1, 1, 1
-org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fInputStream, 252, 12, 6, 6
-org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fLength, 474, 132, 6, 6
-org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fMark, 6, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, this$0, 216, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fStartOffset, 0, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fEndOffset, 342, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fCurrentEntity, 216, 0, 6, 6
-org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fData, 258, 6, 6, 6
-org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fOffset, 954, 144, 6, 6
-org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, mayReadChunks, 216, 0, 6, 6
-org.apache.commons.cli.Parser, eatTheRest, 0, 0, 0, 1
-org.apache.commons.cli.Parser, currentOption, 0, 0, 0, 1
-org.apache.commons.cli.Parser, options, 1, 1, 1, 1
-org.apache.commons.cli.Parser, tokens, 0, 0, 0, 1
-org.apache.commons.cli.Parser, cmd, 2, 1, 1, 1
-org.apache.commons.cli.Parser, requiredOptions, 1, 1, 1, 1
-org.apache.xerces.util.AugmentationsImpl$AugmentationsItemsContainer, fNumEntries, 0, 0, 0, 78
-org.apache.xerces.util.AugmentationsImpl$AugmentationsItemsContainer, fAugmentations, 0, 0, 0, 78
-org.apache.xerces.util.AugmentationsImpl$AugmentationsItemsContainer, this$0, 0, 78, 78, 78
-net.sourceforge.pmd.ast.JavaCharStream, line, 879302, 29990, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, column, 1718143, 892287, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, bufsize, 80188, 220, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, available, 849687, 220, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, inputStream, 1027, 220, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, nextCharBuf, 850144, 220, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, maxNextCharInd, 852573, 734, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, tabSize, 12890, 220, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, inBuf, 1380225, 160461, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, prevCharIsLF, 849482, 62879, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, nextCharInd, 1698745, 850171, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, prevCharIsCR, 819893, 6912, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, bufpos, 4993053, 1302006, 221, 220
-net.sourceforge.pmd.ast.JavaCharStream, buffer, 1202610, 220, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, tokenBegin, 1549392, 368561, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, bufline, 1586527, 220, 220, 220
-net.sourceforge.pmd.ast.JavaCharStream, bufcolumn, 1586653, 220, 220, 220
-org.apache.xerces.impl.dtd.XMLElementDecl, simpleType, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLElementDecl, scope, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLElementDecl, name, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLElementDecl, type, 0, 12, 12, 12
-org.apache.xerces.impl.dtd.XMLElementDecl, contentModelValidator, 0, 0, 0, 12
-net.sourceforge.pmd.symboltable.ImageFinderFunction, images, 534092, 94195, 94192, 94192
-net.sourceforge.pmd.symboltable.ImageFinderFunction, decl, 94195, 35352, 94192, 94192
-net.sourceforge.pmd.symboltable.VariableNameDeclaration, node, 43048, 0, 1219, 1219
-org.jaxen.expr.NodeComparator, navigator, 11296, 52788, 52788, 52788
-net.sourceforge.pmd.SourceFileSelector, selectJavaFiles, 0, 2, 1, 1
-net.sourceforge.pmd.SourceFileSelector, selectJspFiles, 0, 2, 1, 1
-net.sourceforge.pmd.RuleSet, filter, 1316, 4, 1, 36
-net.sourceforge.pmd.RuleSet, fileName, 0, 6, 1, 36
-net.sourceforge.pmd.RuleSet, excludePatterns, 4, 6, 2, 36
-net.sourceforge.pmd.RuleSet, includePatterns, 4, 6, 2, 36
-net.sourceforge.pmd.RuleSet, name, 837, 12, 36, 36
-net.sourceforge.pmd.RuleSet, description, 0, 12, 2, 36
-net.sourceforge.pmd.RuleSet, rules, 1503, 0, 35, 36
-net.sourceforge.pmd.RuleSet, language, 665, 6, 2, 36
-net.sourceforge.pmd.Report, listeners, 433, 225, 225, 225
-net.sourceforge.pmd.Report, violations, 654, 225, 225, 225
-net.sourceforge.pmd.Report, violationTree, 433, 225, 225, 225
-net.sourceforge.pmd.Report, start, 0, 0, 0, 225
-net.sourceforge.pmd.Report, end, 0, 0, 0, 225
-net.sourceforge.pmd.Report, metrics, 0, 225, 225, 225
-net.sourceforge.pmd.Report, linesToExclude, 433, 445, 225, 225
-net.sourceforge.pmd.Report, suppressedRuleViolations, 221, 225, 225, 225
-net.sourceforge.pmd.Report, errors, 222, 225, 225, 225
-net.sourceforge.pmd.ast.SimpleJavaAccessTypeNode, type, 217, 1145, 1147, 1173
-net.sourceforge.pmd.ast.SimpleJavaAccessTypeNode, isInterface, 0, 0, 0, 1173
-org.apache.xerces.jaxp.DocumentBuilderFactoryImpl, features, 6, 0, 6, 6
-org.apache.xerces.jaxp.DocumentBuilderFactoryImpl, grammar, 12, 0, 6, 6
-org.apache.xerces.jaxp.DocumentBuilderFactoryImpl, fSecureProcess, 6, 6, 6, 6
-org.apache.xerces.jaxp.DocumentBuilderFactoryImpl, attributes, 6, 0, 6, 6
-org.apache.xerces.jaxp.DocumentBuilderFactoryImpl, isXIncludeAware, 6, 0, 6, 6
-org.apache.xerces.impl.XMLEntityManager$Entity, inExternalSubset, 0, 30, 18, 18
-org.apache.xerces.impl.XMLEntityManager$Entity, notation, 0, 0, 0, 18
-org.apache.xerces.impl.XMLEntityManager$Entity, name, 0, 30, 18, 18
-org.apache.xerces.impl.XMLEntityManager$Entity, entityLocation, 0, 0, 0, 18
-org.apache.xerces.util.XMLResourceIdentifierImpl, fExpandedSystemId, 6, 42, 1, 1
-org.apache.xerces.util.XMLResourceIdentifierImpl, fPublicId, 0, 42, 1, 1
-org.apache.xerces.util.XMLResourceIdentifierImpl, fBaseSystemId, 0, 42, 1, 1
-org.apache.xerces.util.XMLResourceIdentifierImpl, fNamespace, 0, 42, 1, 1
-org.apache.xerces.util.XMLResourceIdentifierImpl, fLiteralSystemId, 0, 42, 1, 1
-net.sourceforge.pmd.ast.ASTPrimarySuffix, isArguments, 7470, 6206, 7470, 7470
-net.sourceforge.pmd.ast.ASTPrimarySuffix, isArrayDereference, 0, 488, 488, 7470
-org.dacapo.harness.Pmd, args, 77, 1, 1, 1
-org.dacapo.harness.Pmd, method, 1, 1, 1, 1
-org.dacapo.harness.Pmd, loader, 1, 0, 1, 1
-org.dacapo.harness.Pmd, scratch, 220, 0, 1, 1
-org.dacapo.harness.Pmd, config, 1, 0, 1, 1
-org.jaxen.expr.DefaultPathExpr, filterExpr, 7208, 3176, 2016, 2016
-org.jaxen.expr.DefaultPathExpr, locationPath, 6600, 2016, 2016, 2016
-org.apache.xerces.dom.NodeListCache, next, 0, 0, 0, 30
-org.apache.xerces.dom.NodeListCache, fLength, 0, 30, 30, 30
-org.apache.xerces.dom.NodeListCache, fChildIndex, 0, 30, 30, 30
-org.apache.xerces.dom.NodeListCache, fOwner, 0, 30, 30, 30
-org.apache.xerces.dom.NodeListCache, fChild, 0, 0, 0, 30
-net.sourceforge.pmd.ast.JavaParser, next, 4666002, 142819, 220, 221
-net.sourceforge.pmd.ast.JavaParser, specialToken, 53073, 0, 197, 221
-net.sourceforge.pmd.ast.JavaParser, jj_scanpos, 13300825, 7649394, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_lookingAhead, 124248, 196646, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_kind, 0, 220, 220, 221
-net.sourceforge.pmd.ast.JavaParser, gen, 337109, 268562, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_expentries, 0, 220, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_la, 800988, 635619, 220, 221
-net.sourceforge.pmd.ast.JavaParser, isJDK15, 7216, 220, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_2_rtns, 423841, 220, 220, 221
-net.sourceforge.pmd.ast.JavaParser, isJDK13, 6840, 0, 210, 221
-net.sourceforge.pmd.ast.JavaParser, arg, 0, 268562, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_lasttokens, 0, 220, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_rescan, 3838662, 220, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_semLA, 98214, 98215, 204, 221
-net.sourceforge.pmd.ast.JavaParser, jj_ls, 37957, 220, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_endpos, 0, 0, 0, 221
-net.sourceforge.pmd.ast.JavaParser, image, 126734, 0, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_nt, 851198, 142731, 220, 221
-net.sourceforge.pmd.ast.JavaParser, comments, 220, 0, 220, 221
-net.sourceforge.pmd.ast.JavaParser, beginColumn, 17801, 0, 220, 221
-net.sourceforge.pmd.ast.JavaParser, realKind, 345, 0, 31, 221
-net.sourceforge.pmd.ast.JavaParser, kind, 4673684, 0, 221, 221
-net.sourceforge.pmd.ast.JavaParser, token, 990334, 142733, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_expentry, 0, 0, 0, 221
-net.sourceforge.pmd.ast.JavaParser, jjtree, 1433761, 220, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_gen, 1133185, 142732, 220, 221
-net.sourceforge.pmd.ast.JavaParser, beginLine, 17800, 0, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_la1, 415384, 220, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_gc, 142511, 144023, 220, 221
-net.sourceforge.pmd.ast.JavaParser, token_source, 143390, 220, 220, 221
-net.sourceforge.pmd.ast.JavaParser, first, 0, 332131, 220, 221
-net.sourceforge.pmd.ast.JavaParser, jj_lastpos, 3880060, 635661, 220, 221
-net.sourceforge.pmd.ast.Token$GTToken, realKind, 0, 484, 484, 484
-net.sourceforge.pmd.AbstractRuleChainVisitor, ruleSetRules, 856, 6, 6, 6
-net.sourceforge.pmd.AbstractRuleChainVisitor, nodeNameToNodes, 242353, 4, 4, 6
-net.sourceforge.pmd.util.filter.AbstractDelegateFilter, filter, 0, 4, 4, 4
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDElementDecls, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fValidator, 12, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDValidation, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fMixed, 0, 0, 0, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fTableOfIDAttributeNames, 0, 0, 0, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDContentModelSource, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fGrammarBucket, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fLocale, 0, 0, 0, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fErrorReporter, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fNotationEnumVals, 0, 0, 0, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDElementDeclName, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fWarnOnUndeclaredElemdef, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDContentModelHandler, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fValidation, 6, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fWarnDuplicateAttdef, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDGrammar, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fGrammarPool, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fInDTDIgnore, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fPerformValidation, 0, 0, 0, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fMixedElementTypes, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fTableOfNOTATIONAttributeNames, 0, 0, 0, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDHandler, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fEntityDecl, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fSymbolTable, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDSource, 0, 6, 6, 6
-org.apache.xerces.impl.dtd.XMLDTDProcessor, fNDataDeclNotations, 6, 6, 6, 6
-net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor$PMDFieldVisitor, parent, 0, 218, 218, 218
-org.objectweb.asm.Type, a, 40189, 13095, 304, 304
-org.objectweb.asm.Type, b, 14033, 13095, 304, 304
-org.objectweb.asm.Type, c, 14033, 13095, 304, 304
-org.objectweb.asm.Type, d, 12176, 13095, 302, 304
-org.jaxen.saxpath.base.XPathLexer, xpath, 76490, 184, 184, 184
-org.jaxen.saxpath.base.XPathLexer, previousToken, 7880, 11616, 184, 184
-org.jaxen.saxpath.base.XPathLexer, endPosition, 105515, 184, 184, 184
-org.jaxen.saxpath.base.XPathLexer, currentPosition, 239129, 47698, 184, 184
-net.sourceforge.pmd.symboltable.SourceFileScope, packageImage, 866, 220, 220, 220
-net.sourceforge.pmd.symboltable.SourceFileScope, classNames, 10786, 220, 220, 220
-org.jaxen.expr.DefaultVariableReferenceExpr, localName, 13, 8, 8, 8
-org.jaxen.expr.DefaultVariableReferenceExpr, prefix, 22, 8, 8, 8
-net.sourceforge.pmd.ast.JavaParser$JJCalls, next, 0, 0, 0, 11325
-net.sourceforge.pmd.ast.JavaParser$JJCalls, gen, 0, 0, 0, 11325
-net.sourceforge.pmd.ast.JavaParser$JJCalls, arg, 0, 0, 0, 11325
-net.sourceforge.pmd.ast.JavaParser$JJCalls, first, 0, 0, 0, 11325
-org.apache.xerces.impl.dtd.DTDGrammarBucket, fGrammars, 12, 12, 12, 12
-org.apache.xerces.impl.dtd.DTDGrammarBucket, fIsStandalone, 0, 18, 12, 12
-org.apache.xerces.impl.dtd.DTDGrammarBucket, fActiveGrammar, 0, 12, 12, 12
-org.apache.xerces.impl.msg.XMLMessageFormatter, fResourceBundle, 0, 6, 6, 6
-org.apache.xerces.impl.msg.XMLMessageFormatter, fLocale, 0, 6, 6, 6
-org.apache.xerces.impl.XMLDocumentScannerImpl, fScanningDTD, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fEntityScanner, 6, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fPrologDispatcher, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fValidationManager, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fBindNamespaces, 0, 0, 0, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fNamespaceContext, 30, 30, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fDocumentHandler, 24, 0, 6, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fDTDDispatcher, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fDoctypeName, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fTrailingMiscDispatcher, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fDTDScanner, 0, 18, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fLoadExternalDTD, 0, 24, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fDTDValidator, 0, 0, 0, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fDoctypePublicId, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fStringBuffer, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fParserSettings, 12, 0, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fString, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fDisallowDoctype, 0, 24, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fDTDDescription, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fPerformValidation, 0, 0, 0, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fDoctypeSystemId, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fStrings, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fSawSpace, 0, 0, 0, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fSeenDoctypeDecl, 0, 12, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fExternalSubsetSource, 0, 24, 12, 12
-org.apache.xerces.impl.XMLDocumentScannerImpl, fXMLDeclDispatcher, 12, 12, 12, 12
-net.sourceforge.pmd.symboltable.MethodScope, node, 862, 2508, 2507, 2507
-net.sourceforge.pmd.symboltable.MethodScope, variableNames, 25169, 2508, 2507, 2507
-net.sourceforge.pmd.ast.Token, endLine, 0, 0, 0, 368714
-net.sourceforge.pmd.ast.Token, next, 0, 0, 0, 368714
-net.sourceforge.pmd.ast.Token, image, 0, 368591, 368555, 368714
-net.sourceforge.pmd.ast.Token, endColumn, 0, 0, 0, 368714
-net.sourceforge.pmd.ast.Token, specialToken, 0, 0, 0, 368714
-net.sourceforge.pmd.ast.Token, beginColumn, 0, 0, 0, 368714
-net.sourceforge.pmd.ast.Token, kind, 0, 368581, 368540, 368714
-net.sourceforge.pmd.ast.Token, beginLine, 0, 0, 0, 368714
-net.sourceforge.pmd.SourceType, id, 1756, 6, 6, 6
-org.apache.xerces.dom.DeferredElementImpl, name, 0, 1296, 1296, 1295
-org.apache.xerces.dom.DeferredElementImpl, fNodeIndex, 3873, 1296, 1296, 1295
-org.apache.xerces.dom.DeferredElementImpl, ownerDocument, 1295, 0, 1293, 1295
-org.apache.xerces.dom.DeferredElementImpl, mutationEvents, 1296, 2590, 1296, 1295
-org.jaxen.util.SingletonList, element, 77494, 77496, 42017, 42017
-net.sourceforge.pmd.parsers.Java15Parser, parser, 880, 220, 220, 220
-net.sourceforge.pmd.parsers.Java15Parser, marker, 220, 220, 220, 220
-org.objectweb.asm.Label, a, 0, 0, 0, 18349
-org.objectweb.asm.Label, b, 0, 0, 0, 18349
-org.objectweb.asm.Label, c, 0, 0, 0, 18349
-org.objectweb.asm.Label, d, 0, 0, 0, 18349
-org.objectweb.asm.Label, e, 0, 0, 0, 18349
-org.objectweb.asm.Label, f, 0, 0, 0, 18349
-org.objectweb.asm.Label, g, 0, 0, 0, 18349
-org.objectweb.asm.Label, h, 0, 0, 0, 18349
-org.objectweb.asm.Label, i, 0, 0, 0, 18349
-org.objectweb.asm.Label, j, 0, 0, 0, 18349
-org.objectweb.asm.Label, k, 0, 0, 0, 18349
-org.objectweb.asm.Label, info, 0, 0, 0, 18349
-org.dacapo.parser.SimpleCharStream, line, 3021, 87, 1, 1
-org.dacapo.parser.SimpleCharStream, column, 6196, 3239, 1, 1
-org.dacapo.parser.SimpleCharStream, bufsize, 46, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, available, 6, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, inputStream, 4, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, maxNextCharInd, 2948, 2, 1, 1
-org.dacapo.parser.SimpleCharStream, tabSize, 216, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, inBuf, 3282, 299, 1, 1
-org.dacapo.parser.SimpleCharStream, prevCharIsLF, 2936, 172, 1, 1
-org.dacapo.parser.SimpleCharStream, prevCharIsCR, 2851, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, bufpos, 13211, 3239, 1, 1
-org.dacapo.parser.SimpleCharStream, buffer, 3074, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, tokenBegin, 677, 1066, 1, 1
-org.dacapo.parser.SimpleCharStream, bufline, 3344, 1, 1, 1
-org.dacapo.parser.SimpleCharStream, bufcolumn, 3344, 1, 1, 1
-org.apache.xerces.parsers.XML11Configuration, f11Initialized, 0, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fValidationManager, 12, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fXML11DatatypeFactory, 0, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fDTDProcessor, 66, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fProperties, 66, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fXML11DTDScanner, 0, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fFeatures, 300, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fXML11NSDocScanner, 0, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fCommonComponents, 420, 12, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fInputSource, 12, 12, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fRecognizedProperties, 0, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fXML11DTDProcessor, 0, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fDocumentHandler, 18, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fDTDScanner, 48, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fLocale, 0, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fComponents, 768, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fErrorReporter, 42, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fDTDValidator, 12, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fLastComponent, 6, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fNonNSScanner, 42, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fCurrentDTDScanner, 12, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fCurrentDVFactory, 12, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fCurrentScanner, 18, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fParseInProgress, 6, 18, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fDTDContentModelHandler, 18, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fXIncludeEnabled, 0, 0, 0, 6
-org.apache.xerces.parsers.XML11Configuration, fVersionDetector, 18, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fNamespaceScanner, 12, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fXML11NSDTDValidator, 0, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fGrammarPool, 6, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fXIncludeNSContext, 0, 0, 0, 6
-org.apache.xerces.parsers.XML11Configuration, fDatatypeValidatorFactory, 18, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fConfigUpdated, 0, 210, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fEntityManager, 24, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fXML11Components, 126, 12, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fRecognizedFeatures, 0, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fDTDHandler, 18, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fNonNSDTDValidator, 42, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fXML11DTDValidator, 0, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fSymbolTable, 6, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fXML11DocScanner, 0, 6, 6, 6
-org.apache.xerces.parsers.XML11Configuration, fNonXIncludeNSContext, 0, 0, 0, 6
-org.apache.xerces.parsers.XML11Configuration, fCurrentNSContext, 0, 0, 0, 6
-org.apache.xerces.parsers.XML11Configuration, fXIncludeHandler, 0, 0, 0, 6
-net.sourceforge.pmd.Report$ProcessingError, msg, 1, 1, 1, 1
-net.sourceforge.pmd.Report$ProcessingError, file, 1, 1, 1, 1
-net.sourceforge.pmd.RuleContext, sourceCodeFile, 658, 220, 4, 5
-net.sourceforge.pmd.RuleContext, sourceCodeFilename, 654, 220, 4, 5
-net.sourceforge.pmd.RuleContext, sourceType, 652, 220, 4, 5
-net.sourceforge.pmd.RuleContext, report, 654, 225, 5, 5
-net.sourceforge.pmd.RuleContext, attributes, 4, 5, 5, 5
-org.apache.xerces.dom.ParentNode, fLength, 10055, 863, 864, 1302
-org.apache.xerces.dom.ParentNode, fChildIndex, 5028, 4160, 864, 1302
-org.apache.xerces.dom.ParentNode, fNodeExtra, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fNamespacesEnabled, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fIdCount, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fNodeCount, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, nextSibling, 7463, 0, 864, 1302
-org.apache.xerces.dom.ParentNode, fIdElement, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fNodeType, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fNodePrevSib, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fNodeParent, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fBufferStr, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fNodeListCache, 39745, 2165, 1301, 1302
-org.apache.xerces.dom.ParentNode, firstChild, 22701, 1302, 1302, 1302
-org.apache.xerces.dom.ParentNode, fStrChunks, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fNodeValue, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, previousSibling, 5421, 1290, 1290, 1302
-org.apache.xerces.dom.ParentNode, fChild, 4164, 4163, 863, 1302
-org.apache.xerces.dom.ParentNode, ownerDocument, 10639, 1302, 1301, 1302
-org.apache.xerces.dom.ParentNode, fNodeURI, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fNodeLastChild, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fNodeName, 0, 0, 0, 1302
-org.apache.xerces.dom.ParentNode, fIdName, 0, 0, 0, 1302
-net.sourceforge.pmd.PMD$PmdThread, rulesets, 440, 4, 4, 4
-net.sourceforge.pmd.PMD$PmdThread, context, 220, 4, 4, 4
-net.sourceforge.pmd.PMD$PmdThread, ruleSetFactory, 4, 4, 4, 4
-net.sourceforge.pmd.PMD$PmdThread, id, 0, 4, 4, 4
-org.dacapo.parser.Config, outputFiles, 2, 0, 1, 1
-org.dacapo.parser.Config, threadModel, 3, 2, 1, 1
-org.dacapo.parser.Config, existence, 1, 0, 1, 1
-org.dacapo.parser.Config, className, 1, 2, 1, 1
-org.dacapo.parser.Config, filter, 1, 4, 1, 1
-org.dacapo.parser.Config, args, 1, 0, 1, 1
-org.dacapo.parser.Config, sizes, 35, 1, 1, 1
-org.dacapo.parser.Config, keep, 1, 0, 1, 1
-org.dacapo.parser.Config, name, 0, 1, 1, 1
-org.dacapo.parser.Config, digest, 1, 4, 1, 1
-org.dacapo.parser.Config, jar, 1, 1, 1, 1
-org.dacapo.parser.Config, text, 1, 4, 1, 1
-org.dacapo.parser.Config, libs, 1, 1, 1, 1
-org.dacapo.parser.Config, desc, 9, 1, 1, 1
-net.sourceforge.pmd.util.filter.AbstractCompoundFilter, filters, 8, 12, 12, 12
-org.apache.xerces.util.ParserConfigurationSettings, fRecognizedProperties, 647, 6, 6, 6
-org.apache.xerces.util.ParserConfigurationSettings, fRecognizedFeatures, 684, 6, 6, 6
-org.apache.xerces.util.ParserConfigurationSettings, fXIncludeEnabled, 0, 0, 0, 6
-org.apache.xerces.util.ParserConfigurationSettings, fParentSettings, 0, 6, 6, 6
-org.apache.xerces.util.ParserConfigurationSettings, fProperties, 312, 6, 6, 6
-org.apache.xerces.util.ParserConfigurationSettings, fFeatures, 348, 6, 6, 6
-org.apache.xerces.util.ParserConfigurationSettings, fNonXIncludeNSContext, 0, 0, 0, 6
-org.apache.xerces.util.ParserConfigurationSettings, fCurrentNSContext, 0, 0, 0, 6
-org.apache.xerces.util.ParserConfigurationSettings, fXIncludeHandler, 0, 0, 0, 6
-org.apache.xerces.util.ParserConfigurationSettings, fXIncludeNSContext, 0, 0, 0, 6
-org.apache.xerces.dom.TextImpl, fNodeIndex, 0, 0, 0, 3293
-net.sourceforge.pmd.RuleSets, ruleChain, 225, 6, 6, 6
-net.sourceforge.pmd.RuleSets, ruleSets, 886, 6, 6, 6
-org.jaxen.QualifiedName, localName, 98289, 16503, 35, 35
-org.jaxen.QualifiedName, namespaceURI, 98291, 0, 35, 35
-net.sourceforge.pmd.renderers.TextRenderer, suppressed, 1, 0, 1, 1
-net.sourceforge.pmd.renderers.TextRenderer, errors, 2, 0, 1, 1
-net.sourceforge.pmd.renderers.TextRenderer, empty, 1, 16, 1, 1
+CLASS, VARIABLE, TYPE, READS, WRITES, INSTANCES-USE-VARIABLE, INSTANCES-TOTAL
+org.jaxen.expr.IdentitySet, contents, java.util.HashSet, 143286, 63504, 63501, 63501
+org.jaxen.SimpleVariableContext, variables, java.util.Map, 26, 99, 99, 99
+org.apache.xerces.impl.XMLDocumentScannerImpl$TrailingMiscDispatcher, this$0, org.apache.xerces.impl.XMLDocumentScannerImpl, 24, 12, 12, 12
+net.sourceforge.pmd.RuleSetFactory, minPriority, int, 204, 2, 1, 1
+org.dacapo.harness.Callback, mode, org.dacapo.harness.Callback$Mode, 4, 1, 1, 1
+org.dacapo.harness.Callback, args, org.dacapo.harness.CommandLineArgs, 2, 1, 1, 1
+org.dacapo.harness.Callback, elapsed, long, 1, 1, 1, 1
+org.dacapo.harness.Callback, timer, long, 1, 1, 1, 1
+org.dacapo.harness.Callback, times, [J, 1, 0, 1, 1
+org.dacapo.harness.Callback, iterations, int, 0, 1, 1, 1
+org.dacapo.harness.Callback, verbose, boolean, 3, 2, 1, 1
+net.sourceforge.pmd.rules.UnnecessaryConversionTemporary, inPrimaryExpressionContext, boolean, 8112, 1386, 1, 2
+net.sourceforge.pmd.rules.UnnecessaryConversionTemporary, usingPrimitiveWrapperAllocation, boolean, 202, 693, 1, 2
+net.sourceforge.pmd.rules.UnnecessaryConversionTemporary, primary, net.sourceforge.pmd.ast.ASTPrimaryExpression, 0, 693, 1, 2
+org.apache.xerces.util.SymbolTable$Entry, next, org.apache.xerces.util.SymbolTable$Entry, 0, 114, 114, 114
+org.apache.xerces.util.SymbolTable$Entry, symbol, java.lang.String, 0, 114, 114, 114
+org.apache.xerces.util.SymbolTable$Entry, characters, [C, 228, 114, 114, 114
+net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, fieldVisitor, org.objectweb.asm.FieldVisitor, 928, 218, 218, 219
+net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, packages, java.util.Map, 31060, 218, 218, 219
+net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, annotationVisitor, org.objectweb.asm.AnnotationVisitor, 1, 218, 218, 219
+net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, sigVisitor, org.objectweb.asm.signature.SignatureVisitor, 262, 218, 218, 219
+net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, methodVisitor, org.objectweb.asm.MethodVisitor, 2593, 218, 219, 219
+net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, innerClasses, java.util.List, 598, 15, 218, 219
+net.sourceforge.pmd.symboltable.VariableUsageFinderFunction, decls, java.util.Map, 178, 63, 63, 63
+net.sourceforge.pmd.symboltable.VariableUsageFinderFunction, results, java.util.Map, 241, 63, 63, 63
+org.jaxen.expr.DefaultFunctionCallExpr, functionName, java.lang.String, 16472, 392, 392, 392
+org.jaxen.expr.DefaultFunctionCallExpr, prefix, java.lang.String, 32752, 392, 392, 392
+org.jaxen.expr.DefaultFunctionCallExpr, parameters, java.util.List, 17416, 784, 392, 392
+org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fInternalBufferPool, [Lorg.apache.xerces.impl.XMLEntityManager$CharacterBuffer;, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fExternalTop, int, 18, 12, 6, 6
+org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fExternalBufferPool, [Lorg.apache.xerces.impl.XMLEntityManager$CharacterBuffer;, 12, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, poolSize, int, 12, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fExternalBufferSize, int, 6, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fInternalTop, int, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, fInternalBufferSize, int, 0, 6, 6, 6
+org.apache.xerces.dom.DeferredTextImpl, fNodeIndex, int, 2232, 2907, 2907, 2904
+net.sourceforge.pmd.ast.JavaRuleChainVisitor$1, this$0, net.sourceforge.pmd.ast.JavaRuleChainVisitor, 231564, 219, 219, 219
+org.apache.xerces.impl.XMLNSDocumentScannerImpl$NSContentDispatcher, this$0, org.apache.xerces.impl.XMLNSDocumentScannerImpl, 0, 6, 6, 6
+org.jaxen.BaseXPath, xpath, org.jaxen.expr.XPathExpr, 58572, 184, 184, 184
+org.jaxen.BaseXPath, navigator, org.jaxen.Navigator, 91, 184, 184, 184
+org.jaxen.BaseXPath, exprText, java.lang.String, 0, 184, 184, 184
+org.jaxen.BaseXPath, support, org.jaxen.ContextSupport, 116978, 91, 91, 184
+org.jaxen.expr.PredicateSet, predicates, java.util.List, 299162, 4200, 3744, 3744
+org.apache.xerces.impl.XMLEntityManager, fSecurityManager, org.apache.xerces.util.SecurityManager, 6, 12, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fEntityScanner, org.apache.xerces.impl.XMLEntityScanner, 90, 18, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fValidationManager, org.apache.xerces.impl.validation.ValidationManager, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fExternalParameterEntities, boolean, 0, 12, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fStrictURI, boolean, 6, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fCurrentEntity, org.apache.xerces.impl.XMLEntityManager$ScannedEntity, 78, 18, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fBufferPool, org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool, 6, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fWarnDuplicateEntityDef, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fInExternalSubset, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fResourceIdentifier, org.apache.xerces.util.XMLResourceIdentifierImpl, 12, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fStandalone, boolean, 0, 12, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fEntities, java.util.Hashtable, 6, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fDeclaredEntities, java.util.Hashtable, 6, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fExternalGeneralEntities, boolean, 0, 12, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fAllowJavaEncodings, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fErrorReporter, org.apache.xerces.impl.XMLErrorReporter, 36, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fEntityHandler, org.apache.xerces.impl.XMLEntityHandler, 12, 18, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fEntityExpansionCount, int, 0, 12, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fEntityResolver, org.apache.xerces.xni.parser.XMLEntityResolver, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fValidation, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fBufferSize, int, 12, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fEntityAugs, org.apache.xerces.xni.Augmentations, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fXML10EntityScanner, org.apache.xerces.impl.XMLEntityScanner, 66, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fEntityStack, java.util.Stack, 12, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fReaderStack, java.util.Stack, 24, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fSymbolTable, org.apache.xerces.util.SymbolTable, 24, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fEntityExpansionLimit, int, 0, 12, 6, 6
+org.apache.xerces.impl.XMLEntityManager, fXML11EntityScanner, org.apache.xerces.impl.XMLEntityScanner, 6, 0, 6, 6
+net.sourceforge.pmd.typeresolution.PMDASMClassLoader, dontBother, java.util.Set, 218, 220, 220, 220
+net.sourceforge.pmd.ast.ASTBooleanLiteral, isTrue, boolean, 0, 1431, 1431, 2065
+org.apache.xerces.impl.dtd.XMLDTDDescription, fPossibleRoots, java.util.Vector, 0, 24, 1, 1
+org.apache.xerces.impl.dtd.XMLDTDDescription, fRootName, java.lang.String, 0, 24, 1, 1
+net.sourceforge.pmd.SimpleRuleSetNameMapper, rulesets, java.lang.StringBuffer, 3, 1, 1, 1
+net.sourceforge.pmd.SimpleRuleSetNameMapper, nameMap, java.util.Map, 37, 1, 1, 1
+net.sourceforge.pmd.RuleChain, languageToRuleChainVisitor, java.util.Map, 429, 6, 6, 6
+org.apache.xerces.dom.DeferredAttrImpl, fNodeIndex, int, 4901, 1236, 1236, 1236
+net.sourceforge.pmd.Language, name, java.lang.String, 1757, 2, 2, 2
+net.sourceforge.pmd.sourcetypehandlers.JavaTypeHandler$2, this$0, net.sourceforge.pmd.sourcetypehandlers.JavaTypeHandler, 0, 220, 220, 220
+net.sourceforge.pmd.sourcetypehandlers.JavaTypeHandler$3, this$0, net.sourceforge.pmd.sourcetypehandlers.JavaTypeHandler, 0, 220, 220, 220
+net.sourceforge.pmd.sourcetypehandlers.JavaTypeHandler$3, val$classLoader, java.lang.ClassLoader, 220, 220, 220, 220
+org.apache.xerces.impl.XMLEntityScanner, fEntityManager, org.apache.xerces.impl.XMLEntityManager, 6, 30, 6, 6
+org.apache.xerces.impl.XMLEntityScanner, fSymbolTable, org.apache.xerces.util.SymbolTable, 2550, 30, 6, 6
+org.apache.xerces.impl.XMLEntityScanner, fBufferSize, int, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityScanner, fErrorReporter, org.apache.xerces.impl.XMLErrorReporter, 0, 24, 6, 6
+org.apache.xerces.impl.XMLEntityScanner, fCurrentEntity, org.apache.xerces.impl.XMLEntityManager$ScannedEntity, 1242371, 60, 6, 6
+org.apache.xerces.impl.XMLNSDocumentScannerImpl, fBindNamespaces, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.XMLNSDocumentScannerImpl, fDTDValidator, org.apache.xerces.impl.dtd.XMLDTDValidatorFilter, 0, 0, 0, 6
+org.apache.xerces.impl.XMLNSDocumentScannerImpl, fSawSpace, boolean, 0, 0, 0, 6
+org.apache.xerces.impl.XMLNSDocumentScannerImpl, fPerformValidation, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLAttributeDecl, simpleType, org.apache.xerces.impl.dtd.XMLSimpleType, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLAttributeDecl, name, org.apache.xerces.xni.QName, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLAttributeDecl, optional, boolean, 0, 0, 0, 12
+net.sourceforge.pmd.ast.ASTAssignmentOperator, isCompound, boolean, 0, 116, 116, 2029
+net.sourceforge.pmd.jaxen.AttributeAxisIterator$MethodWrapper, method, java.lang.reflect.Method, 0, 89, 89, 89
+net.sourceforge.pmd.jaxen.AttributeAxisIterator$MethodWrapper, name, java.lang.String, 0, 89, 89, 89
+net.sourceforge.pmd.ScopedLogHandlersManager, newHandlers, [Ljava.util.logging.Handler;, 2, 1, 1, 1
+net.sourceforge.pmd.ScopedLogHandlersManager, logger, java.util.logging.Logger, 6, 1, 1, 1
+net.sourceforge.pmd.ScopedLogHandlersManager, oldLogLevel, java.util.logging.Level, 1, 1, 1, 1
+net.sourceforge.pmd.ScopedLogHandlersManager, oldHandlers, [Ljava.util.logging.Handler;, 2, 1, 1, 1
+net.sourceforge.pmd.ast.ASTReferenceType, arrayDepth, int, 210, 210, 203, 5122
+net.sourceforge.pmd.ast.ASTFormalParameter, isVarargs, boolean, 39260, 6, 455, 2729
+org.apache.xerces.util.SymbolTable, fThreshold, int, 114, 6, 6, 6
+org.apache.xerces.util.SymbolTable, fTableSize, int, 2562, 6, 6, 6
+org.apache.xerces.util.SymbolTable, fLoadFactor, float, 0, 6, 6, 6
+org.apache.xerces.util.SymbolTable, fCount, int, 228, 120, 6, 6
+org.apache.xerces.util.SymbolTable, fBuckets, [Lorg.apache.xerces.util.SymbolTable$Entry;, 2778, 12, 6, 6
+net.sourceforge.pmd.ast.ASTConstructorDeclaration, containsComment, boolean, 0, 3, 3, 344
+org.apache.commons.cli.PosixParser, eatTheRest, boolean, 1, 1, 1, 1
+org.apache.commons.cli.PosixParser, currentOption, org.apache.commons.cli.Option, 0, 0, 0, 1
+org.apache.commons.cli.PosixParser, options, org.apache.commons.cli.Options, 0, 1, 1, 1
+org.apache.commons.cli.PosixParser, tokens, java.util.List, 4, 1, 1, 1
+org.apache.xerces.dom.DeferredCDATASectionImpl, fNodeIndex, int, 382, 384, 384, 384
+org.jaxen.ContextSupport, functionContext, org.jaxen.FunctionContext, 16279, 91, 91, 91
+org.jaxen.ContextSupport, navigator, org.jaxen.Navigator, 893058, 91, 91, 91
+org.jaxen.ContextSupport, namespaceContext, org.jaxen.NamespaceContext, 16288, 91, 91, 91
+org.jaxen.ContextSupport, variableContext, org.jaxen.VariableContext, 9, 99, 91, 91
+org.apache.commons.cli.Option, opt, java.lang.String, 70, 23, 36, 36
+org.apache.commons.cli.Option, argName, java.lang.String, 0, 34, 12, 36
+org.apache.commons.cli.Option, numberOfArgs, int, 0, 34, 12, 36
+org.apache.commons.cli.Option, values, java.util.List, 23, 23, 24, 36
+org.apache.commons.cli.Option, description, java.lang.String, 23, 23, 23, 36
+org.apache.commons.cli.Option, optionalArg, boolean, 0, 0, 0, 36
+org.apache.commons.cli.Option, type, java.lang.Object, 0, 0, 0, 36
+org.apache.commons.cli.Option, longOpt, java.lang.String, 112, 23, 24, 36
+org.apache.commons.cli.Option, required, boolean, 45, 0, 23, 36
+org.apache.commons.cli.Option, valuesep, char, 0, 11, 11, 36
+org.jaxen.expr.DefaultNumberExpr, number, java.lang.Double, 6564, 200, 200, 200
+org.apache.xerces.impl.dtd.XMLDTDValidator, fDynamicValidation, boolean, 24, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fValID, org.apache.xerces.impl.dv.DatatypeValidator, 0, 0, 0, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fInElementContent, boolean, 0, 29, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fValidationManager, org.apache.xerces.impl.validation.ValidationManager, 24, 23, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fRootElement, org.apache.xerces.xni.QName, 12, 11, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fNamespaces, boolean, 12, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fBalanceSyntaxTrees, boolean, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fDocLocation, org.apache.xerces.xni.XMLLocator, 0, 6, 6, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fInCDATASection, boolean, 0, 23, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fDTDValidation, boolean, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fValNMTOKENS, org.apache.xerces.impl.dv.DatatypeValidator, 0, 0, 0, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fNamespaceContext, org.apache.xerces.xni.NamespaceContext, 0, 17, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fValidationState, org.apache.xerces.impl.validation.ValidationState, 36, 11, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fSeenRootElement, boolean, 6, 29, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fElementQNamePartsStack, [Lorg.apache.xerces.xni.QName;, 187, 11, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fElementChildrenOffsetStack, [I, 0, 11, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fGrammarBucket, org.apache.xerces.impl.dtd.DTDGrammarBucket, 24, 11, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fDocumentHandler, org.apache.xerces.xni.XMLDocumentHandler, 54, 6, 6, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fValNOTATION, org.apache.xerces.impl.dv.DatatypeValidator, 0, 0, 0, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fErrorReporter, org.apache.xerces.impl.XMLErrorReporter, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fValENTITY, org.apache.xerces.impl.dv.DatatypeValidator, 0, 0, 0, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fCurrentElement, org.apache.xerces.xni.QName, 0, 11, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fTempElementDecl, org.apache.xerces.impl.dtd.XMLElementDecl, 0, 11, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fCurrentContentSpecType, int, 0, 29, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fValidation, boolean, 18, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fElementIndexStack, [I, 0, 11, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fElementChildrenLength, int, 0, 23, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fWarnDuplicateAttdef, boolean, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fDTDGrammar, org.apache.xerces.impl.dtd.DTDGrammar, 12, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fValIDRef, org.apache.xerces.impl.dv.DatatypeValidator, 0, 0, 0, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fGrammarPool, org.apache.xerces.xni.grammars.XMLGrammarPool, 6, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fTempAttDecl, org.apache.xerces.impl.dtd.XMLAttributeDecl, 0, 11, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fTempQName, org.apache.xerces.xni.QName, 0, 11, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fElementChildren, [Lorg.apache.xerces.xni.QName;, 0, 11, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fPerformValidation, boolean, 18, 6, 6, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fDatatypeValidatorFactory, org.apache.xerces.impl.dv.DTDDVFactory, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fDocumentSource, org.apache.xerces.xni.parser.XMLDocumentSource, 18, 6, 6, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fCurrentElementIndex, int, 0, 29, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fValENTITIES, org.apache.xerces.impl.dv.DatatypeValidator, 0, 0, 0, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fSchemaType, java.lang.String, 6, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fSymbolTable, org.apache.xerces.util.SymbolTable, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fEntityDecl, org.apache.xerces.impl.dtd.XMLEntityDecl, 0, 11, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fValNMTOKEN, org.apache.xerces.impl.dv.DatatypeValidator, 0, 0, 0, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fBuffer, java.lang.StringBuffer, 0, 11, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fSeenDoctypeDecl, boolean, 6, 23, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fContentSpecTypeStack, [I, 0, 11, 11, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fValIDRefs, org.apache.xerces.impl.dv.DatatypeValidator, 0, 0, 0, 12
+org.apache.xerces.impl.dtd.XMLDTDValidator, fElementDepth, int, 0, 23, 12, 12
+net.sourceforge.pmd.PMDException, severity, int, 0, 0, 0, 1
+net.sourceforge.pmd.util.Benchmark$BenchmarkResult, name, java.lang.String, 0, 41, 41, 41
+net.sourceforge.pmd.util.Benchmark$BenchmarkResult, count, long, 8549, 8549, 41, 41
+net.sourceforge.pmd.util.Benchmark$BenchmarkResult, time, long, 8549, 8549, 41, 41
+net.sourceforge.pmd.util.Benchmark$BenchmarkResult, type, int, 0, 41, 41, 41
+net.sourceforge.pmd.ast.ASTPrimaryPrefix, usesThisModifier, boolean, 29035, 595, 29035, 29074
+net.sourceforge.pmd.ast.ASTPrimaryPrefix, usesSuperModifier, boolean, 29915, 46, 29081, 29074
+org.objectweb.asm.signature.SignatureReader, a, java.lang.String, 262, 262, 262, 262
+org.apache.xerces.util.AugmentationsImpl, fAugmentationsContainer, org.apache.xerces.util.AugmentationsImpl$AugmentationsItemsContainer, 3708, 78, 78, 78
+net.sourceforge.pmd.PMD$PmdRunnable, fileName, java.lang.String, 441, 220, 220, 220
+net.sourceforge.pmd.PMD$PmdRunnable, rulesets, java.lang.String, 220, 220, 220, 220
+net.sourceforge.pmd.PMD$PmdRunnable, executor, java.util.concurrent.ExecutorService, 0, 220, 220, 220
+net.sourceforge.pmd.PMD$PmdRunnable, renderers, java.util.List, 220, 220, 220, 220
+net.sourceforge.pmd.PMD$PmdRunnable, encoding, java.lang.String, 220, 220, 220, 220
+net.sourceforge.pmd.PMD$PmdRunnable, dataSource, net.sourceforge.pmd.DataSource, 440, 220, 220, 220
+net.sourceforge.pmd.jaxen.DocumentNavigator$2, this$0, net.sourceforge.pmd.jaxen.DocumentNavigator, 0, 1086, 1086, 1086
+net.sourceforge.pmd.ast.JavaParserTokenManager, curChar, char, 1767821, 927486, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, jjstateSet, [I, 1273262, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, image, java.lang.StringBuilder, 370163, 368274, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, input_stream, net.sourceforge.pmd.ast.CharStream, 2750082, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, comments, java.util.List, 1277, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, curLexState, int, 440971, 2262, 221, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, jjrounds, [I, 1019346, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, defaultLexState, int, 0, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, jjmatchedPos, int, 669606, 1074599, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, jjimage, java.lang.StringBuilder, 368283, 220, 221, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, jjnewStateCnt, int, 973650, 1054622, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, excludeMarker, java.lang.String, 256, 440, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, debugStream, java.io.PrintStream, 0, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, excludeMap, java.util.Map, 220, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, jjimageLen, int, 74939, 441676, 220, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, lengthOfMatch, int, 0, 74239, 209, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, jjmatchedKind, int, 4055149, 1247552, 223, 223
+net.sourceforge.pmd.ast.JavaParserTokenManager, jjround, int, 1437008, 418127, 221, 223
+net.sourceforge.pmd.jaxen.DocumentNavigator$1, this$0, net.sourceforge.pmd.jaxen.DocumentNavigator, 0, 100467, 100464, 100463
+org.dacapo.parser.Token, endLine, int, 0, 0, 0, 205
+org.dacapo.parser.Token, next, org.dacapo.parser.Token, 0, 0, 0, 205
+org.dacapo.parser.Token, image, java.lang.String, 0, 204, 204, 205
+org.dacapo.parser.Token, endColumn, int, 0, 0, 0, 205
+org.dacapo.parser.Token, specialToken, org.dacapo.parser.Token, 0, 0, 0, 205
+org.dacapo.parser.Token, beginColumn, int, 0, 0, 0, 205
+org.dacapo.parser.Token, kind, int, 0, 204, 204, 205
+org.dacapo.parser.Token, beginLine, int, 0, 0, 0, 205
+net.sourceforge.pmd.ast.ASTBlock, containsComment, boolean, 0, 14, 14, 4615
+net.sourceforge.pmd.FileDataSource, file, java.io.File, 1738, 220, 220, 220
+org.dacapo.parser.Config$ThreadModel, description, java.lang.String, 0, 3, 3, 3
+org.dacapo.parser.Config$OutputFile, filter, boolean, 0, 4, 4, 4
+org.dacapo.parser.Config$OutputFile, bytes, long, 1, 4, 4, 4
+org.dacapo.parser.Config$OutputFile, keep, boolean, 0, 4, 4, 4
+org.dacapo.parser.Config$OutputFile, this$0, org.dacapo.parser.Config, 0, 4, 4, 4
+org.dacapo.parser.Config$OutputFile, name, java.lang.String, 0, 4, 4, 4
+org.dacapo.parser.Config$OutputFile, digest, java.lang.String, 1, 4, 4, 4
+org.dacapo.parser.Config$OutputFile, existence, boolean, 0, 4, 4, 4
+org.dacapo.parser.Config$OutputFile, text, boolean, 0, 4, 4, 4
+org.dacapo.parser.Config$OutputFile, lines, int, 1, 4, 4, 4
+org.jaxen.util.SingleObjectIterator, seen, boolean, 363140, 212034, 106017, 106013
+org.jaxen.util.SingleObjectIterator, object, java.lang.Object, 106018, 106022, 106019, 106013
+net.sourceforge.pmd.SourceTypeDiscoverer, mapExtensionOnSourceType, java.util.Map, 1100, 220, 220, 220
+org.apache.xerces.impl.Constants$ArrayEnumeration, array, [Ljava.lang.Object;, 0, 1, 1, 1
+org.apache.xerces.impl.Constants$ArrayEnumeration, index, int, 0, 0, 0, 1
+net.sourceforge.pmd.util.filter.Filters$1, val$filter, net.sourceforge.pmd.util.filter.Filter, 658, 4, 4, 4
+net.sourceforge.pmd.symboltable.ClassScope, methodNames, java.util.Map, 18616, 327, 328, 327
+net.sourceforge.pmd.symboltable.ClassScope, classNames, java.util.Map, 24, 327, 327, 327
+net.sourceforge.pmd.symboltable.ClassScope, className, java.lang.String, 43590, 327, 326, 327
+net.sourceforge.pmd.symboltable.ClassScope, variableNames, java.util.Map, 25764, 327, 327, 327
+net.sourceforge.pmd.ast.JJTJavaParserState, nodes, java.util.List, 696940, 220, 221, 220
+net.sourceforge.pmd.ast.JJTJavaParserState, node_created, boolean, 0, 579252, 220, 220
+net.sourceforge.pmd.ast.JJTJavaParserState, marks, java.util.List, 1736202, 220, 220, 220
+net.sourceforge.pmd.ast.JJTJavaParserState, sp, int, 1550800, 464950, 220, 220
+net.sourceforge.pmd.ast.JJTJavaParserState, mk, int, 1319012, 1158373, 220, 220
+org.jaxen.SimpleNamespaceContext, namespaces, java.util.Map, 16287, 91, 91, 91
+org.apache.xerces.impl.validation.ValidationManager, fCachedDTD, boolean, 0, 12, 6, 6
+org.apache.xerces.impl.validation.ValidationManager, fGrammarFound, boolean, 0, 18, 6, 6
+org.apache.xerces.impl.validation.ValidationManager, fVSs, java.util.Vector, 36, 6, 6, 6
+org.apache.xerces.impl.XMLDocumentScannerImpl$DTDDispatcher, this$0, org.apache.xerces.impl.XMLDocumentScannerImpl, 0, 12, 12, 12
+org.jaxen.util.DescendantAxisIterator, stack, java.util.ArrayList, 53690, 962, 962, 962
+org.jaxen.util.DescendantAxisIterator, children, java.util.Iterator, 67025, 27326, 962, 962
+org.jaxen.util.DescendantAxisIterator, navigator, org.jaxen.Navigator, 13182, 962, 962, 962
+net.sourceforge.pmd.ast.ASTClassOrInterfaceDeclaration, isInterface, boolean, 2677, 25, 243, 244
+org.jaxen.expr.DefaultPredicate, expr, org.jaxen.expr.Expr, 63328, 896, 448, 448
+net.sourceforge.pmd.ast.ASTPrimitiveType, arrayDepth, int, 0, 0, 0, 2581
+net.sourceforge.pmd.ast.ASTInitializer, isStatic, boolean, 3, 3, 3, 3
+org.jaxen.saxpath.base.Token, tokenEnd, int, 4604, 13120, 13120, 13120
+org.jaxen.saxpath.base.Token, tokenType, int, 79044, 13118, 13118, 13120
+org.jaxen.saxpath.base.Token, parseText, java.lang.String, 4604, 13120, 13120, 13120
+org.jaxen.saxpath.base.Token, tokenBegin, int, 4604, 13120, 13120, 13120
+net.sourceforge.pmd.PMD$PmdThreadFactory, threadList, java.util.List, 4, 1, 1, 1
+net.sourceforge.pmd.PMD$PmdThreadFactory, ctx, net.sourceforge.pmd.RuleContext, 4, 1, 1, 1
+net.sourceforge.pmd.PMD$PmdThreadFactory, ruleSetFactory, net.sourceforge.pmd.RuleSetFactory, 4, 1, 1, 1
+net.sourceforge.pmd.PMD$PmdThreadFactory, counter, java.util.concurrent.atomic.AtomicInteger, 4, 1, 1, 1
+net.sourceforge.pmd.ast.ASTSwitchLabel, isDefault, boolean, 0, 197, 197, 1867
+org.objectweb.asm.ClassReader, a, [I, 87870, 281, 281, 281
+org.objectweb.asm.ClassReader, b, [B, 285126, 281, 281, 281
+org.objectweb.asm.ClassReader, c, [Ljava.lang.String;, 86330, 281, 281, 281
+org.objectweb.asm.ClassReader, d, int, 281, 281, 281, 281
+org.objectweb.asm.ClassReader, header, int, 281, 281, 281, 281
+org.apache.xerces.util.AugmentationsImpl$SmallContainer, fNumEntries, int, 3708, 1312, 78, 78
+org.apache.xerces.util.AugmentationsImpl$SmallContainer, fAugmentations, [Ljava.lang.Object;, 0, 78, 78, 78
+org.apache.xerces.util.AugmentationsImpl$SmallContainer, this$0, org.apache.xerces.util.AugmentationsImpl, 0, 78, 78, 78
+org.apache.xerces.impl.XMLErrorReporter, fErrorHandler, org.apache.xerces.xni.parser.XMLErrorHandler, 0, 6, 6, 6
+org.apache.xerces.impl.XMLErrorReporter, fLocale, java.util.Locale, 6, 6, 6, 6
+org.apache.xerces.impl.XMLErrorReporter, fMessageFormatters, java.util.Hashtable, 24, 6, 6, 6
+org.apache.xerces.impl.XMLErrorReporter, fDefaultErrorHandler, org.apache.xerces.xni.parser.XMLErrorHandler, 0, 0, 0, 6
+org.apache.xerces.impl.XMLErrorReporter, fContinueAfterFatalError, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.XMLErrorReporter, fLocator, org.apache.xerces.xni.XMLLocator, 0, 12, 6, 6
+org.apache.xerces.impl.XMLErrorReporter, fSaxProxy, org.xml.sax.ErrorHandler, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher, this$0, org.apache.xerces.impl.XMLDocumentScannerImpl, 30, 11, 11, 11
+net.sourceforge.pmd.rules.UselessOverridingMethod, ignoreAnnotations, boolean, 2, 218, 1, 3
+net.sourceforge.pmd.rules.UselessOverridingMethod, exceptions, java.util.List, 6, 6, 1, 3
+net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor$PMDSignatureVisitor, parent, net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, 557, 218, 218, 219
+org.jaxen.JaxenHandler, xpath, org.jaxen.expr.XPathExpr, 368, 184, 184, 184
+org.jaxen.JaxenHandler, stack, java.util.LinkedList, 37724, 184, 184, 184
+org.jaxen.JaxenHandler, simplified, boolean, 184, 368, 184, 184
+org.jaxen.JaxenHandler, xpathFactory, org.jaxen.expr.XPathFactory, 8504, 184, 184, 184
+org.apache.xerces.util.NamespaceSupport, fPrefixes, [Ljava.lang.String;, 0, 18, 18, 18
+org.apache.xerces.util.NamespaceSupport, fCurrentContext, int, 24, 24, 6, 18
+org.apache.xerces.util.NamespaceSupport, fNamespace, [Ljava.lang.String;, 48, 18, 18, 18
+org.apache.xerces.util.NamespaceSupport, fNamespaceSize, int, 60, 60, 6, 18
+org.apache.xerces.util.NamespaceSupport, fContext, [I, 12, 18, 18, 18
+net.sourceforge.pmd.CommandLineOptions, targetJDK, java.lang.String, 2, 1, 1, 1
+net.sourceforge.pmd.CommandLineOptions, stressTestEnabled, boolean, 1, 0, 1, 1
+net.sourceforge.pmd.CommandLineOptions, xsltFilename, java.lang.String, 0, 0, 0, 1
+net.sourceforge.pmd.CommandLineOptions, cpus, int, 1, 1, 1, 1
+net.sourceforge.pmd.CommandLineOptions, shortNamesEnabled, boolean, 1, 0, 1, 1
+net.sourceforge.pmd.CommandLineOptions, reportFile, java.lang.String, 3, 0, 1, 1
+net.sourceforge.pmd.CommandLineOptions, checkJavaFiles, boolean, 1, 1, 1, 1
+net.sourceforge.pmd.CommandLineOptions, debugEnabled, boolean, 1, 0, 1, 1
+net.sourceforge.pmd.CommandLineOptions, reportFormat, java.lang.String, 4, 1, 1, 1
+net.sourceforge.pmd.CommandLineOptions, encoding, java.lang.String, 1, 1, 1, 1
+net.sourceforge.pmd.CommandLineOptions, ruleSets, java.lang.String, 2, 1, 1, 1
+net.sourceforge.pmd.CommandLineOptions, linkPrefix, java.lang.String, 0, 0, 0, 1
+net.sourceforge.pmd.CommandLineOptions, benchmark, boolean, 1, 0, 1, 1
+net.sourceforge.pmd.CommandLineOptions, args, [Ljava.lang.String;, 0, 1, 1, 1
+net.sourceforge.pmd.CommandLineOptions, excludeMarker, java.lang.String, 1, 1, 1, 1
+net.sourceforge.pmd.CommandLineOptions, inputPath, java.lang.String, 3, 1, 1, 1
+net.sourceforge.pmd.CommandLineOptions, auxClasspath, java.lang.String, 1, 0, 1, 1
+net.sourceforge.pmd.CommandLineOptions, checkJspFiles, boolean, 1, 0, 1, 1
+net.sourceforge.pmd.CommandLineOptions, linePrefix, java.lang.String, 0, 0, 0, 1
+net.sourceforge.pmd.CommandLineOptions, minPriority, int, 1, 1, 1, 1
+net.sourceforge.pmd.dfa.report.PackageNode, packageName, java.lang.String, 1680, 287, 287, 287
+net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor$PMDMethodVisitor, parent, net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, 35406, 218, 218, 218
+org.apache.commons.cli.Options, shortOpts, java.util.Map, 46, 2, 2, 2
+org.apache.commons.cli.Options, longOpts, java.util.Map, 45, 2, 2, 2
+org.apache.commons.cli.Options, requiredOpts, java.util.List, 1, 2, 2, 2
+org.apache.commons.cli.Options, optionGroups, java.util.Map, 0, 2, 2, 2
+net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor$PMDAnnotationVisitor, parent, net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, 0, 218, 217, 219
+org.apache.xerces.xni.XMLString, offset, int, 10978, 5867, 24, 78
+org.apache.xerces.xni.XMLString, ch, [C, 10977, 5866, 24, 78
+org.apache.xerces.xni.XMLString, length, int, 16772, 5867, 24, 78
+org.apache.xerces.parsers.XIncludeAwareParserConfiguration, fXIncludeEnabled, boolean, 6, 6, 6, 6
+org.apache.xerces.parsers.XIncludeAwareParserConfiguration, fNonXIncludeNSContext, org.apache.xerces.util.NamespaceSupport, 18, 6, 6, 6
+org.apache.xerces.parsers.XIncludeAwareParserConfiguration, fCurrentNSContext, org.apache.xerces.xni.NamespaceContext, 6, 6, 6, 6
+org.apache.xerces.parsers.XIncludeAwareParserConfiguration, fXIncludeHandler, org.apache.xerces.xinclude.XIncludeHandler, 0, 0, 0, 6
+org.apache.xerces.parsers.XIncludeAwareParserConfiguration, fXIncludeNSContext, org.apache.xerces.xinclude.XIncludeNamespaceSupport, 0, 0, 0, 6
+net.sourceforge.pmd.rules.OverrideBothEqualsAndHashcode, nodeFound, net.sourceforge.pmd.ast.SimpleNode, 6, 227, 2, 3
+net.sourceforge.pmd.rules.OverrideBothEqualsAndHashcode, containsHashCode, boolean, 165, 224, 2, 3
+net.sourceforge.pmd.rules.OverrideBothEqualsAndHashcode, containsEquals, boolean, 165, 227, 2, 3
+net.sourceforge.pmd.rules.OverrideBothEqualsAndHashcode, implementsComparable, boolean, 2162, 277, 2, 3
+net.sourceforge.pmd.typeresolution.ClassTypeResolver, importedClasses, java.util.Map, 41382, 437, 220, 220
+net.sourceforge.pmd.typeresolution.ClassTypeResolver, pmdClassLoader, net.sourceforge.pmd.typeresolution.PMDASMClassLoader, 23534, 220, 220, 220
+net.sourceforge.pmd.typeresolution.ClassTypeResolver, importedOnDemand, java.util.List, 7239, 220, 220, 220
+org.apache.commons.cli.CommandLine, args, java.util.List, 4, 1, 1, 1
+org.apache.commons.cli.CommandLine, options, java.util.List, 43, 1, 1, 1
+org.jaxen.expr.DefaultFilterExpr, predicates, org.jaxen.expr.PredicateSet, 2320, 1160, 1160, 1160
+org.jaxen.expr.DefaultFilterExpr, expr, org.jaxen.expr.Expr, 3480, 2320, 1160, 1160
+org.xml.sax.InputSource, systemId, java.lang.String, 6, 0, 6, 6
+org.xml.sax.InputSource, characterStream, java.io.Reader, 6, 0, 6, 6
+org.xml.sax.InputSource, byteStream, java.io.InputStream, 6, 6, 6, 6
+org.xml.sax.InputSource, encoding, java.lang.String, 6, 0, 6, 6
+org.xml.sax.InputSource, publicId, java.lang.String, 6, 0, 6, 6
+org.apache.xerces.jaxp.DocumentBuilderImpl, fInitErrorHandler, org.xml.sax.ErrorHandler, 0, 6, 6, 6
+org.apache.xerces.jaxp.DocumentBuilderImpl, grammar, javax.xml.validation.Schema, 6, 6, 6, 6
+org.apache.xerces.jaxp.DocumentBuilderImpl, fInitEntityResolver, org.xml.sax.EntityResolver, 0, 6, 6, 6
+org.apache.xerces.jaxp.DocumentBuilderImpl, domParser, org.apache.xerces.parsers.DOMParser, 60, 12, 6, 6
+org.apache.xerces.jaxp.DocumentBuilderImpl, fSchemaValidatorComponentManager, org.apache.xerces.xni.parser.XMLComponentManager, 0, 0, 0, 6
+org.apache.xerces.jaxp.DocumentBuilderImpl, fSchemaValidationManager, org.apache.xerces.impl.validation.ValidationManager, 0, 0, 0, 6
+org.apache.xerces.jaxp.DocumentBuilderImpl, fSchemaValidator, org.apache.xerces.xni.parser.XMLComponent, 6, 0, 6, 6
+net.sourceforge.pmd.ast.ASTLiteral, isChar, boolean, 1624, 129, 1624, 9980
+net.sourceforge.pmd.ast.ASTLiteral, isInt, boolean, 7650, 6018, 7654, 9980
+net.sourceforge.pmd.ast.ASTLiteral, isString, boolean, 1495, 1495, 1495, 9980
+net.sourceforge.pmd.ast.ASTLiteral, isFloat, boolean, 1636, 12, 1636, 9980
+net.sourceforge.pmd.util.TypeMap, typesByName, java.util.Map, 64, 4, 4, 4
+org.jaxen.expr.DefaultXPathExpr, rootExpr, org.jaxen.expr.Expr, 58754, 368, 184, 184
+org.jaxen.Context, size, int, 543468, 884069, 278102, 278096
+org.jaxen.Context, nodeSet, java.util.List, 497526, 821452, 278108, 278096
+org.jaxen.Context, contextSupport, org.jaxen.ContextSupport, 530394, 278123, 278102, 278096
+org.jaxen.Context, position, int, 543430, 551183, 278104, 278096
+net.sourceforge.pmd.symboltable.NameOccurrence, image, java.lang.String, 2279121, 21588, 2379, 2379
+net.sourceforge.pmd.symboltable.NameOccurrence, argumentCount, int, 9687, 6206, 1212, 2379
+net.sourceforge.pmd.symboltable.NameOccurrence, qualifiedName, net.sourceforge.pmd.symboltable.NameOccurrence, 0, 3881, 468, 2379
+net.sourceforge.pmd.symboltable.NameOccurrence, location, net.sourceforge.pmd.ast.SimpleNode, 33024, 0, 2020, 2379
+net.sourceforge.pmd.symboltable.NameOccurrence, isMethodOrConstructorInvocation, boolean, 119372, 6205, 2306, 2379
+org.apache.xerces.impl.dv.dtd.ListDatatypeValidator, fItemValidator, org.apache.xerces.impl.dv.DatatypeValidator, 0, 3, 3, 3
+net.sourceforge.pmd.jaxen.AttributeAxisIterator, node, net.sourceforge.pmd.ast.Node, 224045, 28351, 28351, 28350
+net.sourceforge.pmd.jaxen.AttributeAxisIterator, position, int, 476410, 252396, 28352, 28350
+net.sourceforge.pmd.jaxen.AttributeAxisIterator, methodWrappers, [Lnet.sourceforge.pmd.jaxen.AttributeAxisIterator$MethodWrapper;, 476423, 28349, 28349, 28350
+net.sourceforge.pmd.jaxen.AttributeAxisIterator, currObj, net.sourceforge.pmd.jaxen.Attribute, 728748, 252395, 28352, 28350
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, isExternal, boolean, 17253, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, ch, [C, 0, 12, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, reader, java.io.Reader, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, count, int, 0, 0, 0, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, encoding, java.lang.String, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, startPosition, int, 0, 0, 0, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, literal, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, baseCharOffset, int, 0, 0, 0, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, stream, java.io.InputStream, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, columnNumber, int, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, this$0, org.apache.xerces.impl.XMLEntityManager, 6, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, externallySpecifiedEncoding, boolean, 0, 12, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, fBuffer, org.apache.xerces.impl.XMLEntityManager$CharacterBuffer, 6, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, entityLocation, org.apache.xerces.xni.XMLResourceIdentifier, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, position, int, 0, 0, 0, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, lineNumber, int, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, xmlVersion, java.lang.String, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$ScannedEntity, mayReadChunks, boolean, 0, 6, 6, 6
+net.sourceforge.pmd.ast.ASTCompilationUnit, comments, java.util.List, 0, 220, 220, 220
+net.sourceforge.pmd.ast.ASTCompilationUnit, classTypeResolver, net.sourceforge.pmd.typeresolution.ClassTypeResolver, 0, 220, 220, 220
+org.dacapo.harness.CommandLineArgs, line, org.apache.commons.cli.CommandLine, 29, 1, 1, 1
+org.dacapo.harness.CommandLineArgs, callback, org.dacapo.harness.Callback, 2, 2, 1, 1
+org.dacapo.harness.CommandLineArgs, benchmarks, java.util.List, 2, 1, 1, 1
+net.sourceforge.pmd.ast.ASTConditionalExpression, isTernary, boolean, 45, 45, 45, 22029
+net.sourceforge.pmd.RuleViolation, endLine, int, 0, 433, 433, 433
+net.sourceforge.pmd.RuleViolation, endColumn, int, 0, 433, 433, 433
+net.sourceforge.pmd.RuleViolation, filename, java.lang.String, 170251, 433, 433, 433
+net.sourceforge.pmd.RuleViolation, variableName, java.lang.String, 866, 1299, 433, 433
+net.sourceforge.pmd.RuleViolation, beginColumn, int, 0, 433, 433, 433
+net.sourceforge.pmd.RuleViolation, isSuppressed, boolean, 433, 0, 433, 433
+net.sourceforge.pmd.RuleViolation, beginLine, int, 179204, 433, 433, 433
+net.sourceforge.pmd.RuleViolation, rule, net.sourceforge.pmd.Rule, 871, 433, 433, 433
+net.sourceforge.pmd.RuleViolation, description, java.lang.String, 489, 433, 433, 433
+net.sourceforge.pmd.RuleViolation, methodName, java.lang.String, 0, 433, 433, 433
+net.sourceforge.pmd.RuleViolation, className, java.lang.String, 433, 866, 433, 433
+net.sourceforge.pmd.RuleViolation, packageName, java.lang.String, 433, 433, 433, 433
+org.jaxen.expr.DefaultNameStep, localName, java.lang.String, 369130, 1728, 1728, 1728
+org.jaxen.expr.DefaultNameStep, prefix, java.lang.String, 5088, 1728, 1728, 1728
+org.jaxen.expr.DefaultNameStep, hasPrefix, boolean, 398647, 1728, 1728, 1728
+org.jaxen.expr.DefaultNameStep, matchesAnyName, boolean, 917331, 1728, 1728, 1728
+org.apache.xerces.impl.dv.SecuritySupport$1, this$0, org.apache.xerces.impl.dv.SecuritySupport, 0, 6, 6, 6
+net.sourceforge.pmd.ast.ASTName, nd, net.sourceforge.pmd.symboltable.NameDeclaration, 43081, 14592, 17377, 17799
+org.apache.xerces.impl.dv.SecuritySupport$2, this$0, org.apache.xerces.impl.dv.SecuritySupport, 0, 6, 6, 6
+org.jaxen.expr.IdentitySet$IdentityWrapper, object, java.lang.Object, 143277, 143284, 50711, 50711
+net.sourceforge.pmd.ast.ASTExplicitConstructorInvocation, thisOrSuper, java.lang.String, 0, 34, 34, 289
+org.apache.xerces.impl.dtd.XMLEntityDecl, systemId, java.lang.String, 0, 0, 0, 18
+org.apache.xerces.impl.dtd.XMLEntityDecl, baseSystemId, java.lang.String, 0, 0, 0, 18
+org.apache.xerces.impl.dtd.XMLEntityDecl, notation, java.lang.String, 0, 0, 0, 18
+org.apache.xerces.impl.dtd.XMLEntityDecl, name, java.lang.String, 0, 0, 0, 18
+org.apache.xerces.impl.dtd.XMLEntityDecl, inExternal, boolean, 0, 0, 0, 18
+org.apache.xerces.impl.dtd.XMLEntityDecl, value, java.lang.String, 0, 0, 0, 18
+org.apache.xerces.impl.dtd.XMLEntityDecl, publicId, java.lang.String, 0, 0, 0, 18
+org.apache.xerces.impl.dtd.XMLEntityDecl, isPE, boolean, 0, 0, 0, 18
+org.apache.xerces.impl.dv.SecuritySupport$3, this$0, org.apache.xerces.impl.dv.SecuritySupport, 0, 12, 12, 12
+org.apache.xerces.impl.dv.SecuritySupport$3, val$cl, java.lang.ClassLoader, 24, 12, 12, 12
+org.apache.xerces.parsers.SecuritySupport$7, this$0, org.apache.xerces.parsers.SecuritySupport, 0, 6, 6, 6
+org.apache.xerces.parsers.SecuritySupport$7, val$f, java.io.File, 6, 6, 6, 6
+org.apache.xerces.parsers.SecuritySupport$3, this$0, org.apache.xerces.parsers.SecuritySupport, 0, 24, 24, 24
+org.apache.xerces.parsers.SecuritySupport$3, val$cl, java.lang.ClassLoader, 48, 24, 24, 24
+org.apache.xerces.impl.XMLDTDScannerImpl, fDTDContentModelHandler, org.apache.xerces.xni.XMLDTDContentModelHandler, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fStringBuffer, org.apache.xerces.util.XMLStringBuffer, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fContentDepth, int, 0, 0, 0, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fString, org.apache.xerces.xni.XMLString, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fSeenExternalPE, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fStringBuffer2, org.apache.xerces.util.XMLStringBuffer, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fLiteral2, org.apache.xerces.xni.XMLString, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fExtEntityDepth, int, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fStartDTDCalled, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fEnumeration, [Ljava.lang.String;, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fPEReport, [Z, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fMarkUpDepth, int, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fIgnoreConditionalBuffer, org.apache.xerces.util.XMLStringBuffer, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fEnumerationCount, int, 0, 0, 0, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fDTDHandler, org.apache.xerces.xni.XMLDTDHandler, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fStandalone, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fIncludeSectDepth, int, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fScannerState, int, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fLiteral, org.apache.xerces.xni.XMLString, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fStrings, [Ljava.lang.String;, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fPEStack, [I, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fContentStack, [I, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fPEDepth, int, 0, 6, 6, 6
+org.apache.xerces.impl.XMLDTDScannerImpl, fSeenExternalDTD, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLNSDTDValidator, fAttributeQName, org.apache.xerces.xni.QName, 0, 6, 6, 6
+net.sourceforge.pmd.ast.ASTImportDeclaration, isImportOnDemand, boolean, 1203, 6, 403, 403
+net.sourceforge.pmd.ast.ASTImportDeclaration, isStatic, boolean, 0, 0, 0, 403
+net.sourceforge.pmd.ast.ASTImportDeclaration, pkg, java.lang.Package, 0, 371, 371, 403
+org.apache.xerces.parsers.SecuritySupport$4, this$0, org.apache.xerces.parsers.SecuritySupport, 0, 12, 12, 12
+org.apache.xerces.parsers.SecuritySupport$4, val$propName, java.lang.String, 12, 12, 12, 12
+org.apache.xerces.parsers.SecuritySupport$6, this$0, org.apache.xerces.parsers.SecuritySupport, 0, 6, 6, 6
+org.apache.xerces.parsers.SecuritySupport$6, val$cl, java.lang.ClassLoader, 12, 6, 6, 6
+org.apache.xerces.parsers.SecuritySupport$6, val$name, java.lang.String, 6, 6, 6, 6
+org.apache.xerces.parsers.SecuritySupport$1, this$0, org.apache.xerces.parsers.SecuritySupport, 0, 12, 12, 12
+org.apache.xerces.parsers.SecuritySupport$2, this$0, org.apache.xerces.parsers.SecuritySupport, 0, 12, 12, 12
+org.dacapo.parser.ConfigFile, jj_expentry, [I, 0, 0, 0, 1
+org.dacapo.parser.ConfigFile, jj_kind, int, 0, 1, 1, 1
+org.dacapo.parser.ConfigFile, jj_input_stream, org.dacapo.parser.SimpleCharStream, 1, 1, 1, 1
+org.dacapo.parser.ConfigFile, jj_nt, org.dacapo.parser.Token, 0, 122, 1, 1
+org.dacapo.parser.ConfigFile, jj_ntk, int, 180, 326, 1, 1
+org.dacapo.parser.ConfigFile, jj_expentries, java.util.List, 0, 1, 1, 1
+org.dacapo.parser.ConfigFile, jj_gen, int, 227, 204, 1, 1
+org.dacapo.parser.ConfigFile, jj_la1, [I, 43, 1, 1, 1
+org.dacapo.parser.ConfigFile, token_source, org.dacapo.parser.ConfigFileTokenManager, 204, 1, 1, 1
+org.dacapo.parser.ConfigFile, token, org.dacapo.parser.Token, 1149, 204, 1, 1
+org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fInputStream, java.io.InputStream, 252, 12, 6, 6
+org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fLength, int, 474, 132, 6, 6
+org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fMark, int, 6, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fStartOffset, int, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, this$0, org.apache.xerces.impl.XMLEntityManager, 216, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fEndOffset, int, 342, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fData, [B, 258, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$RewindableInputStream, fOffset, int, 954, 144, 6, 6
+org.apache.xerces.xni.parser.XMLInputSource, fByteStream, java.io.InputStream, 6, 6, 6, 6
+org.apache.xerces.xni.parser.XMLInputSource, fPublicId, java.lang.String, 6, 6, 6, 6
+org.apache.xerces.xni.parser.XMLInputSource, fEncoding, java.lang.String, 6, 6, 6, 6
+org.apache.xerces.xni.parser.XMLInputSource, fSystemId, java.lang.String, 6, 6, 6, 6
+org.apache.xerces.xni.parser.XMLInputSource, fBaseSystemId, java.lang.String, 6, 6, 6, 6
+org.apache.xerces.xni.parser.XMLInputSource, fCharStream, java.io.Reader, 6, 6, 6, 6
+org.apache.xerces.impl.io.UTF8Reader, fInputStream, java.io.InputStream, 228, 6, 6, 6
+org.apache.xerces.impl.io.UTF8Reader, fSurrogate, int, 222, 6, 6, 6
+org.apache.xerces.impl.io.UTF8Reader, fLocale, java.util.Locale, 0, 12, 6, 6
+org.apache.xerces.impl.io.UTF8Reader, fBuffer, [B, 218986, 6, 6, 6
+org.apache.xerces.impl.io.UTF8Reader, fFormatter, org.apache.xerces.util.MessageFormatter, 0, 12, 6, 6
+org.apache.xerces.impl.io.UTF8Reader, fOffset, int, 222, 0, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fNodeExtra, [[I, 14698, 6, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fNamespacesEnabled, boolean, 2530, 12, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fIdCount, int, 0, 0, 0, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fNodeCount, int, 27080, 9034, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fIdElement, [I, 1302, 0, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fNodeType, [[I, 55760, 6, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fNodePrevSib, [[I, 19553, 6, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fNodeParent, [[I, 10708, 6, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fBufferStr, java.lang.StringBuffer, 4907, 6, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fStrChunks, java.util.Vector, 7906, 6, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fNodeValue, [[Ljava.lang.Object;, 14914, 6, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fNodeURI, [[Ljava.lang.Object;, 2537, 6, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fNodeLastChild, [[I, 19673, 6, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fNodeName, [[Ljava.lang.Object;, 5066, 6, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl, fIdName, [Ljava.lang.String;, 0, 0, 0, 6
+net.sourceforge.pmd.rules.basic.BooleanInstantiation, customBoolean, boolean, 29686, 219, 1, 2
+org.dacapo.harness.TeeOutputStream, toScreen, boolean, 67594, 4, 2, 2
+org.dacapo.harness.TeeOutputStream, log, java.io.OutputStream, 202818, 8, 2, 2
+org.dacapo.harness.TeeOutputStream, logFile, java.io.File, 4, 2, 2, 2
+org.dacapo.harness.TeeOutputStream, version, int, 0, 2, 2, 2
+org.apache.xerces.impl.dtd.XMLSimpleType, datatypeValidator, org.apache.xerces.impl.dv.DatatypeValidator, 0, 0, 0, 24
+org.apache.xerces.impl.dtd.XMLSimpleType, defaultValue, java.lang.String, 0, 0, 0, 24
+org.apache.xerces.impl.dtd.XMLSimpleType, nonNormalizedDefaultValue, java.lang.String, 0, 0, 0, 24
+org.apache.xerces.impl.dtd.XMLSimpleType, name, java.lang.String, 0, 0, 0, 24
+org.apache.xerces.impl.dtd.XMLSimpleType, type, short, 0, 0, 0, 24
+org.apache.xerces.impl.dtd.XMLSimpleType, enumeration, [Ljava.lang.String;, 0, 0, 0, 24
+org.apache.xerces.impl.dtd.XMLSimpleType, list, boolean, 0, 0, 0, 24
+org.apache.xerces.impl.dtd.XMLSimpleType, defaultType, short, 0, 0, 0, 24
+net.sourceforge.pmd.ast.JavaCharStream, line, int, 879081, 29990, 221, 222
+net.sourceforge.pmd.ast.JavaCharStream, bufsize, int, 80187, 220, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, available, int, 849562, 220, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, column, int, 1717053, 892059, 221, 222
+net.sourceforge.pmd.ast.JavaCharStream, inputStream, java.io.Reader, 1027, 220, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, nextCharBuf, [C, 849929, 220, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, maxNextCharInd, int, 852398, 734, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, tabSize, int, 12889, 220, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, inBuf, int, 1379345, 160457, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, prevCharIsLF, boolean, 849324, 62879, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, nextCharInd, int, 1697838, 849978, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, prevCharIsCR, boolean, 819670, 6912, 221, 222
+net.sourceforge.pmd.ast.JavaCharStream, bufpos, int, 4984505, 1301487, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, buffer, [C, 1202187, 220, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, tokenBegin, int, 1548655, 368469, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, bufline, [I, 1585372, 220, 220, 222
+net.sourceforge.pmd.ast.JavaCharStream, bufcolumn, [I, 1586115, 220, 220, 222
+org.apache.xerces.impl.dtd.XMLElementDecl, simpleType, org.apache.xerces.impl.dtd.XMLSimpleType, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLElementDecl, scope, int, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLElementDecl, name, org.apache.xerces.xni.QName, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLElementDecl, type, short, 0, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLElementDecl, contentModelValidator, org.apache.xerces.impl.dtd.models.ContentModelValidator, 0, 0, 0, 12
+net.sourceforge.pmd.ast.ASTVariableDeclaratorId, arrayDepth, int, 9, 9, 9, 4672
+net.sourceforge.pmd.ast.ASTVariableDeclaratorId, nameDeclaration, net.sourceforge.pmd.symboltable.VariableNameDeclaration, 9359, 4673, 4673, 4672
+net.sourceforge.pmd.PMD$1, val$shortNamesEnabled, boolean, 1298, 1, 1, 1
+net.sourceforge.pmd.PMD$1, val$inputPath, java.lang.String, 1298, 1, 1, 1
+net.sourceforge.pmd.symboltable.ImageFinderFunction, images, java.util.Set, 533846, 94188, 94184, 94183
+net.sourceforge.pmd.symboltable.ImageFinderFunction, decl, net.sourceforge.pmd.symboltable.NameDeclaration, 94184, 35350, 94176, 94183
+net.sourceforge.pmd.symboltable.NameFinder, names, java.util.LinkedList, 86238, 29082, 29082, 29081
+org.jaxen.expr.NodeComparator, navigator, org.jaxen.Navigator, 11296, 52786, 52783, 52784
+net.sourceforge.pmd.SourceFileSelector, selectJavaFiles, boolean, 0, 2, 1, 1
+net.sourceforge.pmd.SourceFileSelector, selectJspFiles, boolean, 0, 2, 1, 1
+net.sourceforge.pmd.RuleSet, filter, net.sourceforge.pmd.util.filter.Filter, 1316, 4, 1, 36
+net.sourceforge.pmd.RuleSet, fileName, java.lang.String, 0, 6, 1, 36
+net.sourceforge.pmd.RuleSet, excludePatterns, java.util.List, 4, 6, 2, 36
+net.sourceforge.pmd.RuleSet, includePatterns, java.util.List, 4, 6, 2, 36
+net.sourceforge.pmd.RuleSet, name, java.lang.String, 835, 12, 36, 36
+net.sourceforge.pmd.RuleSet, description, java.lang.String, 0, 12, 2, 36
+net.sourceforge.pmd.RuleSet, rules, java.util.List, 1502, 0, 35, 36
+net.sourceforge.pmd.RuleSet, language, net.sourceforge.pmd.Language, 663, 6, 2, 36
+org.apache.xerces.impl.XMLEntityManager$CharacterBuffer, isExternal, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.XMLEntityManager$CharacterBuffer, ch, [C, 0, 6, 6, 6
+net.sourceforge.pmd.symboltable.ScopeAndDeclarationFinder, scopes, java.util.Stack, 34033, 220, 220, 220
+net.sourceforge.pmd.Report, listeners, java.util.List, 433, 225, 225, 225
+net.sourceforge.pmd.Report, violations, java.util.Set, 654, 225, 225, 225
+net.sourceforge.pmd.Report, violationTree, net.sourceforge.pmd.dfa.report.ReportTree, 433, 225, 225, 225
+net.sourceforge.pmd.Report, start, long, 0, 0, 0, 225
+net.sourceforge.pmd.Report, end, long, 0, 0, 0, 225
+net.sourceforge.pmd.Report, metrics, java.util.Set, 0, 225, 225, 225
+net.sourceforge.pmd.Report, linesToExclude, java.util.Map, 433, 445, 225, 225
+net.sourceforge.pmd.Report, suppressedRuleViolations, java.util.List, 221, 225, 225, 225
+net.sourceforge.pmd.Report, errors, java.util.List, 222, 225, 225, 225
+net.sourceforge.pmd.symboltable.Search, decl, net.sourceforge.pmd.symboltable.NameDeclaration, 20859, 20860, 20860, 20861
+net.sourceforge.pmd.symboltable.Search, occ, net.sourceforge.pmd.symboltable.NameOccurrence, 38731, 20861, 20861, 20861
+org.apache.xerces.impl.validation.ValidationState, fIdRefTable, java.util.Hashtable, 12, 12, 12, 12
+org.apache.xerces.impl.validation.ValidationState, fEntityState, org.apache.xerces.impl.validation.EntityState, 0, 24, 12, 12
+org.apache.xerces.impl.validation.ValidationState, fNamespaces, boolean, 0, 24, 12, 12
+org.apache.xerces.impl.validation.ValidationState, fSymbolTable, org.apache.xerces.util.SymbolTable, 0, 12, 12, 12
+org.apache.xerces.impl.validation.ValidationState, fNormalize, boolean, 0, 12, 12, 12
+org.apache.xerces.impl.validation.ValidationState, fExtraChecking, boolean, 0, 12, 12, 12
+org.apache.xerces.impl.validation.ValidationState, fNamespaceContext, org.apache.xerces.xni.NamespaceContext, 0, 12, 12, 12
+org.apache.xerces.impl.validation.ValidationState, fIdTable, java.util.Hashtable, 12, 12, 12, 12
+org.apache.xerces.impl.validation.ValidationState, fFacetChecking, boolean, 0, 12, 12, 12
+org.apache.xerces.jaxp.DocumentBuilderFactoryImpl, features, java.util.Hashtable, 6, 0, 6, 6
+org.apache.xerces.jaxp.DocumentBuilderFactoryImpl, grammar, javax.xml.validation.Schema, 12, 0, 6, 6
+org.apache.xerces.jaxp.DocumentBuilderFactoryImpl, fSecureProcess, boolean, 6, 6, 6, 6
+org.apache.xerces.jaxp.DocumentBuilderFactoryImpl, attributes, java.util.Hashtable, 6, 0, 6, 6
+org.apache.xerces.jaxp.DocumentBuilderFactoryImpl, isXIncludeAware, boolean, 6, 0, 6, 6
+org.apache.xerces.dom.DeferredDocumentImpl$RefCount, this$0, org.apache.xerces.dom.DeferredDocumentImpl, 0, 18, 18, 18
+org.apache.xerces.dom.DeferredDocumentImpl$RefCount, fCount, int, 0, 0, 0, 18
+org.apache.xerces.util.XMLResourceIdentifierImpl, fExpandedSystemId, java.lang.String, 6, 42, 1, 1
+org.apache.xerces.util.XMLResourceIdentifierImpl, fPublicId, java.lang.String, 0, 42, 1, 1
+org.apache.xerces.util.XMLResourceIdentifierImpl, fBaseSystemId, java.lang.String, 0, 42, 1, 1
+org.apache.xerces.util.XMLResourceIdentifierImpl, fNamespace, java.lang.String, 0, 42, 1, 1
+org.apache.xerces.util.XMLResourceIdentifierImpl, fLiteralSystemId, java.lang.String, 0, 42, 1, 1
+org.jaxen.saxpath.base.XPathReader, handler, org.jaxen.saxpath.XPathHandler, 26752, 368, 184, 184
+org.jaxen.saxpath.base.XPathReader, tokens, java.util.ArrayList, 161928, 368, 184, 184
+org.jaxen.saxpath.base.XPathReader, lexer, org.jaxen.saxpath.base.XPathLexer, 11616, 368, 184, 184
+net.sourceforge.pmd.ast.ASTPrimarySuffix, isArguments, boolean, 7469, 6205, 7469, 7468
+net.sourceforge.pmd.ast.ASTPrimarySuffix, isArrayDereference, boolean, 0, 488, 488, 7468
+org.dacapo.harness.Pmd, args, [Ljava.lang.String;, 77, 1, 1, 1
+org.jaxen.expr.DefaultPathExpr, filterExpr, org.jaxen.expr.Expr, 7208, 3176, 2016, 2016
+org.jaxen.expr.DefaultPathExpr, locationPath, org.jaxen.expr.LocationPath, 6600, 2016, 2016, 2016
+org.apache.xerces.dom.NodeListCache, next, org.apache.xerces.dom.NodeListCache, 0, 0, 0, 30
+org.apache.xerces.dom.NodeListCache, fLength, int, 0, 30, 30, 30
+org.apache.xerces.dom.NodeListCache, fChildIndex, int, 0, 30, 30, 30
+org.apache.xerces.dom.NodeListCache, fOwner, org.apache.xerces.dom.ParentNode, 0, 30, 30, 30
+org.apache.xerces.dom.NodeListCache, fChild, org.apache.xerces.dom.ChildNode, 0, 0, 0, 30
+net.sourceforge.pmd.ast.JavaParser, jj_semLA, boolean, 98213, 98203, 204, 223
+net.sourceforge.pmd.ast.JavaParser, jj_ls, net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess, 37956, 220, 221, 223
+net.sourceforge.pmd.ast.JavaParser, jj_endpos, int, 0, 0, 0, 223
+net.sourceforge.pmd.ast.JavaParser, jj_nt, net.sourceforge.pmd.ast.Token, 850833, 142704, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jj_scanpos, net.sourceforge.pmd.ast.Token, 13225592, 7626970, 220, 223
+net.sourceforge.pmd.ast.JavaParser, token, net.sourceforge.pmd.ast.Token, 989909, 142718, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jj_lookingAhead, boolean, 124223, 196618, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jj_expentry, [I, 0, 0, 0, 223
+net.sourceforge.pmd.ast.JavaParser, jj_kind, int, 0, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jjtree, net.sourceforge.pmd.ast.JJTJavaParserState, 1432801, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jj_la, int, 800701, 635445, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jj_expentries, java.util.List, 0, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParser, isJDK15, boolean, 7216, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jj_gen, int, 1132594, 142724, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jj_2_rtns, [Lnet.sourceforge.pmd.ast.JavaParser$JJCalls;, 423756, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParser, isJDK13, boolean, 6840, 0, 210, 223
+net.sourceforge.pmd.ast.JavaParser, jj_la1, [I, 415280, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jj_gc, int, 142495, 144018, 220, 223
+net.sourceforge.pmd.ast.JavaParser, token_source, net.sourceforge.pmd.ast.JavaParserTokenManager, 143378, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jj_lasttokens, [I, 0, 220, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jj_lastpos, net.sourceforge.pmd.ast.Token, 3876249, 635480, 220, 223
+net.sourceforge.pmd.ast.JavaParser, jj_rescan, boolean, 3834992, 220, 221, 223
+net.sourceforge.pmd.ast.Token$GTToken, realKind, int, 0, 484, 484, 484
+org.apache.xerces.impl.XMLDocumentScannerImpl$PrologDispatcher, this$0, org.apache.xerces.impl.XMLDocumentScannerImpl, 72, 12, 12, 12
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fValidator, org.apache.xerces.impl.dtd.XMLDTDValidator, 12, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDElementDecls, java.util.Vector, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDValidation, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fMixed, boolean, 0, 0, 0, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fTableOfIDAttributeNames, java.util.Hashtable, 0, 0, 0, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDContentModelSource, org.apache.xerces.xni.parser.XMLDTDContentModelSource, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fGrammarBucket, org.apache.xerces.impl.dtd.DTDGrammarBucket, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fLocale, java.util.Locale, 0, 0, 0, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fErrorReporter, org.apache.xerces.impl.XMLErrorReporter, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fNotationEnumVals, java.util.Hashtable, 0, 0, 0, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fWarnOnUndeclaredElemdef, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDElementDeclName, java.lang.String, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDContentModelHandler, org.apache.xerces.xni.XMLDTDContentModelHandler, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fValidation, boolean, 6, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fWarnDuplicateAttdef, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDGrammar, org.apache.xerces.impl.dtd.DTDGrammar, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fGrammarPool, org.apache.xerces.xni.grammars.XMLGrammarPool, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fInDTDIgnore, boolean, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fPerformValidation, boolean, 0, 0, 0, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fMixedElementTypes, java.util.Vector, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fTableOfNOTATIONAttributeNames, java.util.Hashtable, 0, 0, 0, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDHandler, org.apache.xerces.xni.XMLDTDHandler, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fSymbolTable, org.apache.xerces.util.SymbolTable, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fEntityDecl, org.apache.xerces.impl.dtd.XMLEntityDecl, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fDTDSource, org.apache.xerces.xni.parser.XMLDTDSource, 0, 6, 6, 6
+org.apache.xerces.impl.dtd.XMLDTDProcessor, fNDataDeclNotations, java.util.Hashtable, 6, 6, 6, 6
+net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor$PMDFieldVisitor, parent, net.sourceforge.pmd.typeresolution.visitors.PMDASMVisitor, 0, 218, 218, 219
+org.objectweb.asm.Type, a, int, 40171, 13084, 304, 304
+org.objectweb.asm.Type, b, [C, 14028, 13091, 304, 304
+org.objectweb.asm.Type, c, int, 14026, 13092, 304, 304
+org.objectweb.asm.Type, d, int, 12175, 13088, 302, 304
+org.apache.xerces.util.XMLAttributesImpl$Attribute, next, org.apache.xerces.util.XMLAttributesImpl$Attribute, 0, 0, 0, 72
+org.apache.xerces.util.XMLAttributesImpl$Attribute, nonNormalizedValue, java.lang.String, 0, 0, 0, 72
+org.apache.xerces.util.XMLAttributesImpl$Attribute, schemaId, boolean, 0, 0, 0, 72
+org.apache.xerces.util.XMLAttributesImpl$Attribute, name, org.apache.xerces.xni.QName, 0, 72, 72, 72
+org.apache.xerces.util.XMLAttributesImpl$Attribute, type, java.lang.String, 0, 0, 0, 72
+org.apache.xerces.util.XMLAttributesImpl$Attribute, value, java.lang.String, 0, 0, 0, 72
+org.apache.xerces.util.XMLAttributesImpl$Attribute, augs, org.apache.xerces.xni.Augmentations, 0, 72, 72, 72
+org.apache.xerces.util.XMLAttributesImpl$Attribute, specified, boolean, 0, 0, 0, 72
+org.jaxen.saxpath.base.XPathLexer, xpath, java.lang.String, 76496, 184, 184, 185
+org.jaxen.saxpath.base.XPathLexer, previousToken, org.jaxen.saxpath.base.Token, 7880, 11616, 184, 185
+org.jaxen.saxpath.base.XPathLexer, endPosition, int, 105526, 184, 185, 185
+org.jaxen.saxpath.base.XPathLexer, currentPosition, int, 239135, 47697, 184, 185
+net.sourceforge.pmd.symboltable.SourceFileScope, packageImage, java.lang.String, 866, 220, 220, 220
+net.sourceforge.pmd.symboltable.SourceFileScope, classNames, java.util.Map, 10786, 220, 220, 220
+net.sourceforge.pmd.dfa.report.ClassNode, className, java.lang.String, 419, 14, 14, 14
+org.jaxen.expr.DefaultVariableReferenceExpr, localName, java.lang.String, 13, 8, 8, 8
+org.jaxen.expr.DefaultVariableReferenceExpr, prefix, java.lang.String, 22, 8, 8, 8
+net.sourceforge.pmd.ast.ASTIfStatement, hasElse, boolean, 5381, 379, 2685, 2690
+net.sourceforge.pmd.ast.JavaParser$JJCalls, next, net.sourceforge.pmd.ast.JavaParser$JJCalls, 0, 0, 0, 11325
+net.sourceforge.pmd.ast.JavaParser$JJCalls, gen, int, 0, 0, 0, 11325
+net.sourceforge.pmd.ast.JavaParser$JJCalls, arg, int, 0, 0, 0, 11325
+net.sourceforge.pmd.ast.JavaParser$JJCalls, first, net.sourceforge.pmd.ast.Token, 0, 0, 0, 11325
+org.apache.xerces.impl.dtd.DTDGrammarBucket, fGrammars, java.util.Hashtable, 12, 12, 12, 12
+org.apache.xerces.impl.dtd.DTDGrammarBucket, fIsStandalone, boolean, 0, 18, 12, 12
+org.apache.xerces.impl.dtd.DTDGrammarBucket, fActiveGrammar, org.apache.xerces.impl.dtd.DTDGrammar, 0, 12, 12, 12
+org.apache.xerces.impl.msg.XMLMessageFormatter, fResourceBundle, java.util.ResourceBundle, 0, 6, 6, 6
+org.apache.xerces.impl.msg.XMLMessageFormatter, fLocale, java.util.Locale, 0, 6, 6, 6
+net.sourceforge.pmd.dfa.report.ReportTree, level, net.sourceforge.pmd.dfa.report.AbstractReportNode, 5216, 2608, 14, 225
+net.sourceforge.pmd.dfa.report.ReportTree, rootNode, net.sourceforge.pmd.dfa.report.PackageNode, 433, 225, 225, 225
+org.apache.xerces.impl.XMLVersionDetector, fEntityManager, org.apache.xerces.impl.XMLEntityManager, 48, 6, 6, 6
+org.apache.xerces.impl.XMLVersionDetector, fEncoding, java.lang.String, 6, 12, 6, 6
+org.apache.xerces.impl.XMLVersionDetector, fSymbolTable, org.apache.xerces.util.SymbolTable, 0, 6, 6, 6
+org.apache.xerces.impl.XMLVersionDetector, fErrorReporter, org.apache.xerces.impl.XMLErrorReporter, 6, 6, 6, 6
+org.apache.xerces.impl.XMLVersionDetector, fExpectedVersionString, [C, 120, 6, 6, 6
+org.apache.xerces.impl.XMLDocumentScannerImpl, fStringBuffer, org.apache.xerces.util.XMLStringBuffer, 0, 11, 11, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fScanningDTD, boolean, 0, 12, 12, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fString, org.apache.xerces.xni.XMLString, 0, 11, 11, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fPrologDispatcher, org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$Dispatcher, 0, 11, 11, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fValidationManager, org.apache.xerces.impl.validation.ValidationManager, 0, 12, 12, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fDisallowDoctype, boolean, 0, 23, 12, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fNamespaceContext, org.apache.xerces.xni.NamespaceContext, 30, 28, 12, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fDTDDescription, org.apache.xerces.impl.dtd.XMLDTDDescription, 0, 11, 11, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fDoctypeSystemId, java.lang.String, 0, 12, 12, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fDoctypeName, java.lang.String, 0, 12, 12, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fDTDDispatcher, org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$Dispatcher, 0, 11, 11, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fDTDScanner, org.apache.xerces.xni.parser.XMLDTDScanner, 0, 17, 12, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fTrailingMiscDispatcher, org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$Dispatcher, 0, 11, 11, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fLoadExternalDTD, boolean, 0, 23, 12, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fDoctypePublicId, java.lang.String, 0, 12, 12, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fSeenDoctypeDecl, boolean, 0, 12, 12, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fStrings, [Ljava.lang.String;, 0, 11, 11, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fExternalSubsetSource, org.apache.xerces.xni.parser.XMLInputSource, 0, 23, 12, 12
+org.apache.xerces.impl.XMLDocumentScannerImpl, fXMLDeclDispatcher, org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$Dispatcher, 12, 11, 12, 12
+net.sourceforge.pmd.symboltable.MethodScope, node, net.sourceforge.pmd.ast.SimpleNode, 862, 2508, 2508, 2508
+net.sourceforge.pmd.symboltable.MethodScope, variableNames, java.util.Map, 25169, 2508, 2508, 2508
+org.apache.xerces.impl.XMLDocumentScannerImpl$XMLDeclDispatcher, this$0, org.apache.xerces.impl.XMLDocumentScannerImpl, 48, 12, 12, 12
+net.sourceforge.pmd.ast.Token, endLine, int, 0, 0, 0, 368675
+net.sourceforge.pmd.ast.Token, next, net.sourceforge.pmd.ast.Token, 0, 0, 0, 368675
+net.sourceforge.pmd.ast.Token, image, java.lang.String, 0, 368570, 368532, 368675
+net.sourceforge.pmd.ast.Token, endColumn, int, 0, 0, 0, 368675
+net.sourceforge.pmd.ast.Token, specialToken, net.sourceforge.pmd.ast.Token, 0, 0, 0, 368675
+net.sourceforge.pmd.ast.Token, beginColumn, int, 0, 0, 0, 368675
+net.sourceforge.pmd.ast.Token, kind, int, 0, 368556, 368510, 368675
+net.sourceforge.pmd.ast.Token, beginLine, int, 0, 0, 0, 368675
+net.sourceforge.pmd.SourceType, id, java.lang.String, 1756, 6, 6, 6
+org.apache.xerces.xni.QName, prefix, java.lang.String, 3827, 6784, 18, 18
+org.apache.xerces.xni.QName, localpart, java.lang.String, 3826, 6786, 18, 18
+org.apache.xerces.xni.QName, uri, java.lang.String, 3827, 6786, 18, 18
+org.apache.xerces.xni.QName, rawname, java.lang.String, 3827, 6786, 18, 18
+org.apache.xerces.util.XMLAttributesImpl, fLength, int, 17026, 2531, 6, 12
+org.apache.xerces.util.XMLAttributesImpl, fAttributes, [Lorg.apache.xerces.util.XMLAttributesImpl$Attribute;, 14638, 18, 12, 12
+org.apache.xerces.util.XMLAttributesImpl, fAttributeTableViewChainState, [I, 0, 0, 0, 12
+org.apache.xerces.util.XMLAttributesImpl, fTableViewBuckets, int, 0, 12, 12, 12
+org.apache.xerces.util.XMLAttributesImpl, fNamespaces, boolean, 0, 24, 12, 12
+org.apache.xerces.util.XMLAttributesImpl, fAttributeTableView, [Lorg.apache.xerces.util.XMLAttributesImpl$Attribute;, 0, 0, 0, 12
+org.apache.xerces.util.XMLAttributesImpl, fLargeCount, int, 0, 12, 12, 12
+org.apache.xerces.util.XMLAttributesImpl, fIsTableViewConsistent, boolean, 0, 0, 0, 12
+org.apache.xerces.dom.DeferredElementImpl, fNodeIndex, int, 3873, 1295, 1295, 1294
+org.jaxen.util.SingletonList, element, java.lang.Object, 77492, 77487, 42016, 42017
+org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$ElementStack, fElements, [Lorg.apache.xerces.xni.QName;, 5436, 12, 12, 12
+org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$ElementStack, fSize, int, 5184, 2604, 12, 12
+org.dacapo.parser.ConfigFileTokenManager, curChar, char, 9931, 2982, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjstateSet, [I, 12834, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, image, java.lang.StringBuffer, 204, 205, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, input_stream, org.dacapo.parser.SimpleCharStream, 4139, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, curLexState, int, 204, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjrounds, [I, 12384, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, defaultLexState, int, 0, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjmatchedPos, int, 249, 607, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjimage, java.lang.StringBuffer, 205, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjnewStateCnt, int, 8653, 8778, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, debugStream, java.io.PrintStream, 0, 1, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjimageLen, int, 0, 204, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, lengthOfMatch, int, 0, 0, 0, 1
+org.dacapo.parser.ConfigFileTokenManager, jjmatchedKind, int, 1220, 612, 1, 1
+org.dacapo.parser.ConfigFileTokenManager, jjround, int, 14745, 2361, 1, 1
+net.sourceforge.pmd.parsers.Java15Parser, parser, net.sourceforge.pmd.ast.JavaParser, 880, 220, 220, 220
+net.sourceforge.pmd.parsers.Java15Parser, marker, java.lang.String, 220, 220, 220, 220
+org.jaxen.expr.DefaultLiteralExpr, literal, java.lang.String, 28482, 240, 240, 240
+org.objectweb.asm.Label, a, int, 0, 0, 0, 18348
+org.objectweb.asm.Label, b, int, 0, 0, 0, 18348
+org.objectweb.asm.Label, c, int, 0, 0, 0, 18348
+org.objectweb.asm.Label, d, int, 0, 0, 0, 18348
+org.objectweb.asm.Label, e, [I, 0, 0, 0, 18348
+org.objectweb.asm.Label, f, int, 0, 0, 0, 18348
+org.objectweb.asm.Label, g, int, 0, 0, 0, 18348
+org.objectweb.asm.Label, h, org.objectweb.asm.Frame, 0, 0, 0, 18348
+org.objectweb.asm.Label, i, org.objectweb.asm.Label, 0, 0, 0, 18348
+org.objectweb.asm.Label, j, org.objectweb.asm.Edge, 0, 0, 0, 18348
+org.objectweb.asm.Label, k, org.objectweb.asm.Label, 0, 0, 0, 18348
+org.objectweb.asm.Label, info, java.lang.Object, 0, 0, 0, 18348
+org.dacapo.parser.SimpleCharStream, line, int, 3021, 87, 1, 1
+org.dacapo.parser.SimpleCharStream, bufsize, int, 46, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, available, int, 6, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, column, int, 6196, 3239, 1, 1
+org.dacapo.parser.SimpleCharStream, inputStream, java.io.Reader, 4, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, maxNextCharInd, int, 2948, 2, 1, 1
+org.dacapo.parser.SimpleCharStream, tabSize, int, 216, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, inBuf, int, 3282, 299, 1, 1
+org.dacapo.parser.SimpleCharStream, prevCharIsLF, boolean, 2936, 172, 1, 1
+org.dacapo.parser.SimpleCharStream, prevCharIsCR, boolean, 2851, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, bufpos, int, 13211, 3239, 1, 1
+org.dacapo.parser.SimpleCharStream, buffer, [C, 3074, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, tokenBegin, int, 677, 1066, 1, 1
+org.dacapo.parser.SimpleCharStream, bufline, [I, 3344, 1, 1, 1
+org.dacapo.parser.SimpleCharStream, bufcolumn, [I, 3344, 1, 1, 1
+org.apache.xerces.parsers.DOMParser, fUseEntityResolver2, boolean, 0, 6, 6, 6
+net.sourceforge.pmd.dfa.report.ViolationNode, ruleViolation, net.sourceforge.pmd.IRuleViolation, 241947, 433, 433, 433
+net.sourceforge.pmd.Report$ProcessingError, msg, java.lang.String, 1, 1, 1, 1
+net.sourceforge.pmd.Report$ProcessingError, file, java.lang.String, 1, 1, 1, 1
+net.sourceforge.pmd.RuleContext, sourceCodeFile, java.io.File, 658, 220, 4, 5
+net.sourceforge.pmd.RuleContext, sourceCodeFilename, java.lang.String, 654, 220, 4, 5
+net.sourceforge.pmd.RuleContext, sourceType, net.sourceforge.pmd.SourceType, 652, 220, 4, 5
+net.sourceforge.pmd.RuleContext, report, net.sourceforge.pmd.Report, 653, 225, 5, 5
+net.sourceforge.pmd.RuleContext, attributes, java.util.Map, 4, 5, 5, 5
+org.dacapo.parser.Config$Size, args, [Ljava.lang.String;, 0, 4, 4, 4
+org.dacapo.parser.Config$Size, nThreads, int, 0, 4, 4, 4
+org.dacapo.parser.Config$Size, outputFiles, java.util.HashMap, 24, 4, 4, 4
+org.dacapo.parser.Config$Size, this$0, org.dacapo.parser.Config, 4, 4, 4, 4
+org.dacapo.parser.Config$Size, name, java.lang.String, 0, 4, 4, 4
+org.dacapo.parser.Config$Size, threadLimit, int, 3, 4, 4, 4
+org.dacapo.parser.Config$Size, description, java.lang.String, 0, 0, 0, 4
+net.sourceforge.pmd.jaxen.Attribute, parent, net.sourceforge.pmd.ast.Node, 28260, 224045, 224030, 224028
+net.sourceforge.pmd.jaxen.Attribute, method, java.lang.reflect.Method, 28255, 224048, 224033, 224028
+net.sourceforge.pmd.jaxen.Attribute, name, java.lang.String, 224050, 224043, 224029, 224028
+net.sourceforge.pmd.symboltable.LocalScope, variableNames, java.util.Map, 59129, 8362, 8362, 8363
+org.dacapo.harness.TestHarness, config, org.dacapo.parser.Config, 5, 1, 1, 1
+net.sourceforge.pmd.PMD$PmdThread, rulesets, net.sourceforge.pmd.RuleSets, 440, 4, 4, 4
+net.sourceforge.pmd.PMD$PmdThread, context, net.sourceforge.pmd.RuleContext, 220, 4, 4, 4
+net.sourceforge.pmd.PMD$PmdThread, ruleSetFactory, net.sourceforge.pmd.RuleSetFactory, 4, 4, 4, 4
+net.sourceforge.pmd.PMD$PmdThread, id, int, 0, 4, 4, 4
+org.dacapo.parser.Config, sizes, java.util.HashMap, 35, 1, 1, 1
+org.dacapo.parser.Config, threadModel, org.dacapo.parser.Config$ThreadModel, 3, 2, 1, 1
+org.dacapo.parser.Config, name, java.lang.String, 0, 1, 1, 1
+org.dacapo.parser.Config, className, java.lang.String, 1, 2, 1, 1
+org.dacapo.parser.Config, jar, java.lang.String, 1, 1, 1, 1
+org.dacapo.parser.Config, libs, [Ljava.lang.String;, 1, 1, 1, 1
+org.dacapo.parser.Config, desc, java.util.HashMap, 9, 1, 1, 1
+org.apache.xerces.impl.XMLEntityManager$ExternalEntity, notation, java.lang.String, 0, 24, 12, 12
+org.apache.xerces.impl.XMLEntityManager$ExternalEntity, entityLocation, org.apache.xerces.xni.XMLResourceIdentifier, 0, 24, 12, 12
+net.sourceforge.pmd.RuleSets, ruleChain, net.sourceforge.pmd.RuleChain, 225, 6, 6, 6
+net.sourceforge.pmd.RuleSets, ruleSets, java.util.Collection, 885, 6, 6, 6
+org.jaxen.QualifiedName, localName, java.lang.String, 98280, 16499, 35, 35
+org.jaxen.QualifiedName, namespaceURI, java.lang.String, 98279, 0, 35, 35
+net.sourceforge.pmd.rules.XPathRule, regexpFunctionRegistered, boolean, 88, 88, 22, 23
+net.sourceforge.pmd.rules.XPathRule, nodeNameToXPaths, java.util.Map, 121852, 88, 22, 23
+net.sourceforge.pmd.rules.XPathRule, typeofFunctionRegistered, boolean, 88, 88, 22, 23
+net.sourceforge.pmd.renderers.TextRenderer, empty, boolean, 1, 16, 1, 1
