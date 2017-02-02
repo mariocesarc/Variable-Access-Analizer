@@ -35,5 +35,5 @@ Run your app with this option to disable bytecode verification:
 ```
 ### Running the example app:
 ```
-./disl.py -s_exclusionlist exclusion-list -- build/inst.jar -jar -noverify build/app.jar
+./disl.py -s_exclusionlist exclusion-list -- build/inst.jar -jar -noverify build/app.jar >app-output.txt
 ```
